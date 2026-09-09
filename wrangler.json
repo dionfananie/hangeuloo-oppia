@@ -19,6 +19,12 @@
 			"migrations_dir": "migrations"
 		}
 	],
+	"routes": [
+		{
+			"pattern": "hangeuloo.oppia.world",
+			"custom_domain": true
+		}
+	],
 	"vars": {
 		"VALUE_FROM_CLOUDFLARE": "Hello from Cloudflare"
 	}
