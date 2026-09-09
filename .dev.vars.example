@@ -1,8 +1,12 @@
-# Create an OAuth 2.0 Web application in Google Cloud Console.
-# Add http://localhost:5173/auth/google/callback for local development.
+# Worker OAuth (mirip Tolk) — sesi cookie HttpOnly di tabel `sessions`.
+# Buat OAuth 2.0 Web app di Google Cloud Console.
+# Tambahkan:
+#   - http://localhost:5173/api/auth/google/callback  (local dev, wrangler dev)
+#   - https://<domain>/api/auth/google/callback       (production)
 GOOGLE_CLIENT_ID="your-client-id.apps.googleusercontent.com"
 GOOGLE_CLIENT_SECRET="your-google-client-secret"
-SESSION_SECRET="replace-with-at-least-32-random-characters"
+GOOGLE_REDIRECT_URI="http://localhost:5173/api/auth/google/callback"
 
-# DB is a Wrangler D1 binding configured in wrangler.json, not a secret.
-# Run `npm run db:migrate:local` before starting local development.
+# DB & AI adalah binding Wrangler (D1/AI) di wrangler.json, bukan secret.
+# Jalankan migrasi D1 sebelum `wrangler dev`:
+#   npm run db:migrate:local
