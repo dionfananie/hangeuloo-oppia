@@ -8,6 +8,17 @@
 		"enabled": true
 	},
 	"upload_source_maps": true,
+	"ai": {
+		"binding": "AI"
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "hangeuloo-oppia",
+			"database_id": "72280248-194a-41b9-ba9a-ec4aca3422f2",
+			"migrations_dir": "migrations"
+		}
+	],
 	"vars": {
 		"VALUE_FROM_CLOUDFLARE": "Hello from Cloudflare"
 	}

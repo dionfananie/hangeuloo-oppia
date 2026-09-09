@@ -1,109 +1,56 @@
-# Welcome to React Router + Cloudflare Workers!
+# Hangeuloo
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/react-router-starter-template)
+Hangeuloo is a gamified Korean learning app with vocabulary matching, sentence building, listening practice, spaced repetition, and AI interview coaching. It runs on React Router 7 and Cloudflare Workers.
 
-![React Router Starter Template Preview](https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/bfdc2f85-e5c9-4c92-128b-3a6711249800/public)
+## Requirements
 
-<!-- dash-content-start -->
+- Node.js 20+
+- A Cloudflare account for D1 and Workers AI
+- Google OAuth web application credentials
 
-A modern, production-ready template for building full-stack React applications using [React Router](https://reactrouter.com/) and the [Cloudflare Vite plugin](https://developers.cloudflare.com/workers/vite-plugin/).
+## Local Setup
 
-## Features
+1. Install dependencies with `npm install`.
+2. Copy `.dev.vars.example` to `.dev.vars` and fill in the Google OAuth values.
+3. Apply the local database migrations with `npm run db:migrate:local`.
+4. Export `CLOUDFLARE_API_TOKEN` with a token that can use Workers AI. The AI binding uses Cloudflare's remote development proxy.
+5. Start the app with `npm run dev`.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-- 🔎 Built-in Observability to monitor your Worker
-<!-- dash-content-end -->
+The local OAuth callback URL is `http://localhost:5173/auth/google/callback`.
 
-## Getting Started
+## Cloudflare Resources
 
-Outside of this repo, you can start a new project with this template using [C3](https://developers.cloudflare.com/pages/get-started/c3/) (the `create-cloudflare` CLI):
+The Worker bindings are declared in `wrangler.json`:
 
-```bash
-npm create cloudflare@latest -- --template=cloudflare/templates/react-router-starter-template
-```
+- `DB`: D1 storage for users, learning profiles, content, review schedules, progress, and interview history.
+- `AI`: Workers AI for Korean transcription and structured interview feedback.
 
-A live public deployment of this template is available at [https://react-router-starter-template.templates.workers.dev](https://react-router-starter-template.templates.workers.dev)
-
-### Installation
-
-Install the dependencies:
+Apply migrations to the configured production database with:
 
 ```bash
-npm install
+npm run db:migrate:remote
 ```
 
-### Development
-
-Start the development server with HMR:
+Configure production OAuth secrets without committing them:
 
 ```bash
-npm run dev
+npx wrangler secret put GOOGLE_CLIENT_ID
+npx wrangler secret put GOOGLE_CLIENT_SECRET
+npx wrangler secret put SESSION_SECRET
 ```
 
-Your application will be available at `http://localhost:5173`.
-
-## Typegen
-
-Generate types for your Cloudflare bindings in `wrangler.json`:
-
-```sh
-npm run typegen
-```
-
-## Building for Production
-
-Create a production build:
+## Commands
 
 ```bash
-npm run build
+npm run dev                 # local development
+npm run typecheck           # route type generation and TypeScript
+npm run build               # production build
+npm run check               # typecheck, build, and Worker dry run
+npm run cf-typegen          # regenerate Cloudflare and route types
+npm run db:migrate:local    # apply D1 migrations locally
+npm run db:migrate:remote   # apply D1 migrations remotely
 ```
 
-## Previewing the Production Build
+## Data and Privacy
 
-Preview the production build locally:
-
-```bash
-npm run preview
-```
-
-## Deployment
-
-If you don't have a Cloudflare account, [create one here](https://dash.cloudflare.com/sign-up)! Go to your [Workers dashboard](https://dash.cloudflare.com/?to=%2F%3Aaccount%2Fworkers-and-pages) to see your [free custom Cloudflare Workers subdomain](https://developers.cloudflare.com/workers/configuration/routing/workers-dev/) on `*.workers.dev`.
-
-Once that's done, you can build your app:
-
-```sh
-npm run build
-```
-
-And deploy it:
-
-```sh
-npm run deploy
-```
-
-To deploy a preview URL:
-
-```sh
-npx wrangler versions upload
-```
-
-You can then promote a version to production after verification or roll it out progressively.
-
-```sh
-npx wrangler versions deploy
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+Interview recordings stay in the browser for playback and transcription and are not retained in object storage. D1 stores the resulting transcript, scenario, structured feedback, and progress. A failed AI request leaves the local recording and typed answer available for retry.

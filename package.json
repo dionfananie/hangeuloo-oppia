@@ -1,6 +1,6 @@
 {
 	"name": "hangeuloo-oppia",
-	"description": "Build a full-stack web application with React Router 7.",
+	"description": "Gamified Korean learning and AI interview practice on Cloudflare Workers.",
 	"cloudflare": {
 		"label": "React Router Framework Starter",
 		"products": [
@@ -37,6 +37,8 @@
 		"build": "react-router build",
 		"cf-typegen": "wrangler types && react-router typegen",
 		"check": "tsc && react-router build && wrangler deploy --dry-run",
+		"db:migrate:local": "wrangler d1 migrations apply hangeuloo-oppia --local",
+		"db:migrate:remote": "wrangler d1 migrations apply hangeuloo-oppia --remote",
 		"deploy": "wrangler deploy",
 		"dev": "react-router dev",
 		"preview": "npm run build && vite preview",
