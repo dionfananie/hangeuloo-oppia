@@ -28,7 +28,7 @@ Clean code is not code with the fewest lines. It is code whose intent is easy to
 Use a structure that communicates ownership and dependency direction. A typical frontend repository may use:
 
 ```text
-app/
+app/                # if structure using app then app/, if src then use src/
   routes/           # routing pages
   components/       # broadly reusable UI components in general, contains dumb component
   hooks/            # reusable logic in custom hooks
@@ -100,6 +100,29 @@ export default useView;
 ```
 
 Prefer feature ownership over placing all files of the same technical type in global folders. A feature should be easy to locate, understand, test, and remove.
+
+### Backend structure (Cloudflare Workers)
+
+The worker layer owns the HTTP boundary that must run before SSR: auth endpoints, session cookies, and direct D1 access. Keep it separate from React Router page logic.
+
+```text
+workers/
+  app.ts          # worker entry: dispatch /api/* to worker handlers, otherwise SSR
+  api/            # worker-layer endpoint handlers (auth, future integrations)
+  lib/            # worker helpers shared by handlers (session cookie, D1 access)
+  env.d.ts        # generated Env types (wrangler types), never hand-edited
+migrations/       # D1 SQL migrations, one file per schema change
+```
+
+Rules for the worker layer:
+
+- `workers/app.ts` stays a thin dispatcher: route `/api/*` to handlers, everything else to the SSR request handler. No business logic in the entry file.
+- Each endpoint handler owns exactly one concern (sign-in, callback, me, logout) and returns early for invalid input.
+- Shared helpers (cookie parsing, session CRUD) live in `workers/lib/` and are the only place that knows cookie names, token formats, and session TTLs.
+- Worker handlers and page server modules (`*.server.ts`) both go through D1 directly; keep each table's queries in one module so a schema change touches one file.
+- Validate and upsert external data (OAuth user info) at the worker boundary before it reaches the database or the session.
+- Keep secrets (`GOOGLE_CLIENT_SECRET`, etc.) in `.dev.vars` / worker secrets, never in source; `env.d.ts` and generated type files are checked in but regenerated with `wrangler types`.
+- Migration files are immutable history: add a new migration instead of editing an applied one.
 
 ## 4. Naming Rules
 
