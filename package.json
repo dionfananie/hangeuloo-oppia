@@ -39,7 +39,7 @@
 	},
 	"private": true,
 	"scripts": {
-		"build": "react-router build",
+		"build": "rsbuild build",
 		"cf-typegen": "wrangler types && react-router typegen",
 		"check": "tsc && react-router build && wrangler deploy --dry-run",
 		"db:migrate:local": "wrangler d1 migrations apply hangeuloo-oppia --local",
