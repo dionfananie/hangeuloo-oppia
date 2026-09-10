@@ -2,7 +2,7 @@ import type { IconName } from "~/pages/home/components/Icon";
 
 export const nav: Array<{ id: string; label: string; icon: IconName }> = [
 	{ id: "home", label: "Home", icon: "home" },
-	{ id: "learn", label: "Learn", icon: "map" },
+	{ id: "learn", label: "Lessons", icon: "map" },
 	{ id: "practice", label: "Practice", icon: "game" },
 	{ id: "interview", label: "AI Interview", icon: "mic" },
 	{ id: "progress", label: "Progress", icon: "chart" },
