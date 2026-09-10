@@ -45,9 +45,9 @@
 		"db:migrate:local": "wrangler d1 migrations apply hangeuloo-oppia --local",
 		"db:migrate:remote": "wrangler d1 migrations apply hangeuloo-oppia --remote",
 		"deploy": "wrangler deploy",
-		"dev": "react-router dev",
+		"dev": "NODE_OPTIONS=--experimental-vm-modules node server/rsbuild-dev.mjs",
 		"dev:rsbuild": "NODE_OPTIONS=--experimental-vm-modules node server/rsbuild-dev.mjs",
-		"preview": "npm run build && vite preview",
+		"preview": "npm run build && wrangler dev --port 4173 --config wrangler.json",
 		"test": "node --experimental-strip-types --test tests/*.test.ts",
 		"typecheck": "react-router typegen && tsc --noEmit"
 	},
