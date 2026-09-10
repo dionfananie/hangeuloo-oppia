@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "category": "Food",
+    "en": "Rice",
+    "ko": "밥"
+  },
+  {
+    "id": 2,
+    "category": "Food",
+    "en": "Noodles",
+    "ko": "국수"
+  },
+  {
+    "id": 3,
+    "category": "Food",
+    "en": "Soup",
+    "ko": "국"
+  },
+  {
+    "id": 4,
+    "category": "Food",
+    "en": "Apple",
+    "ko": "사과"
+  },
+  {
+    "id": 5,
+    "category": "Food",
+    "en": "Banana",
+    "ko": "바나나"
+  },
+  {
+    "id": 6,
+    "category": "Food",
+    "en": "Orange",
+    "ko": "오렌지"
+  },
+  {
+    "id": 7,
+    "category": "Food",
+    "en": "Bread",
+    "ko": "빵"
+  },
+  {
+    "id": 8,
+    "category": "Food",
+    "en": "Egg",
+    "ko": "계란"
+  },
+  {
+    "id": 9,
+    "category": "Food",
+    "en": "Milk",
+    "ko": "우유"
+  },
+  {
+    "id": 10,
+    "category": "Food",
+    "en": "Cheese",
+    "ko": "치즈"
+  },
+  {
+    "id": 11,
+    "category": "Food",
+    "en": "Fish",
+    "ko": "생선"
+  },
+  {
+    "id": 12,
+    "category": "Food",
+    "en": "Chicken",
+    "ko": "닭고기"
+  },
+  {
+    "id": 13,
+    "category": "Food",
+    "en": "Beef",
+    "ko": "소고기"
+  },
+  {
+    "id": 14,
+    "category": "Food",
+    "en": "Pork",
+    "ko": "돼지고기"
+  },
+  {
+    "id": 15,
+    "category": "Food",
+    "en": "Shrimp",
+    "ko": "새우"
+  },
+  {
+    "id": 16,
+    "category": "Food",
+    "en": "Crab",
+    "ko": "게"
+  },
+  {
+    "id": 17,
+    "category": "Food",
+    "en": "Kimchi",
+    "ko": "김치"
+  },
+  {
+    "id": 18,
+    "category": "Food",
+    "en": "Tofu",
+    "ko": "두부"
+  },
+  {
+    "id": 19,
+    "category": "Food",
+    "en": "Rice cake",
+    "ko": "떡"
+  },
+  {
+    "id": 20,
+    "category": "Food",
+    "en": "Dumpling",
+    "ko": "만두"
+  },
+  {
+    "id": 21,
+    "category": "Food",
+    "en": "Pancake",
+    "ko": "팬케이크"
+  },
+  {
+    "id": 22,
+    "category": "Food",
+    "en": "Pizza",
+    "ko": "피자"
+  },
+  {
+    "id": 23,
+    "category": "Food",
+    "en": "Hamburger",
+    "ko": "햄버거"
+  },
+  {
+    "id": 24,
+    "category": "Food",
+    "en": "Sandwich",
+    "ko": "샌드위치"
+  },
+  {
+    "id": 25,
+    "category": "Food",
+    "en": "Salad",
+    "ko": "샐러드"
+  },
+  {
+    "id": 26,
+    "category": "Food",
+    "en": "Sushi",
+    "ko": "초밥"
+  },
+  {
+    "id": 27,
+    "category": "Food",
+    "en": "Ramen",
+    "ko": "라면"
+  },
+  {
+    "id": 28,
+    "category": "Food",
+    "en": "Curry",
+    "ko": "카레"
+  },
+  {
+    "id": 29,
+    "category": "Food",
+    "en": "Pasta",
+    "ko": "파스타"
+  },
+  {
+    "id": 30,
+    "category": "Food",
+    "en": "Spaghetti",
+    "ko": "스파게티"
+  },
+  {
+    "id": 31,
+    "category": "Food",
+    "en": "Cake",
+    "ko": "케이크"
+  },
+  {
+    "id": 32,
+    "category": "Food",
+    "en": "Cookie",
+    "ko": "쿠키"
+  },
+  {
+    "id": 33,
+    "category": "Food",
+    "en": "Chocolate",
+    "ko": "초콜릿"
+  },
+  {
+    "id": 34,
+    "category": "Food",
+    "en": "Candy",
+    "ko": "사탕"
+  },
+  {
+    "id": 35,
+    "category": "Food",
+    "en": "Ice cream",
+    "ko": "아이스크림"
+  },
+  {
+    "id": 36,
+    "category": "Food",
+    "en": "Honey",
+    "ko": "꿀"
+  },
+  {
+    "id": 37,
+    "category": "Food",
+    "en": "Sugar",
+    "ko": "설탕"
+  },
+  {
+    "id": 38,
+    "category": "Food",
+    "en": "Salt",
+    "ko": "소금"
+  },
+  {
+    "id": 39,
+    "category": "Food",
+    "en": "Pepper",
+    "ko": "후추"
+  },
+  {
+    "id": 40,
+    "category": "Food",
+    "en": "Garlic",
+    "ko": "마늘"
+  },
+  {
+    "id": 41,
+    "category": "Food",
+    "en": "Onion",
+    "ko": "양파"
+  },
+  {
+    "id": 42,
+    "category": "Food",
+    "en": "Ginger",
+    "ko": "생강"
+  },
+  {
+    "id": 43,
+    "category": "Food",
+    "en": "Carrot",
+    "ko": "당근"
+  },
+  {
+    "id": 44,
+    "category": "Food",
+    "en": "Potato",
+    "ko": "감자"
+  },
+  {
+    "id": 45,
+    "category": "Food",
+    "en": "Sweet potato",
+    "ko": "고구마"
+  },
+  {
+    "id": 46,
+    "category": "Food",
+    "en": "Cucumber",
+    "ko": "오이"
+  },
+  {
+    "id": 47,
+    "category": "Food",
+    "en": "Tomato",
+    "ko": "토마토"
+  },
+  {
+    "id": 48,
+    "category": "Food",
+    "en": "Cabbage",
+    "ko": "양배추"
+  },
+  {
+    "id": 49,
+    "category": "Food",
+    "en": "Lettuce",
+    "ko": "상추"
+  },
+  {
+    "id": 50,
+    "category": "Food",
+    "en": "Spinach",
+    "ko": "시금치"
+  },
+  {
+    "id": 51,
+    "category": "Food",
+    "en": "Mushroom",
+    "ko": "버섯"
+  },
+  {
+    "id": 52,
+    "category": "Food",
+    "en": "Corn",
+    "ko": "옥수수"
+  },
+  {
+    "id": 53,
+    "category": "Food",
+    "en": "Peanut",
+    "ko": "땅콩"
+  },
+  {
+    "id": 54,
+    "category": "Food",
+    "en": "Walnut",
+    "ko": "호두"
+  },
+  {
+    "id": 55,
+    "category": "Food",
+    "en": "Almond",
+    "ko": "아몬드"
+  },
+  {
+    "id": 56,
+    "category": "Food",
+    "en": "Watermelon",
+    "ko": "수박"
+  },
+  {
+    "id": 57,
+    "category": "Food",
+    "en": "Strawberry",
+    "ko": "딸기"
+  },
+  {
+    "id": 58,
+    "category": "Food",
+    "en": "Grape",
+    "ko": "포도"
+  },
+  {
+    "id": 59,
+    "category": "Food",
+    "en": "Peach",
+    "ko": "복숭아"
+  },
+  {
+    "id": 60,
+    "category": "Food",
+    "en": "Pear",
+    "ko": "배"
+  },
+  {
+    "id": 61,
+    "category": "Food",
+    "en": "Mango",
+    "ko": "망고"
+  },
+  {
+    "id": 62,
+    "category": "Food",
+    "en": "Pineapple",
+    "ko": "파인애플"
+  },
+  {
+    "id": 63,
+    "category": "Food",
+    "en": "Lemon",
+    "ko": "레몬"
+  },
+  {
+    "id": 64,
+    "category": "Food",
+    "en": "Cherry",
+    "ko": "체리"
+  },
+  {
+    "id": 65,
+    "category": "Food",
+    "en": "Kiwi",
+    "ko": "키위"
+  },
+  {
+    "id": 66,
+    "category": "Food",
+    "en": "Coconut",
+    "ko": "코코넛"
+  },
+  {
+    "id": 67,
+    "category": "Food",
+    "en": "Avocado",
+    "ko": "아보카도"
+  },
+  {
+    "id": 68,
+    "category": "Food",
+    "en": "Olive",
+    "ko": "올리브"
+  },
+  {
+    "id": 69,
+    "category": "Food",
+    "en": "Butter",
+    "ko": "버터"
+  },
+  {
+    "id": 70,
+    "category": "Food",
+    "en": "Yogurt",
+    "ko": "요거트"
+  },
+  {
+    "id": 71,
+    "category": "Food",
+    "en": "Coffee",
+    "ko": "커피"
+  },
+  {
+    "id": 72,
+    "category": "Food",
+    "en": "Tea",
+    "ko": "차"
+  },
+  {
+    "id": 73,
+    "category": "Food",
+    "en": "Juice",
+    "ko": "주스"
+  },
+  {
+    "id": 74,
+    "category": "Food",
+    "en": "Water",
+    "ko": "물"
+  },
+  {
+    "id": 75,
+    "category": "Food",
+    "en": "Wine",
+    "ko": "와인"
+  },
+  {
+    "id": 76,
+    "category": "Food",
+    "en": "Beer",
+    "ko": "맥주"
+  },
+  {
+    "id": 77,
+    "category": "Food",
+    "en": "Soda",
+    "ko": "탄산음료"
+  },
+  {
+    "id": 78,
+    "category": "Food",
+    "en": "Fried rice",
+    "ko": "볶음밥"
+  },
+  {
+    "id": 79,
+    "category": "Food",
+    "en": "Grilled meat",
+    "ko": "고기구이"
+  },
+  {
+    "id": 80,
+    "category": "Food",
+    "en": "Steak",
+    "ko": "스테이크"
+  },
+  {
+    "id": 81,
+    "category": "Food",
+    "en": "Bacon",
+    "ko": "베이컨"
+  },
+  {
+    "id": 82,
+    "category": "Food",
+    "en": "Sausage",
+    "ko": "소시지"
+  },
+  {
+    "id": 83,
+    "category": "Food",
+    "en": "Meatball",
+    "ko": "미트볼"
+  },
+  {
+    "id": 84,
+    "category": "Food",
+    "en": "Seaweed",
+    "ko": "김"
+  },
+  {
+    "id": 85,
+    "category": "Food",
+    "en": "Sesame oil",
+    "ko": "참기름"
+  },
+  {
+    "id": 86,
+    "category": "Food",
+    "en": "Soy sauce",
+    "ko": "간장"
+  },
+  {
+    "id": 87,
+    "category": "Food",
+    "en": "Vinegar",
+    "ko": "식초"
+  },
+  {
+    "id": 88,
+    "category": "Food",
+    "en": "Mayonnaise",
+    "ko": "마요네즈"
+  },
+  {
+    "id": 89,
+    "category": "Food",
+    "en": "Ketchup",
+    "ko": "케첩"
+  },
+  {
+    "id": 90,
+    "category": "Food",
+    "en": "Mustard",
+    "ko": "겨자"
+  },
+  {
+    "id": 91,
+    "category": "Food",
+    "en": "Jam",
+    "ko": "잼"
+  },
+  {
+    "id": 92,
+    "category": "Food",
+    "en": "Pudding",
+    "ko": "푸딩"
+  },
+  {
+    "id": 93,
+    "category": "Food",
+    "en": "Donut",
+    "ko": "도넛"
+  },
+  {
+    "id": 94,
+    "category": "Food",
+    "en": "Waffle",
+    "ko": "와플"
+  },
+  {
+    "id": 95,
+    "category": "Food",
+    "en": "Muffin",
+    "ko": "머핀"
+  },
+  {
+    "id": 96,
+    "category": "Food",
+    "en": "Pie",
+    "ko": "파이"
+  },
+  {
+    "id": 97,
+    "category": "Food",
+    "en": "Bun",
+    "ko": "번"
+  },
+  {
+    "id": 98,
+    "category": "Food",
+    "en": "Popcorn",
+    "ko": "팝콘"
+  },
+  {
+    "id": 99,
+    "category": "Food",
+    "en": "Pretzel",
+    "ko": "프레첼"
+  },
+  {
+    "id": 100,
+    "category": "Food",
+    "en": "Toast",
+    "ko": "토스트"
+  },
+  {
+    "id": 101,
+    "category": "Things",
+    "en": "Chair",
+    "ko": "의자"
+  },
+  {
+    "id": 102,
+    "category": "Things",
+    "en": "Table",
+    "ko": "테이블"
+  },
+  {
+    "id": 103,
+    "category": "Things",
+    "en": "Bed",
+    "ko": "침대"
+  },
+  {
+    "id": 104,
+    "category": "Things",
+    "en": "Door",
+    "ko": "문"
+  },
+  {
+    "id": 105,
+    "category": "Things",
+    "en": "Window",
+    "ko": "창문"
+  },
+  {
+    "id": 106,
+    "category": "Things",
+    "en": "Book",
+    "ko": "책"
+  },
+  {
+    "id": 107,
+    "category": "Things",
+    "en": "Pen",
+    "ko": "펜"
+  },
+  {
+    "id": 108,
+    "category": "Things",
+    "en": "Pencil",
+    "ko": "연필"
+  },
+  {
+    "id": 109,
+    "category": "Things",
+    "en": "Paper",
+    "ko": "종이"
+  },
+  {
+    "id": 110,
+    "category": "Things",
+    "en": "Phone",
+    "ko": "전화기"
+  },
+  {
+    "id": 111,
+    "category": "Things",
+    "en": "Computer",
+    "ko": "컴퓨터"
+  },
+  {
+    "id": 112,
+    "category": "Things",
+    "en": "Television",
+    "ko": "텔레비전"
+  },
+  {
+    "id": 113,
+    "category": "Things",
+    "en": "Clock",
+    "ko": "시계"
+  },
+  {
+    "id": 114,
+    "category": "Things",
+    "en": "Mirror",
+    "ko": "거울"
+  },
+  {
+    "id": 115,
+    "category": "Things",
+    "en": "Lamp",
+    "ko": "전등"
+  },
+  {
+    "id": 116,
+    "category": "Things",
+    "en": "Key",
+    "ko": "열쇠"
+  },
+  {
+    "id": 117,
+    "category": "Things",
+    "en": "Umbrella",
+    "ko": "우산"
+  },
+  {
+    "id": 118,
+    "category": "Things",
+    "en": "Shoes",
+    "ko": "신발"
+  },
+  {
+    "id": 119,
+    "category": "Things",
+    "en": "Socks",
+    "ko": "양말"
+  },
+  {
+    "id": 120,
+    "category": "Things",
+    "en": "Hat",
+    "ko": "모자"
+  },
+  {
+    "id": 121,
+    "category": "Things",
+    "en": "Bag",
+    "ko": "가방"
+  },
+  {
+    "id": 122,
+    "category": "Things",
+    "en": "Wallet",
+    "ko": "지갑"
+  },
+  {
+    "id": 123,
+    "category": "Things",
+    "en": "Glasses",
+    "ko": "안경"
+  },
+  {
+    "id": 124,
+    "category": "Things",
+    "en": "Watch",
+    "ko": "손목시계"
+  },
+  {
+    "id": 125,
+    "category": "Things",
+    "en": "Ring",
+    "ko": "반지"
+  },
+  {
+    "id": 126,
+    "category": "Things",
+    "en": "Necklace",
+    "ko": "목걸이"
+  },
+  {
+    "id": 127,
+    "category": "Things",
+    "en": "Comb",
+    "ko": "빗"
+  },
+  {
+    "id": 128,
+    "category": "Things",
+    "en": "Toothbrush",
+    "ko": "칫솔"
+  },
+  {
+    "id": 129,
+    "category": "Things",
+    "en": "Towel",
+    "ko": "수건"
+  },
+  {
+    "id": 130,
+    "category": "Things",
+    "en": "Soap",
+    "ko": "비누"
+  },
+  {
+    "id": 131,
+    "category": "Things",
+    "en": "Blanket",
+    "ko": "담요"
+  },
+  {
+    "id": 132,
+    "category": "Things",
+    "en": "Pillow",
+    "ko": "베개"
+  },
+  {
+    "id": 133,
+    "category": "Things",
+    "en": "Cup",
+    "ko": "컵"
+  },
+  {
+    "id": 134,
+    "category": "Things",
+    "en": "Plate",
+    "ko": "접시"
+  },
+  {
+    "id": 135,
+    "category": "Things",
+    "en": "Bowl",
+    "ko": "그릇"
+  },
+  {
+    "id": 136,
+    "category": "Things",
+    "en": "Spoon",
+    "ko": "숟가락"
+  },
+  {
+    "id": 137,
+    "category": "Things",
+    "en": "Fork",
+    "ko": "포크"
+  },
+  {
+    "id": 138,
+    "category": "Things",
+    "en": "Knife",
+    "ko": "칼"
+  },
+  {
+    "id": 139,
+    "category": "Things",
+    "en": "Pot",
+    "ko": "냄비"
+  },
+  {
+    "id": 140,
+    "category": "Things",
+    "en": "Pan",
+    "ko": "프라이팬"
+  },
+  {
+    "id": 141,
+    "category": "Things",
+    "en": "Refrigerator",
+    "ko": "냉장고"
+  },
+  {
+    "id": 142,
+    "category": "Things",
+    "en": "Washing machine",
+    "ko": "세탁기"
+  },
+  {
+    "id": 143,
+    "category": "Things",
+    "en": "Air conditioner",
+    "ko": "에어컨"
+  },
+  {
+    "id": 144,
+    "category": "Things",
+    "en": "Fan",
+    "ko": "선풍기"
+  },
+  {
+    "id": 145,
+    "category": "Things",
+    "en": "Heater",
+    "ko": "히터"
+  },
+  {
+    "id": 146,
+    "category": "Things",
+    "en": "Camera",
+    "ko": "카메라"
+  },
+  {
+    "id": 147,
+    "category": "Things",
+    "en": "Radio",
+    "ko": "라디오"
+  },
+  {
+    "id": 148,
+    "category": "Things",
+    "en": "Speaker",
+    "ko": "스피커"
+  },
+  {
+    "id": 149,
+    "category": "Things",
+    "en": "Battery",
+    "ko": "배터리"
+  },
+  {
+    "id": 150,
+    "category": "Things",
+    "en": "Charger",
+    "ko": "충전기"
+  },
+  {
+    "id": 151,
+    "category": "Things",
+    "en": "Scissors",
+    "ko": "가위"
+  },
+  {
+    "id": 152,
+    "category": "Things",
+    "en": "Tape",
+    "ko": "테이프"
+  },
+  {
+    "id": 153,
+    "category": "Things",
+    "en": "Glue",
+    "ko": "풀"
+  },
+  {
+    "id": 154,
+    "category": "Things",
+    "en": "Stapler",
+    "ko": "스테이플러"
+  },
+  {
+    "id": 155,
+    "category": "Things",
+    "en": "Ruler",
+    "ko": "자"
+  },
+  {
+    "id": 156,
+    "category": "Things",
+    "en": "Eraser",
+    "ko": "지우개"
+  },
+  {
+    "id": 157,
+    "category": "Things",
+    "en": "Notebook",
+    "ko": "공책"
+  },
+  {
+    "id": 158,
+    "category": "Things",
+    "en": "Backpack",
+    "ko": "배낭"
+  },
+  {
+    "id": 159,
+    "category": "Things",
+    "en": "Box",
+    "ko": "상자"
+  },
+  {
+    "id": 160,
+    "category": "Things",
+    "en": "Basket",
+    "ko": "바구니"
+  },
+  {
+    "id": 161,
+    "category": "Things",
+    "en": "Broom",
+    "ko": "빗자루"
+  },
+  {
+    "id": 162,
+    "category": "Things",
+    "en": "Mop",
+    "ko": "대걸레"
+  },
+  {
+    "id": 163,
+    "category": "Things",
+    "en": "Bucket",
+    "ko": "양동이"
+  },
+  {
+    "id": 164,
+    "category": "Things",
+    "en": "Ladder",
+    "ko": "사다리"
+  },
+  {
+    "id": 165,
+    "category": "Things",
+    "en": "Hammer",
+    "ko": "망치"
+  },
+  {
+    "id": 166,
+    "category": "Things",
+    "en": "Screwdriver",
+    "ko": "드라이버"
+  },
+  {
+    "id": 167,
+    "category": "Things",
+    "en": "Nail",
+    "ko": "못"
+  },
+  {
+    "id": 168,
+    "category": "Things",
+    "en": "Rope",
+    "ko": "밧줄"
+  },
+  {
+    "id": 169,
+    "category": "Things",
+    "en": "Candle",
+    "ko": "양초"
+  },
+  {
+    "id": 170,
+    "category": "Things",
+    "en": "Match",
+    "ko": "성냥"
+  },
+  {
+    "id": 171,
+    "category": "Things",
+    "en": "Flashlight",
+    "ko": "손전등"
+  },
+  {
+    "id": 172,
+    "category": "Things",
+    "en": "Map",
+    "ko": "지도"
+  },
+  {
+    "id": 173,
+    "category": "Things",
+    "en": "Ticket",
+    "ko": "표"
+  },
+  {
+    "id": 174,
+    "category": "Things",
+    "en": "Coin",
+    "ko": "동전"
+  },
+  {
+    "id": 175,
+    "category": "Things",
+    "en": "Bill",
+    "ko": "지폐"
+  },
+  {
+    "id": 176,
+    "category": "Things",
+    "en": "Calendar",
+    "ko": "달력"
+  },
+  {
+    "id": 177,
+    "category": "Things",
+    "en": "Newspaper",
+    "ko": "신문"
+  },
+  {
+    "id": 178,
+    "category": "Things",
+    "en": "Magazine",
+    "ko": "잡지"
+  },
+  {
+    "id": 179,
+    "category": "Things",
+    "en": "Envelope",
+    "ko": "봉투"
+  },
+  {
+    "id": 180,
+    "category": "Things",
+    "en": "Stamp",
+    "ko": "우표"
+  },
+  {
+    "id": 181,
+    "category": "Things",
+    "en": "Letter",
+    "ko": "편지"
+  },
+  {
+    "id": 182,
+    "category": "Things",
+    "en": "Card",
+    "ko": "카드"
+  },
+  {
+    "id": 183,
+    "category": "Things",
+    "en": "Gift",
+    "ko": "선물"
+  },
+  {
+    "id": 184,
+    "category": "Things",
+    "en": "Balloon",
+    "ko": "풍선"
+  },
+  {
+    "id": 185,
+    "category": "Things",
+    "en": "Flag",
+    "ko": "깃발"
+  },
+  {
+    "id": 186,
+    "category": "Things",
+    "en": "Vase",
+    "ko": "꽃병"
+  },
+  {
+    "id": 187,
+    "category": "Things",
+    "en": "Curtain",
+    "ko": "커튼"
+  },
+  {
+    "id": 188,
+    "category": "Things",
+    "en": "Carpet",
+    "ko": "카펫"
+  },
+  {
+    "id": 189,
+    "category": "Things",
+    "en": "Sofa",
+    "ko": "소파"
+  },
+  {
+    "id": 190,
+    "category": "Things",
+    "en": "Shelf",
+    "ko": "선반"
+  },
+  {
+    "id": 191,
+    "category": "Things",
+    "en": "Cabinet",
+    "ko": "캐비닛"
+  },
+  {
+    "id": 192,
+    "category": "Things",
+    "en": "Drawer",
+    "ko": "서랍"
+  },
+  {
+    "id": 193,
+    "category": "Things",
+    "en": "Trash can",
+    "ko": "쓰레기통"
+  },
+  {
+    "id": 194,
+    "category": "Things",
+    "en": "Bicycle",
+    "ko": "자전거"
+  },
+  {
+    "id": 195,
+    "category": "Things",
+    "en": "Car",
+    "ko": "자동차"
+  },
+  {
+    "id": 196,
+    "category": "Things",
+    "en": "Bus",
+    "ko": "버스"
+  },
+  {
+    "id": 197,
+    "category": "Things",
+    "en": "Train",
+    "ko": "기차"
+  },
+  {
+    "id": 198,
+    "category": "Things",
+    "en": "Airplane",
+    "ko": "비행기"
+  },
+  {
+    "id": 199,
+    "category": "Things",
+    "en": "Boat",
+    "ko": "배"
+  },
+  {
+    "id": 200,
+    "category": "Things",
+    "en": "Ship",
+    "ko": "선박"
+  },
+  {
+    "id": 201,
+    "category": "Siblings/People",
+    "en": "Mother",
+    "ko": "어머니"
+  },
+  {
+    "id": 202,
+    "category": "Siblings/People",
+    "en": "Father",
+    "ko": "아버지"
+  },
+  {
+    "id": 203,
+    "category": "Siblings/People",
+    "en": "Older brother",
+    "ko": "형"
+  },
+  {
+    "id": 204,
+    "category": "Siblings/People",
+    "en": "Younger brother",
+    "ko": "남동생"
+  },
+  {
+    "id": 205,
+    "category": "Siblings/People",
+    "en": "Older sister",
+    "ko": "누나"
+  },
+  {
+    "id": 206,
+    "category": "Siblings/People",
+    "en": "Younger sister",
+    "ko": "여동생"
+  },
+  {
+    "id": 207,
+    "category": "Siblings/People",
+    "en": "Grandmother",
+    "ko": "할머니"
+  },
+  {
+    "id": 208,
+    "category": "Siblings/People",
+    "en": "Grandfather",
+    "ko": "할아버지"
+  },
+  {
+    "id": 209,
+    "category": "Siblings/People",
+    "en": "Aunt",
+    "ko": "이모"
+  },
+  {
+    "id": 210,
+    "category": "Siblings/People",
+    "en": "Uncle",
+    "ko": "삼촌"
+  },
+  {
+    "id": 211,
+    "category": "Siblings/People",
+    "en": "Cousin",
+    "ko": "사촌"
+  },
+  {
+    "id": 212,
+    "category": "Siblings/People",
+    "en": "Son",
+    "ko": "아들"
+  },
+  {
+    "id": 213,
+    "category": "Siblings/People",
+    "en": "Daughter",
+    "ko": "딸"
+  },
+  {
+    "id": 214,
+    "category": "Siblings/People",
+    "en": "Husband",
+    "ko": "남편"
+  },
+  {
+    "id": 215,
+    "category": "Siblings/People",
+    "en": "Wife",
+    "ko": "아내"
+  },
+  {
+    "id": 216,
+    "category": "Siblings/People",
+    "en": "Baby",
+    "ko": "아기"
+  },
+  {
+    "id": 217,
+    "category": "Siblings/People",
+    "en": "Child",
+    "ko": "아이"
+  },
+  {
+    "id": 218,
+    "category": "Siblings/People",
+    "en": "Friend",
+    "ko": "친구"
+  },
+  {
+    "id": 219,
+    "category": "Siblings/People",
+    "en": "Teacher",
+    "ko": "선생님"
+  },
+  {
+    "id": 220,
+    "category": "Siblings/People",
+    "en": "Student",
+    "ko": "학생"
+  },
+  {
+    "id": 221,
+    "category": "Siblings/People",
+    "en": "Doctor",
+    "ko": "의사"
+  },
+  {
+    "id": 222,
+    "category": "Siblings/People",
+    "en": "Nurse",
+    "ko": "간호사"
+  },
+  {
+    "id": 223,
+    "category": "Siblings/People",
+    "en": "Police officer",
+    "ko": "경찰관"
+  },
+  {
+    "id": 224,
+    "category": "Siblings/People",
+    "en": "Firefighter",
+    "ko": "소방관"
+  },
+  {
+    "id": 225,
+    "category": "Siblings/People",
+    "en": "Farmer",
+    "ko": "농부"
+  },
+  {
+    "id": 226,
+    "category": "Siblings/People",
+    "en": "Chef",
+    "ko": "요리사"
+  },
+  {
+    "id": 227,
+    "category": "Siblings/People",
+    "en": "Singer",
+    "ko": "가수"
+  },
+  {
+    "id": 228,
+    "category": "Siblings/People",
+    "en": "Actor",
+    "ko": "배우"
+  },
+  {
+    "id": 229,
+    "category": "Siblings/People",
+    "en": "Dancer",
+    "ko": "무용수"
+  },
+  {
+    "id": 230,
+    "category": "Siblings/People",
+    "en": "Artist",
+    "ko": "예술가"
+  },
+  {
+    "id": 231,
+    "category": "Siblings/People",
+    "en": "Writer",
+    "ko": "작가"
+  },
+  {
+    "id": 232,
+    "category": "Siblings/People",
+    "en": "Scientist",
+    "ko": "과학자"
+  },
+  {
+    "id": 233,
+    "category": "Siblings/People",
+    "en": "Engineer",
+    "ko": "엔지니어"
+  },
+  {
+    "id": 234,
+    "category": "Siblings/People",
+    "en": "Driver",
+    "ko": "운전사"
+  },
+  {
+    "id": 235,
+    "category": "Siblings/People",
+    "en": "Pilot",
+    "ko": "조종사"
+  },
+  {
+    "id": 236,
+    "category": "Siblings/People",
+    "en": "Soldier",
+    "ko": "군인"
+  },
+  {
+    "id": 237,
+    "category": "Siblings/People",
+    "en": "President",
+    "ko": "대통령"
+  },
+  {
+    "id": 238,
+    "category": "Siblings/People",
+    "en": "King",
+    "ko": "왕"
+  },
+  {
+    "id": 239,
+    "category": "Siblings/People",
+    "en": "Queen",
+    "ko": "여왕"
+  },
+  {
+    "id": 240,
+    "category": "Siblings/People",
+    "en": "Prince",
+    "ko": "왕자"
+  },
+  {
+    "id": 241,
+    "category": "Siblings/People",
+    "en": "Princess",
+    "ko": "공주"
+  },
+  {
+    "id": 242,
+    "category": "Siblings/People",
+    "en": "Baker",
+    "ko": "제빵사"
+  },
+  {
+    "id": 243,
+    "category": "Siblings/People",
+    "en": "Barber",
+    "ko": "이발사"
+  },
+  {
+    "id": 244,
+    "category": "Siblings/People",
+    "en": "Tailor",
+    "ko": "재단사"
+  },
+  {
+    "id": 245,
+    "category": "Siblings/People",
+    "en": "Fisherman",
+    "ko": "어부"
+  },
+  {
+    "id": 246,
+    "category": "Siblings/People",
+    "en": "Photographer",
+    "ko": "사진작가"
+  },
+  {
+    "id": 247,
+    "category": "Siblings/People",
+    "en": "Athlete",
+    "ko": "운동선수"
+  },
+  {
+    "id": 248,
+    "category": "Siblings/People",
+    "en": "Coach",
+    "ko": "코치"
+  },
+  {
+    "id": 249,
+    "category": "Siblings/People",
+    "en": "Lawyer",
+    "ko": "변호사"
+  },
+  {
+    "id": 250,
+    "category": "Siblings/People",
+    "en": "Judge",
+    "ko": "판사"
+  },
+  {
+    "id": 251,
+    "category": "Siblings/People",
+    "en": "Priest",
+    "ko": "신부"
+  },
+  {
+    "id": 252,
+    "category": "Siblings/People",
+    "en": "Monk",
+    "ko": "스님"
+  },
+  {
+    "id": 253,
+    "category": "Siblings/People",
+    "en": "Nun",
+    "ko": "수녀"
+  },
+  {
+    "id": 254,
+    "category": "Siblings/People",
+    "en": "Waiter",
+    "ko": "웨이터"
+  },
+  {
+    "id": 255,
+    "category": "Siblings/People",
+    "en": "Waitress",
+    "ko": "웨이트리스"
+  },
+  {
+    "id": 256,
+    "category": "Siblings/People",
+    "en": "Cashier",
+    "ko": "계산원"
+  },
+  {
+    "id": 257,
+    "category": "Siblings/People",
+    "en": "Cleaner",
+    "ko": "청소부"
+  },
+  {
+    "id": 258,
+    "category": "Siblings/People",
+    "en": "Guard",
+    "ko": "경비원"
+  },
+  {
+    "id": 259,
+    "category": "Siblings/People",
+    "en": "Postman",
+    "ko": "우체부"
+  },
+  {
+    "id": 260,
+    "category": "Siblings/People",
+    "en": "Vet",
+    "ko": "수의사"
+  },
+  {
+    "id": 261,
+    "category": "Siblings/People",
+    "en": "Dentist",
+    "ko": "치과의사"
+  },
+  {
+    "id": 262,
+    "category": "Siblings/People",
+    "en": "Professor",
+    "ko": "교수"
+  },
+  {
+    "id": 263,
+    "category": "Siblings/People",
+    "en": "Principal",
+    "ko": "교장"
+  },
+  {
+    "id": 264,
+    "category": "Siblings/People",
+    "en": "Classmate",
+    "ko": "반 친구"
+  },
+  {
+    "id": 265,
+    "category": "Siblings/People",
+    "en": "Neighbor",
+    "ko": "이웃"
+  },
+  {
+    "id": 266,
+    "category": "Siblings/People",
+    "en": "Boss",
+    "ko": "상사"
+  },
+  {
+    "id": 267,
+    "category": "Siblings/People",
+    "en": "Employee",
+    "ko": "직원"
+  },
+  {
+    "id": 268,
+    "category": "Siblings/People",
+    "en": "Customer",
+    "ko": "고객"
+  },
+  {
+    "id": 269,
+    "category": "Siblings/People",
+    "en": "Stranger",
+    "ko": "낯선 사람"
+  },
+  {
+    "id": 270,
+    "category": "Siblings/People",
+    "en": "Guest",
+    "ko": "손님"
+  },
+  {
+    "id": 271,
+    "category": "Siblings/People",
+    "en": "Host",
+    "ko": "주인"
+  },
+  {
+    "id": 272,
+    "category": "Siblings/People",
+    "en": "Bride",
+    "ko": "신부"
+  },
+  {
+    "id": 273,
+    "category": "Siblings/People",
+    "en": "Groom",
+    "ko": "신랑"
+  },
+  {
+    "id": 274,
+    "category": "Siblings/People",
+    "en": "Twin",
+    "ko": "쌍둥이"
+  },
+  {
+    "id": 275,
+    "category": "Siblings/People",
+    "en": "Orphan",
+    "ko": "고아"
+  },
+  {
+    "id": 276,
+    "category": "Siblings/People",
+    "en": "Widow",
+    "ko": "미망인"
+  },
+  {
+    "id": 277,
+    "category": "Siblings/People",
+    "en": "Grandparent",
+    "ko": "조부모"
+  },
+  {
+    "id": 278,
+    "category": "Siblings/People",
+    "en": "Nephew",
+    "ko": "조카"
+  },
+  {
+    "id": 279,
+    "category": "Siblings/People",
+    "en": "Niece",
+    "ko": "조카딸"
+  },
+  {
+    "id": 280,
+    "category": "Siblings/People",
+    "en": "Brother-in-law",
+    "ko": "매형"
+  },
+  {
+    "id": 281,
+    "category": "Siblings/People",
+    "en": "Sister-in-law",
+    "ko": "올케"
+  },
+  {
+    "id": 282,
+    "category": "Siblings/People",
+    "en": "Father-in-law",
+    "ko": "시아버지"
+  },
+  {
+    "id": 283,
+    "category": "Siblings/People",
+    "en": "Mother-in-law",
+    "ko": "시어머니"
+  },
+  {
+    "id": 284,
+    "category": "Siblings/People",
+    "en": "Stepfather",
+    "ko": "새아버지"
+  },
+  {
+    "id": 285,
+    "category": "Siblings/People",
+    "en": "Stepmother",
+    "ko": "새어머니"
+  },
+  {
+    "id": 286,
+    "category": "Siblings/People",
+    "en": "Stepbrother",
+    "ko": "이복형제"
+  },
+  {
+    "id": 287,
+    "category": "Siblings/People",
+    "en": "Stepsister",
+    "ko": "이복자매"
+  },
+  {
+    "id": 288,
+    "category": "Siblings/People",
+    "en": "Godfather",
+    "ko": "대부"
+  },
+  {
+    "id": 289,
+    "category": "Siblings/People",
+    "en": "Godmother",
+    "ko": "대모"
+  },
+  {
+    "id": 290,
+    "category": "Siblings/People",
+    "en": "Boyfriend",
+    "ko": "남자친구"
+  },
+  {
+    "id": 291,
+    "category": "Siblings/People",
+    "en": "Girlfriend",
+    "ko": "여자친구"
+  },
+  {
+    "id": 292,
+    "category": "Siblings/People",
+    "en": "Fiancé",
+    "ko": "약혼자"
+  },
+  {
+    "id": 293,
+    "category": "Siblings/People",
+    "en": "Fiancée",
+    "ko": "약혼녀"
+  },
+  {
+    "id": 294,
+    "category": "Siblings/People",
+    "en": "Roommate",
+    "ko": "룸메이트"
+  },
+  {
+    "id": 295,
+    "category": "Siblings/People",
+    "en": "Colleague",
+    "ko": "동료"
+  },
+  {
+    "id": 296,
+    "category": "Siblings/People",
+    "en": "Mentor",
+    "ko": "멘토"
+  },
+  {
+    "id": 297,
+    "category": "Siblings/People",
+    "en": "Elder",
+    "ko": "어르신"
+  },
+  {
+    "id": 298,
+    "category": "Siblings/People",
+    "en": "Teenager",
+    "ko": "십대"
+  },
+  {
+    "id": 299,
+    "category": "Siblings/People",
+    "en": "Toddler",
+    "ko": "유아"
+  },
+  {
+    "id": 300,
+    "category": "Siblings/People",
+    "en": "Newborn",
+    "ko": "신생아"
+  },
+  {
+    "id": 301,
+    "category": "Animals",
+    "en": "Dog",
+    "ko": "개"
+  },
+  {
+    "id": 302,
+    "category": "Animals",
+    "en": "Cat",
+    "ko": "고양이"
+  },
+  {
+    "id": 303,
+    "category": "Animals",
+    "en": "Cow",
+    "ko": "소"
+  },
+  {
+    "id": 304,
+    "category": "Animals",
+    "en": "Pig",
+    "ko": "돼지"
+  },
+  {
+    "id": 305,
+    "category": "Animals",
+    "en": "Horse",
+    "ko": "말"
+  },
+  {
+    "id": 306,
+    "category": "Animals",
+    "en": "Sheep",
+    "ko": "양"
+  },
+  {
+    "id": 307,
+    "category": "Animals",
+    "en": "Goat",
+    "ko": "염소"
+  },
+  {
+    "id": 308,
+    "category": "Animals",
+    "en": "Chicken",
+    "ko": "닭"
+  },
+  {
+    "id": 309,
+    "category": "Animals",
+    "en": "Duck",
+    "ko": "오리"
+  },
+  {
+    "id": 310,
+    "category": "Animals",
+    "en": "Rabbit",
+    "ko": "토끼"
+  },
+  {
+    "id": 311,
+    "category": "Animals",
+    "en": "Mouse",
+    "ko": "생쥐"
+  },
+  {
+    "id": 312,
+    "category": "Animals",
+    "en": "Rat",
+    "ko": "쥐"
+  },
+  {
+    "id": 313,
+    "category": "Animals",
+    "en": "Tiger",
+    "ko": "호랑이"
+  },
+  {
+    "id": 314,
+    "category": "Animals",
+    "en": "Lion",
+    "ko": "사자"
+  },
+  {
+    "id": 315,
+    "category": "Animals",
+    "en": "Elephant",
+    "ko": "코끼리"
+  },
+  {
+    "id": 316,
+    "category": "Animals",
+    "en": "Giraffe",
+    "ko": "기린"
+  },
+  {
+    "id": 317,
+    "category": "Animals",
+    "en": "Zebra",
+    "ko": "얼룩말"
+  },
+  {
+    "id": 318,
+    "category": "Animals",
+    "en": "Monkey",
+    "ko": "원숭이"
+  },
+  {
+    "id": 319,
+    "category": "Animals",
+    "en": "Bear",
+    "ko": "곰"
+  },
+  {
+    "id": 320,
+    "category": "Animals",
+    "en": "Wolf",
+    "ko": "늑대"
+  },
+  {
+    "id": 321,
+    "category": "Animals",
+    "en": "Fox",
+    "ko": "여우"
+  },
+  {
+    "id": 322,
+    "category": "Animals",
+    "en": "Deer",
+    "ko": "사슴"
+  },
+  {
+    "id": 323,
+    "category": "Animals",
+    "en": "Squirrel",
+    "ko": "다람쥐"
+  },
+  {
+    "id": 324,
+    "category": "Animals",
+    "en": "Hedgehog",
+    "ko": "고슴도치"
+  },
+  {
+    "id": 325,
+    "category": "Animals",
+    "en": "Bat",
+    "ko": "박쥐"
+  },
+  {
+    "id": 326,
+    "category": "Animals",
+    "en": "Kangaroo",
+    "ko": "캥거루"
+  },
+  {
+    "id": 327,
+    "category": "Animals",
+    "en": "Koala",
+    "ko": "코알라"
+  },
+  {
+    "id": 328,
+    "category": "Animals",
+    "en": "Panda",
+    "ko": "판다"
+  },
+  {
+    "id": 329,
+    "category": "Animals",
+    "en": "Camel",
+    "ko": "낙타"
+  },
+  {
+    "id": 330,
+    "category": "Animals",
+    "en": "Hippopotamus",
+    "ko": "하마"
+  },
+  {
+    "id": 331,
+    "category": "Animals",
+    "en": "Rhinoceros",
+    "ko": "코뿔소"
+  },
+  {
+    "id": 332,
+    "category": "Animals",
+    "en": "Crocodile",
+    "ko": "악어"
+  },
+  {
+    "id": 333,
+    "category": "Animals",
+    "en": "Alligator",
+    "ko": "앨리게이터"
+  },
+  {
+    "id": 334,
+    "category": "Animals",
+    "en": "Snake",
+    "ko": "뱀"
+  },
+  {
+    "id": 335,
+    "category": "Animals",
+    "en": "Lizard",
+    "ko": "도마뱀"
+  },
+  {
+    "id": 336,
+    "category": "Animals",
+    "en": "Turtle",
+    "ko": "거북이"
+  },
+  {
+    "id": 337,
+    "category": "Animals",
+    "en": "Frog",
+    "ko": "개구리"
+  },
+  {
+    "id": 338,
+    "category": "Animals",
+    "en": "Toad",
+    "ko": "두꺼비"
+  },
+  {
+    "id": 339,
+    "category": "Animals",
+    "en": "Shark",
+    "ko": "상어"
+  },
+  {
+    "id": 340,
+    "category": "Animals",
+    "en": "Whale",
+    "ko": "고래"
+  },
+  {
+    "id": 341,
+    "category": "Animals",
+    "en": "Dolphin",
+    "ko": "돌고래"
+  },
+  {
+    "id": 342,
+    "category": "Animals",
+    "en": "Octopus",
+    "ko": "문어"
+  },
+  {
+    "id": 343,
+    "category": "Animals",
+    "en": "Squid",
+    "ko": "오징어"
+  },
+  {
+    "id": 344,
+    "category": "Animals",
+    "en": "Crab",
+    "ko": "게"
+  },
+  {
+    "id": 345,
+    "category": "Animals",
+    "en": "Lobster",
+    "ko": "바닷가재"
+  },
+  {
+    "id": 346,
+    "category": "Animals",
+    "en": "Shrimp",
+    "ko": "새우"
+  },
+  {
+    "id": 347,
+    "category": "Animals",
+    "en": "Jellyfish",
+    "ko": "해파리"
+  },
+  {
+    "id": 348,
+    "category": "Animals",
+    "en": "Starfish",
+    "ko": "불가사리"
+  },
+  {
+    "id": 349,
+    "category": "Animals",
+    "en": "Seahorse",
+    "ko": "해마"
+  },
+  {
+    "id": 350,
+    "category": "Animals",
+    "en": "Eel",
+    "ko": "장어"
+  },
+  {
+    "id": 351,
+    "category": "Animals",
+    "en": "Eagle",
+    "ko": "독수리"
+  },
+  {
+    "id": 352,
+    "category": "Animals",
+    "en": "Owl",
+    "ko": "부엉이"
+  },
+  {
+    "id": 353,
+    "category": "Animals",
+    "en": "Sparrow",
+    "ko": "참새"
+  },
+  {
+    "id": 354,
+    "category": "Animals",
+    "en": "Crow",
+    "ko": "까마귀"
+  },
+  {
+    "id": 355,
+    "category": "Animals",
+    "en": "Pigeon",
+    "ko": "비둘기"
+  },
+  {
+    "id": 356,
+    "category": "Animals",
+    "en": "Parrot",
+    "ko": "앵무새"
+  },
+  {
+    "id": 357,
+    "category": "Animals",
+    "en": "Peacock",
+    "ko": "공작"
+  },
+  {
+    "id": 358,
+    "category": "Animals",
+    "en": "Penguin",
+    "ko": "펭귄"
+  },
+  {
+    "id": 359,
+    "category": "Animals",
+    "en": "Ostrich",
+    "ko": "타조"
+  },
+  {
+    "id": 360,
+    "category": "Animals",
+    "en": "Swan",
+    "ko": "백조"
+  },
+  {
+    "id": 361,
+    "category": "Animals",
+    "en": "Butterfly",
+    "ko": "나비"
+  },
+  {
+    "id": 362,
+    "category": "Animals",
+    "en": "Bee",
+    "ko": "벌"
+  },
+  {
+    "id": 363,
+    "category": "Animals",
+    "en": "Ant",
+    "ko": "개미"
+  },
+  {
+    "id": 364,
+    "category": "Animals",
+    "en": "Spider",
+    "ko": "거미"
+  },
+  {
+    "id": 365,
+    "category": "Animals",
+    "en": "Fly",
+    "ko": "파리"
+  },
+  {
+    "id": 366,
+    "category": "Animals",
+    "en": "Mosquito",
+    "ko": "모기"
+  },
+  {
+    "id": 367,
+    "category": "Animals",
+    "en": "Dragonfly",
+    "ko": "잠자리"
+  },
+  {
+    "id": 368,
+    "category": "Animals",
+    "en": "Ladybug",
+    "ko": "무당벌레"
+  },
+  {
+    "id": 369,
+    "category": "Animals",
+    "en": "Grasshopper",
+    "ko": "메뚜기"
+  },
+  {
+    "id": 370,
+    "category": "Animals",
+    "en": "Cricket",
+    "ko": "귀뚜라미"
+  },
+  {
+    "id": 371,
+    "category": "Animals",
+    "en": "Cockroach",
+    "ko": "바퀴벌레"
+  },
+  {
+    "id": 372,
+    "category": "Animals",
+    "en": "Snail",
+    "ko": "달팽이"
+  },
+  {
+    "id": 373,
+    "category": "Animals",
+    "en": "Worm",
+    "ko": "지렁이"
+  },
+  {
+    "id": 374,
+    "category": "Animals",
+    "en": "Scorpion",
+    "ko": "전갈"
+  },
+  {
+    "id": 375,
+    "category": "Animals",
+    "en": "Centipede",
+    "ko": "지네"
+  },
+  {
+    "id": 376,
+    "category": "Animals",
+    "en": "Beetle",
+    "ko": "딱정벌레"
+  },
+  {
+    "id": 377,
+    "category": "Animals",
+    "en": "Moth",
+    "ko": "나방"
+  },
+  {
+    "id": 378,
+    "category": "Animals",
+    "en": "Caterpillar",
+    "ko": "애벌레"
+  },
+  {
+    "id": 379,
+    "category": "Animals",
+    "en": "Cheetah",
+    "ko": "치타"
+  },
+  {
+    "id": 380,
+    "category": "Animals",
+    "en": "Leopard",
+    "ko": "표범"
+  },
+  {
+    "id": 381,
+    "category": "Animals",
+    "en": "Jaguar",
+    "ko": "재규어"
+  },
+  {
+    "id": 382,
+    "category": "Animals",
+    "en": "Hyena",
+    "ko": "하이에나"
+  },
+  {
+    "id": 383,
+    "category": "Animals",
+    "en": "Gorilla",
+    "ko": "고릴라"
+  },
+  {
+    "id": 384,
+    "category": "Animals",
+    "en": "Chimpanzee",
+    "ko": "침팬지"
+  },
+  {
+    "id": 385,
+    "category": "Animals",
+    "en": "Orangutan",
+    "ko": "오랑우탄"
+  },
+  {
+    "id": 386,
+    "category": "Animals",
+    "en": "Sloth",
+    "ko": "나무늘보"
+  },
+  {
+    "id": 387,
+    "category": "Animals",
+    "en": "Otter",
+    "ko": "수달"
+  },
+  {
+    "id": 388,
+    "category": "Animals",
+    "en": "Beaver",
+    "ko": "비버"
+  },
+  {
+    "id": 389,
+    "category": "Animals",
+    "en": "Raccoon",
+    "ko": "너구리"
+  },
+  {
+    "id": 390,
+    "category": "Animals",
+    "en": "Skunk",
+    "ko": "스컹크"
+  },
+  {
+    "id": 391,
+    "category": "Animals",
+    "en": "Mole",
+    "ko": "두더지"
+  },
+  {
+    "id": 392,
+    "category": "Animals",
+    "en": "Porcupine",
+    "ko": "호저"
+  },
+  {
+    "id": 393,
+    "category": "Animals",
+    "en": "Walrus",
+    "ko": "바다코끼리"
+  },
+  {
+    "id": 394,
+    "category": "Animals",
+    "en": "Seal",
+    "ko": "물개"
+  },
+  {
+    "id": 395,
+    "category": "Animals",
+    "en": "Sea lion",
+    "ko": "바다사자"
+  },
+  {
+    "id": 396,
+    "category": "Animals",
+    "en": "Flamingo",
+    "ko": "플라밍고"
+  },
+  {
+    "id": 397,
+    "category": "Animals",
+    "en": "Woodpecker",
+    "ko": "딱따구리"
+  },
+  {
+    "id": 398,
+    "category": "Animals",
+    "en": "Goose",
+    "ko": "거위"
+  },
+  {
+    "id": 399,
+    "category": "Animals",
+    "en": "Turkey",
+    "ko": "칠면조"
+  },
+  {
+    "id": 400,
+    "category": "Animals",
+    "en": "Peahen",
+    "ko": "암공작"
+  },
+  {
+    "id": 401,
+    "category": "Plant",
+    "en": "Tree",
+    "ko": "나무"
+  },
+  {
+    "id": 402,
+    "category": "Plant",
+    "en": "Flower",
+    "ko": "꽃"
+  },
+  {
+    "id": 403,
+    "category": "Plant",
+    "en": "Grass",
+    "ko": "풀"
+  },
+  {
+    "id": 404,
+    "category": "Plant",
+    "en": "Leaf",
+    "ko": "잎"
+  },
+  {
+    "id": 405,
+    "category": "Plant",
+    "en": "Root",
+    "ko": "뿌리"
+  },
+  {
+    "id": 406,
+    "category": "Plant",
+    "en": "Branch",
+    "ko": "가지"
+  },
+  {
+    "id": 407,
+    "category": "Plant",
+    "en": "Seed",
+    "ko": "씨앗"
+  },
+  {
+    "id": 408,
+    "category": "Plant",
+    "en": "Fruit",
+    "ko": "과일"
+  },
+  {
+    "id": 409,
+    "category": "Plant",
+    "en": "Vegetable",
+    "ko": "채소"
+  },
+  {
+    "id": 410,
+    "category": "Plant",
+    "en": "Rose",
+    "ko": "장미"
+  },
+  {
+    "id": 411,
+    "category": "Plant",
+    "en": "Tulip",
+    "ko": "튤립"
+  },
+  {
+    "id": 412,
+    "category": "Plant",
+    "en": "Sunflower",
+    "ko": "해바라기"
+  },
+  {
+    "id": 413,
+    "category": "Plant",
+    "en": "Lily",
+    "ko": "백합"
+  },
+  {
+    "id": 414,
+    "category": "Plant",
+    "en": "Daisy",
+    "ko": "데이지"
+  },
+  {
+    "id": 415,
+    "category": "Plant",
+    "en": "Orchid",
+    "ko": "난초"
+  },
+  {
+    "id": 416,
+    "category": "Plant",
+    "en": "Lotus",
+    "ko": "연꽃"
+  },
+  {
+    "id": 417,
+    "category": "Plant",
+    "en": "Cherry blossom",
+    "ko": "벚꽃"
+  },
+  {
+    "id": 418,
+    "category": "Plant",
+    "en": "Chrysanthemum",
+    "ko": "국화"
+  },
+  {
+    "id": 419,
+    "category": "Plant",
+    "en": "Carnation",
+    "ko": "카네이션"
+  },
+  {
+    "id": 420,
+    "category": "Plant",
+    "en": "Lavender",
+    "ko": "라벤더"
+  },
+  {
+    "id": 421,
+    "category": "Plant",
+    "en": "Cactus",
+    "ko": "선인장"
+  },
+  {
+    "id": 422,
+    "category": "Plant",
+    "en": "Bamboo",
+    "ko": "대나무"
+  },
+  {
+    "id": 423,
+    "category": "Plant",
+    "en": "Pine tree",
+    "ko": "소나무"
+  },
+  {
+    "id": 424,
+    "category": "Plant",
+    "en": "Oak tree",
+    "ko": "참나무"
+  },
+  {
+    "id": 425,
+    "category": "Plant",
+    "en": "Maple tree",
+    "ko": "단풍나무"
+  },
+  {
+    "id": 426,
+    "category": "Plant",
+    "en": "Palm tree",
+    "ko": "야자수"
+  },
+  {
+    "id": 427,
+    "category": "Plant",
+    "en": "Willow tree",
+    "ko": "버드나무"
+  },
+  {
+    "id": 428,
+    "category": "Plant",
+    "en": "Bonsai",
+    "ko": "분재"
+  },
+  {
+    "id": 429,
+    "category": "Plant",
+    "en": "Fern",
+    "ko": "고사리"
+  },
+  {
+    "id": 430,
+    "category": "Plant",
+    "en": "Moss",
+    "ko": "이끼"
+  },
+  {
+    "id": 431,
+    "category": "Plant",
+    "en": "Ivy",
+    "ko": "담쟁이덩굴"
+  },
+  {
+    "id": 432,
+    "category": "Plant",
+    "en": "Vine",
+    "ko": "덩굴"
+  },
+  {
+    "id": 433,
+    "category": "Plant",
+    "en": "Clover",
+    "ko": "클로버"
+  },
+  {
+    "id": 434,
+    "category": "Plant",
+    "en": "Dandelion",
+    "ko": "민들레"
+  },
+  {
+    "id": 435,
+    "category": "Plant",
+    "en": "Hibiscus",
+    "ko": "히비스커스"
+  },
+  {
+    "id": 436,
+    "category": "Plant",
+    "en": "Magnolia",
+    "ko": "목련"
+  },
+  {
+    "id": 437,
+    "category": "Plant",
+    "en": "Jasmine",
+    "ko": "자스민"
+  },
+  {
+    "id": 438,
+    "category": "Plant",
+    "en": "Marigold",
+    "ko": "금잔화"
+  },
+  {
+    "id": 439,
+    "category": "Plant",
+    "en": "Poppy",
+    "ko": "양귀비"
+  },
+  {
+    "id": 440,
+    "category": "Plant",
+    "en": "Iris",
+    "ko": "붓꽃"
+  },
+  {
+    "id": 441,
+    "category": "Plant",
+    "en": "Daffodil",
+    "ko": "수선화"
+  },
+  {
+    "id": 442,
+    "category": "Plant",
+    "en": "Peony",
+    "ko": "작약"
+  },
+  {
+    "id": 443,
+    "category": "Plant",
+    "en": "Azalea",
+    "ko": "진달래"
+  },
+  {
+    "id": 444,
+    "category": "Plant",
+    "en": "Camellia",
+    "ko": "동백꽃"
+  },
+  {
+    "id": 445,
+    "category": "Plant",
+    "en": "Wisteria",
+    "ko": "등나무"
+  },
+  {
+    "id": 446,
+    "category": "Plant",
+    "en": "Morning glory",
+    "ko": "나팔꽃"
+  },
+  {
+    "id": 447,
+    "category": "Plant",
+    "en": "Wheat",
+    "ko": "밀"
+  },
+  {
+    "id": 448,
+    "category": "Plant",
+    "en": "Rice plant",
+    "ko": "벼"
+  },
+  {
+    "id": 449,
+    "category": "Plant",
+    "en": "Corn plant",
+    "ko": "옥수수"
+  },
+  {
+    "id": 450,
+    "category": "Plant",
+    "en": "Barley",
+    "ko": "보리"
+  },
+  {
+    "id": 451,
+    "category": "Plant",
+    "en": "Soybean",
+    "ko": "콩"
+  },
+  {
+    "id": 452,
+    "category": "Plant",
+    "en": "Cabbage plant",
+    "ko": "양배추"
+  },
+  {
+    "id": 453,
+    "category": "Plant",
+    "en": "Lettuce plant",
+    "ko": "상추"
+  },
+  {
+    "id": 454,
+    "category": "Plant",
+    "en": "Spinach plant",
+    "ko": "시금치"
+  },
+  {
+    "id": 455,
+    "category": "Plant",
+    "en": "Carrot plant",
+    "ko": "당근"
+  },
+  {
+    "id": 456,
+    "category": "Plant",
+    "en": "Potato plant",
+    "ko": "감자"
+  },
+  {
+    "id": 457,
+    "category": "Plant",
+    "en": "Onion plant",
+    "ko": "양파"
+  },
+  {
+    "id": 458,
+    "category": "Plant",
+    "en": "Garlic plant",
+    "ko": "마늘"
+  },
+  {
+    "id": 459,
+    "category": "Plant",
+    "en": "Tomato plant",
+    "ko": "토마토"
+  },
+  {
+    "id": 460,
+    "category": "Plant",
+    "en": "Pepper plant",
+    "ko": "고추"
+  },
+  {
+    "id": 461,
+    "category": "Plant",
+    "en": "Cucumber plant",
+    "ko": "오이"
+  },
+  {
+    "id": 462,
+    "category": "Plant",
+    "en": "Pumpkin",
+    "ko": "호박"
+  },
+  {
+    "id": 463,
+    "category": "Plant",
+    "en": "Strawberry plant",
+    "ko": "딸기"
+  },
+  {
+    "id": 464,
+    "category": "Plant",
+    "en": "Grapevine",
+    "ko": "포도나무"
+  },
+  {
+    "id": 465,
+    "category": "Plant",
+    "en": "Apple tree",
+    "ko": "사과나무"
+  },
+  {
+    "id": 466,
+    "category": "Plant",
+    "en": "Orange tree",
+    "ko": "오렌지나무"
+  },
+  {
+    "id": 467,
+    "category": "Plant",
+    "en": "Banana tree",
+    "ko": "바나나나무"
+  },
+  {
+    "id": 468,
+    "category": "Plant",
+    "en": "Coconut tree",
+    "ko": "코코넛나무"
+  },
+  {
+    "id": 469,
+    "category": "Plant",
+    "en": "Mango tree",
+    "ko": "망고나무"
+  },
+  {
+    "id": 470,
+    "category": "Plant",
+    "en": "Peach tree",
+    "ko": "복숭아나무"
+  },
+  {
+    "id": 471,
+    "category": "Plant",
+    "en": "Pear tree",
+    "ko": "배나무"
+  },
+  {
+    "id": 472,
+    "category": "Plant",
+    "en": "Lemon tree",
+    "ko": "레몬나무"
+  },
+  {
+    "id": 473,
+    "category": "Plant",
+    "en": "Fig tree",
+    "ko": "무화과나무"
+  },
+  {
+    "id": 474,
+    "category": "Plant",
+    "en": "Olive tree",
+    "ko": "올리브나무"
+  },
+  {
+    "id": 475,
+    "category": "Plant",
+    "en": "Ginkgo tree",
+    "ko": "은행나무"
+  },
+  {
+    "id": 476,
+    "category": "Plant",
+    "en": "Birch tree",
+    "ko": "자작나무"
+  },
+  {
+    "id": 477,
+    "category": "Plant",
+    "en": "Cedar tree",
+    "ko": "삼나무"
+  },
+  {
+    "id": 478,
+    "category": "Plant",
+    "en": "Chestnut tree",
+    "ko": "밤나무"
+  },
+  {
+    "id": 479,
+    "category": "Plant",
+    "en": "Walnut tree",
+    "ko": "호두나무"
+  },
+  {
+    "id": 480,
+    "category": "Plant",
+    "en": "Rubber tree",
+    "ko": "고무나무"
+  },
+  {
+    "id": 481,
+    "category": "Plant",
+    "en": "Cotton plant",
+    "ko": "목화"
+  },
+  {
+    "id": 482,
+    "category": "Plant",
+    "en": "Sugarcane",
+    "ko": "사탕수수"
+  },
+  {
+    "id": 483,
+    "category": "Plant",
+    "en": "Tobacco plant",
+    "ko": "담배"
+  },
+  {
+    "id": 484,
+    "category": "Plant",
+    "en": "Tea plant",
+    "ko": "차나무"
+  },
+  {
+    "id": 485,
+    "category": "Plant",
+    "en": "Coffee plant",
+    "ko": "커피나무"
+  },
+  {
+    "id": 486,
+    "category": "Plant",
+    "en": "Mint",
+    "ko": "민트"
+  },
+  {
+    "id": 487,
+    "category": "Plant",
+    "en": "Basil",
+    "ko": "바질"
+  },
+  {
+    "id": 488,
+    "category": "Plant",
+    "en": "Thyme",
+    "ko": "타임"
+  },
+  {
+    "id": 489,
+    "category": "Plant",
+    "en": "Rosemary",
+    "ko": "로즈마리"
+  },
+  {
+    "id": 490,
+    "category": "Plant",
+    "en": "Sage",
+    "ko": "세이지"
+  },
+  {
+    "id": 491,
+    "category": "Plant",
+    "en": "Parsley",
+    "ko": "파슬리"
+  },
+  {
+    "id": 492,
+    "category": "Plant",
+    "en": "Cilantro",
+    "ko": "고수"
+  },
+  {
+    "id": 493,
+    "category": "Plant",
+    "en": "Dill",
+    "ko": "딜"
+  },
+  {
+    "id": 494,
+    "category": "Plant",
+    "en": "Chives",
+    "ko": "부추"
+  },
+  {
+    "id": 495,
+    "category": "Plant",
+    "en": "Aloe vera",
+    "ko": "알로에"
+  },
+  {
+    "id": 496,
+    "category": "Plant",
+    "en": "Succulent",
+    "ko": "다육식물"
+  },
+  {
+    "id": 497,
+    "category": "Plant",
+    "en": "Reed",
+    "ko": "갈대"
+  },
+  {
+    "id": 498,
+    "category": "Plant",
+    "en": "Thistle",
+    "ko": "엉겅퀴"
+  },
+  {
+    "id": 499,
+    "category": "Plant",
+    "en": "Water lily",
+    "ko": "수련"
+  },
+  {
+    "id": 500,
+    "category": "Plant",
+    "en": "Sequoia",
+    "ko": "세쿼이아"
+  }
+]

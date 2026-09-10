@@ -1,5 +1,6 @@
 import type { AuthUser } from "./auth.server";
 import type { InterviewScenario } from "./interview.server";
+import { getRandomWordBank, hasWordBankId } from "./word-bank.ts";
 
 export type GuideLanguage = "id" | "en";
 
@@ -111,6 +112,19 @@ function mapVocabulary(row: Record<string, unknown>, language: GuideLanguage): V
 	};
 }
 
+function mapWordBankVocabulary(word: { id: number; category: string; en: string; ko: string }): VocabularyItem {
+	return {
+		id: word.id,
+		korean: word.ko,
+		romanization: "",
+		meaning: word.en,
+		topic: word.category,
+		formality: "neutral",
+		exampleKo: `${word.ko}예요.`,
+		example: word.en,
+	};
+}
+
 export async function getDashboard(db: D1Database, userId: string): Promise<DashboardData> {
 	const profileRow = await db.prepare("SELECT * FROM learning_profiles WHERE user_id = ?").bind(userId).first<ProfileRow>();
 	if (!profileRow) {
@@ -134,7 +148,7 @@ export async function getDashboard(db: D1Database, userId: string): Promise<Dash
 		db.prepare(`SELECT SUM(CASE WHEN due_at <= CURRENT_TIMESTAMP THEN 1 ELSE 0 END) due_count,
 		SUM(CASE WHEN memory_state = 'mastered' THEN 1 ELSE 0 END) mastered_count,
 		COUNT(*) practiced_count FROM user_vocabulary_progress WHERE user_id = ?`).bind(userId).first<{ due_count: number; mastered_count: number; practiced_count: number }>(),
-		db.prepare("SELECT * FROM vocabulary_items WHERE level <= ? ORDER BY ((id * 17) % 37) LIMIT 10").bind(profile.level).all<Record<string, unknown>>(),
+		Promise.resolve(getRandomWordBank(10)),
 		db.prepare(`SELECT v.*, p.memory_state FROM user_vocabulary_progress p JOIN vocabulary_items v ON v.id = p.vocabulary_id
 			WHERE p.user_id = ? AND p.due_at <= CURRENT_TIMESTAMP ORDER BY p.due_at LIMIT 10`).bind(userId).all<Record<string, unknown>>(),
 		db.prepare("SELECT * FROM sentence_exercises WHERE level <= ? ORDER BY id DESC LIMIT 1").bind(profile.level).first<Record<string, unknown>>(),
@@ -152,7 +166,6 @@ export async function getDashboard(db: D1Database, userId: string): Promise<Dash
 		day.setUTCDate(weekStart.getUTCDate() + index);
 		return activeDates.has(dateKey(day));
 	});
-	const totalVocabulary = await db.prepare("SELECT COUNT(*) count FROM vocabulary_items WHERE level <= ?").bind(profile.level).first<{ count: number }>();
 	const scenarios = await db.prepare("SELECT * FROM interview_scenarios WHERE level <= ? ORDER BY level").bind(profile.level).all<Record<string, unknown>>();
 	return {
 		profile,
@@ -160,9 +173,9 @@ export async function getDashboard(db: D1Database, userId: string): Promise<Dash
 			totalXp: Number(totals?.total_xp ?? 0), weeklyXp: Number(totals?.weekly_xp ?? 0),
 			todayXp: Number(today?.xp ?? 0), todayActivities: Number(today?.activities_completed ?? 0), streak,
 			dueCount: Number(due?.due_count ?? 0), masteredCount: Number(due?.mastered_count ?? 0),
-			practicedCount: Number(due?.practiced_count ?? 0), totalVocabulary: Number(totalVocabulary?.count ?? 0), weekdays,
+			practicedCount: Number(due?.practiced_count ?? 0), totalVocabulary: 500, weekdays,
 		},
-		vocabulary: vocab.results.map((row) => mapVocabulary(row, language)),
+		vocabulary: vocab.map((word) => mapWordBankVocabulary(word)),
 		review: review.results.map((row) => mapVocabulary(row, language)),
 		sentence: sentenceRow ? {
 			id: Number(sentenceRow.id),
@@ -199,10 +212,10 @@ export async function completeSession(db: D1Database, userId: string, options: {
 	results?: Array<{ id: number; correct: boolean; confidence?: "again" | "hard" | "good" }>;
 }) {
 	const uniqueResults = [...new Map((options.results ?? []).map((result) => [result.id, result])).values()];
-	const validatedResults: typeof uniqueResults = [];
+	const validatedResults: Array<(typeof uniqueResults)[number] & { databaseBacked: boolean }> = [];
 	for (const result of uniqueResults) {
 		const allowed = await db.prepare("SELECT id FROM vocabulary_items WHERE id = ? AND level <= ?").bind(result.id, options.level).first();
-		if (allowed) validatedResults.push(result);
+		if (allowed || hasWordBankId(result.id)) validatedResults.push({ ...result, databaseBacked: Boolean(allowed) });
 	}
 	const reportedCorrect = options.gameType === "vocabulary" || options.gameType === "review"
 		? validatedResults.filter((result) => result.correct).length
@@ -218,6 +231,7 @@ export async function completeSession(db: D1Database, userId: string, options: {
 			total_answers = total_answers + excluded.total_answers`).bind(userId, dateKey(), xp, correctCount, options.totalCount),
 	];
 	for (const result of validatedResults) {
+		if (!result.databaseBacked) continue;
 		const existing = await db.prepare("SELECT interval_index FROM user_vocabulary_progress WHERE user_id = ? AND vocabulary_id = ?").bind(userId, result.id).first<{ interval_index: number }>();
 		const previous = Number(existing?.interval_index ?? 0);
 		const nextIndex = !result.correct || result.confidence === "again" ? 0 : result.confidence === "hard" ? previous : Math.min(4, previous + 1);
