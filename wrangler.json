@@ -1,13 +1,16 @@
 {
 	"$schema": "./node_modules/wrangler/config-schema.json",
 	"name": "hangeuloo-oppia",
-	"main": "./workers/app.ts",
+	"main": "./build/server/static/js/app.js",
 	"compatibility_date": "2025-10-08",
 	"compatibility_flags": ["nodejs_compat"],
 	"observability": {
 		"enabled": true
 	},
 	"upload_source_maps": true,
+	"assets": {
+		"directory": "./build/client/"
+	},
 	"ai": {
 		"binding": "AI"
 	},
