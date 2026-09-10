@@ -3,6 +3,7 @@ import { redirect } from "react-router";
 import { authEnv, getAuthUser, isGoogleConfigured } from "~/lib/auth.server";
 import { completeSession, ensureUser, getDashboard, saveProfile } from "~/lib/learning.server";
 import { generateFeedback, saveInterview, transcribeKorean } from "~/lib/interview.server";
+import { getLessonCatalog, getPracticeUnlocks } from "~/lib/lessons.server";
 
 export { default } from "~/pages/home";
 
@@ -18,9 +19,18 @@ export async function loader({ request, context }: Route.LoaderArgs) {
 	const url = new URL(request.url);
 	const user = await getAuthUser(request, context.cloudflare.env.DB);
 	if (user) await ensureUser(context.cloudflare.env.DB, user);
+	const [dashboard, lessonCatalog, practiceUnlocks] = user
+		? await Promise.all([
+			getDashboard(context.cloudflare.env.DB, user.sub),
+			getLessonCatalog(context.cloudflare.env.DB, user.sub),
+			getPracticeUnlocks(context.cloudflare.env.DB, user.sub),
+		])
+		: [null, null, []];
 	return {
 		user,
-		dashboard: user ? await getDashboard(context.cloudflare.env.DB, user.sub) : null,
+		dashboard,
+		lessonCatalog,
+		practiceUnlocks,
 		googleConfigured: isGoogleConfigured(env),
 		authError: url.searchParams.get("authError"),
 	};
@@ -86,7 +96,10 @@ export async function action({ request, context }: Route.ActionArgs) {
 		} catch {
 			return { ok: false, error: "That review result was not valid." };
 		}
-		const xp = await completeSession(context.cloudflare.env.DB, user.sub, { gameType: gameType as "vocabulary" | "sentence" | "listening" | "review", level: Math.max(0, Math.min(2, level)), correctCount, totalCount, results });
+		const dashboard = await getDashboard(context.cloudflare.env.DB, user.sub);
+		const unlocks = await getPracticeUnlocks(context.cloudflare.env.DB, user.sub);
+		if (!unlocks.includes(gameType)) return { ok: false, error: "Complete the related lesson to unlock this practice." };
+		const xp = await completeSession(context.cloudflare.env.DB, user.sub, { gameType: gameType as "vocabulary" | "sentence" | "listening" | "review", level: dashboard.profile?.level ?? 0, correctCount, totalCount, results });
 		return { ok: true, xp };
 	}
 	return { ok: false, error: "Unknown action." };

@@ -3,7 +3,7 @@ import { useFetcher } from "react-router";
 import type { LearningProfile } from "~/lib/learning.server";
 import type { SubmitSession } from "./types";
 
-export default function useHomeView(profile: LearningProfile | null) {
+export default function useHomeView(profile: LearningProfile | null, practiceUnlocks: string[]) {
 	const [active, setActive] = useState("home");
 	const [modal, setModal] = useState<string | null>(null);
 	const [recording, setRecording] = useState(false);
@@ -22,6 +22,17 @@ export default function useHomeView(profile: LearningProfile | null) {
 			closeModal();
 		} else if (progressFetcher.data.error) setToast(progressFetcher.data.error);
 	}, [progressFetcher.data]);
+	useEffect(() => {
+		const practice = new URLSearchParams(window.location.search).get("practice");
+		if (["vocab", "sentence", "listen", "review"].includes(practice ?? "")) {
+			const practiceTypeById: Record<string, string> = { vocab: "vocabulary", listen: "listening", sentence: "sentence", review: "review" };
+			if (practice && practiceUnlocks.includes(practiceTypeById[practice])) {
+				setActive("practice");
+				setModal(practice);
+			} else setToast("Complete the related lesson to unlock this practice");
+			window.history.replaceState({}, "", "/");
+		}
+	}, [practiceUnlocks]);
 
 	function speak(text = "오늘 무엇을 했어요?", rate = 0.82) {
 		if (typeof window !== "undefined" && "speechSynthesis" in window) {

@@ -42,6 +42,7 @@
 		"deploy": "wrangler deploy",
 		"dev": "react-router dev",
 		"preview": "npm run build && vite preview",
+		"test": "node --experimental-strip-types --test tests/*.test.ts",
 		"typecheck": "react-router typegen && tsc --noEmit"
 	},
 	"type": "module"
