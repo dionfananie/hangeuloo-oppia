@@ -1,1 +1,1 @@
-export { default } from "../workers/app";
+export { default } from "../workers/app.rsbuild";
