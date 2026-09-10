@@ -2,14 +2,17 @@ import { redirect } from "react-router";
 import type { Route } from "./+types/lessons";
 import { getAuthUser } from "~/lib/auth.server";
 import { getLessonCatalog } from "~/lib/lessons.server";
+import { buildSeoMeta } from "~/lib/seo";
 
 export { default } from "~/pages/lessons/LessonsHome";
 
 export function meta() {
-	return [
-		{ title: "Lessons | Hangeuloo" },
-		{ name: "description", content: "Learn Hangul, Korean words, and useful sentences one happy step at a time." },
-	];
+	return buildSeoMeta({
+		title: "Lessons | Hangeuloo",
+		description: "Learn Hangul, Korean words, and useful sentences one happy step at a time.",
+		path: "/lessons",
+		index: false,
+	});
 }
 
 export async function loader({ request, context }: Route.LoaderArgs) {

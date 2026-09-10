@@ -2,11 +2,15 @@ import { redirect } from "react-router";
 import type { Route } from "./+types/lesson";
 import { getAuthUser } from "~/lib/auth.server";
 import { completeLesson, getLessonDetail, recordLessonEvent, viewLessonItem } from "~/lib/lessons.server";
+import { buildSeoMeta } from "~/lib/seo";
 
 export { default } from "~/pages/lessons/LessonDetail";
 
 export function meta({ data }: Route.MetaArgs) {
-	return [{ title: data ? `${data.lesson.title} | Hangeuloo Lessons` : "Lesson | Hangeuloo" }];
+	return buildSeoMeta({
+		title: data ? `${data.lesson.title} | Hangeuloo Lessons` : "Lesson | Hangeuloo",
+		index: false,
+	});
 }
 
 export async function loader({ request, params, context }: Route.LoaderArgs) {

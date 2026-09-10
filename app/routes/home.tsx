@@ -4,14 +4,16 @@ import { authEnv, getAuthUser, isGoogleConfigured } from "~/lib/auth.server";
 import { completeSession, ensureUser, getDashboard, saveProfile } from "~/lib/learning.server";
 import { generateFeedback, saveInterview, transcribeKorean } from "~/lib/interview.server";
 import { getLessonCatalog, getPracticeUnlocks } from "~/lib/lessons.server";
+import { buildSeoMeta } from "~/lib/seo";
 
 export { default } from "~/pages/home";
 
 export function meta({}: Route.MetaArgs) {
-	return [
-		{ title: "Hangeuloo — Learn Korean, one happy step at a time" },
-		{ name: "description", content: "Cheerful Korean practice with bite-sized lessons and AI interview coaching." },
-	];
+	return buildSeoMeta({
+		title: "Hangeuloo — Learn Korean, one happy step at a time",
+		description: "Learn Korean with short daily lessons, playful vocabulary and listening practice, spaced repetition, and friendly AI interview coaching.",
+		path: "/",
+	});
 }
 
 export async function loader({ request, context }: Route.LoaderArgs) {

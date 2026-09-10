@@ -1,5 +1,6 @@
 import Icon from "../Icon";
 import useAuthScreen from "./hook";
+import { SITE_URL, buildJsonLd } from "~/lib/seo";
 
 const authErrors: Record<string, string> = {
 	"not-configured": "Google sign-in is not configured yet.",
@@ -8,9 +9,22 @@ const authErrors: Record<string, string> = {
 	"google-failed": "We couldn't complete Google sign-in. Please try again.",
 };
 
+const structuredData = buildJsonLd({
+	"@context": "https://schema.org",
+	"@type": "WebApplication",
+	name: "Hangeuloo",
+	url: SITE_URL,
+	applicationCategory: "EducationalApplication",
+	operatingSystem: "Web",
+	inLanguage: ["en", "ko"],
+	description: "Gamified Korean learning app with bite-sized lessons, vocabulary and listening practice, spaced repetition, and AI interview coaching.",
+	offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+});
+
 function AuthScreen({ googleConfigured, authError }: { googleConfigured: boolean; authError: string | null }) {
 	const { mode, setMode } = useAuthScreen();
 	return <main className="auth-page">
+		<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: structuredData }} />
 		<section className="auth-story">
 			<a className="brand auth-brand" href="/"><span className="brand-mark" aria-hidden="true"><span>ㅎ</span></span><span className="brand-name">Hangeuloo</span></a>
 			<div className="auth-copy"><span className="auth-pill"><Icon name="sparkles" size={15} /> YOUR KOREAN JOURNEY</span><h1>Learn Korean,<br /><em>one happy step</em><br />at a time.</h1><p>Short daily lessons, playful practice, and friendly AI interview coaching—all made to help you speak with confidence.</p><div className="auth-benefits"><span><i><Icon name="bolt" size={17} /></i>10-minute daily missions</span><span><i><Icon name="message" size={17} /></i>Real conversation practice</span><span><i><Icon name="flame" size={17} /></i>Progress that keeps you motivated</span></div></div>

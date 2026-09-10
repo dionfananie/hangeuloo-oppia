@@ -25,6 +25,13 @@ export const links: Route.LinksFunction = () => [
 	},
 ];
 
+export function meta() {
+	return [
+		{ name: "theme-color", content: "#7458d9" },
+		{ property: "og:site_name", content: "Hangeuloo" },
+	];
+}
+
 export function Layout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en" className="hangeuloo-root">

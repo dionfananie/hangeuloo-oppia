@@ -2,11 +2,16 @@ import { redirect } from "react-router";
 import type { Route } from "./+types/lesson-level";
 import { getAuthUser } from "~/lib/auth.server";
 import { getLessonCatalog } from "~/lib/lessons.server";
+import { buildSeoMeta } from "~/lib/seo";
 
 export { default } from "~/pages/lessons/LessonLevel";
 
 export function meta({ data }: Route.MetaArgs) {
-	return [{ title: data ? `${data.level.name} | Hangeuloo Lessons` : "Level | Hangeuloo Lessons" }];
+	return buildSeoMeta({
+		title: data ? `${data.level.name} | Hangeuloo Lessons` : "Level | Hangeuloo Lessons",
+		description: data?.level.description,
+		index: false,
+	});
 }
 
 export async function loader({ request, params, context }: Route.LoaderArgs) {
