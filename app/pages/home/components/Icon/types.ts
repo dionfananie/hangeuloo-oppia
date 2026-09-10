@@ -1,0 +1,4 @@
+export type IconName =
+	| "home" | "map" | "game" | "mic" | "chart" | "flame" | "bolt"
+	| "book" | "headphones" | "message" | "brain" | "play" | "arrow"
+	| "check" | "lock" | "star" | "heart" | "clock" | "sparkles" | "close";
