@@ -20,7 +20,11 @@ export async function loader({ request, params, context }: Route.LoaderArgs) {
 	const levelNumber = Number(params.level);
 	const catalog = await getLessonCatalog(context.cloudflare.env.DB, user.sub);
 	const level = catalog?.levels.find((item) => item.level === levelNumber);
-	if (!catalog || !level || !Number.isInteger(levelNumber)) throw new Response("Level not found", { status: 404 });
-	if (level.locked) throw new Response("This level is not available for your current learning path", { status: 403 });
+	if (!catalog || !level || !Number.isInteger(levelNumber))
+		throw new Response("Level not found", { status: 404 });
+	if (level.locked)
+		throw new Response("This level is not available for your current learning path", {
+			status: 403,
+		});
 	return { user, catalog, level };
 }

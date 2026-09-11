@@ -5,4 +5,9 @@ export default [
 	route("lessons", "routes/lessons.tsx"),
 	route("lessons/levels/:level", "routes/lesson-level.tsx"),
 	route("lessons/:lessonId", "routes/lesson.tsx"),
+	route("practice", "routes/practice.tsx"),
+	route("practice/vocabulary/:mode?", "routes/practice-vocabulary.tsx"),
+	route("practice/sentence", "routes/practice-sentence.tsx"),
+	route("practice/listening", "routes/practice-listening.tsx"),
+	route("practice/review", "routes/practice-review.tsx"),
 ] satisfies RouteConfig;

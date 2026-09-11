@@ -31,10 +31,7 @@ export function isGoogleConfigured(env: AuthEnv) {
 }
 
 /** baca user dari sesi (worker atau SSR). */
-export async function getAuthUser(
-	request: Request,
-	db: D1Database,
-): Promise<AuthUser | null> {
+export async function getAuthUser(request: Request, db: D1Database): Promise<AuthUser | null> {
 	const token = parseCookie(request.headers.get("Cookie") ?? "", SESSION_COOKIE);
 	if (!token) return null;
 	const row = await db
@@ -56,7 +53,13 @@ export async function getAuthUser(
 		await db.prepare("DELETE FROM sessions WHERE token = ?").bind(token).run();
 		return null;
 	}
-	return { sub: row.id, email: row.email, name: row.name, picture: row.picture ?? undefined, exp: row.expires_at * 1000 };
+	return {
+		sub: row.id,
+		email: row.email,
+		name: row.name,
+		picture: row.picture ?? undefined,
+		exp: row.expires_at * 1000,
+	};
 }
 
 /** Hapus sesi dr request. */

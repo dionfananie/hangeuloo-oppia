@@ -1,6 +1,7 @@
 export const SITE_URL = "https://hangeuloo.oppia.world";
 export const SITE_NAME = "Hangeuloo";
-export const DEFAULT_DESCRIPTION = "Cheerful Korean practice with bite-sized lessons and AI interview coaching.";
+export const DEFAULT_DESCRIPTION =
+	"Cheerful Korean practice with bite-sized lessons and AI interview coaching.";
 
 export function absoluteUrl(path: string) {
 	return `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
@@ -14,7 +15,13 @@ type SeoMetaArgs = {
 	imagePath?: string;
 };
 
-export function buildSeoMeta({ title, description = DEFAULT_DESCRIPTION, path = "/", index = true, imagePath = "/hangeuloo-icon-small.png" }: SeoMetaArgs) {
+export function buildSeoMeta({
+	title,
+	description = DEFAULT_DESCRIPTION,
+	path = "/",
+	index = true,
+	imagePath = "/hangeuloo-icon-small.png",
+}: SeoMetaArgs) {
 	const url = absoluteUrl(path);
 	const image = absoluteUrl(imagePath);
 	return [

@@ -43,6 +43,8 @@ npx wrangler secret put SESSION_SECRET
 
 ```bash
 npm run dev                 # local development
+npm run format              # format application source with Prettier
+npm run format:check        # verify source formatting
 npm run typecheck           # route type generation and TypeScript
 npm run build               # production build
 npm run check               # typecheck, build, and Worker dry run

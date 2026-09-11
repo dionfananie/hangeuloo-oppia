@@ -5,6 +5,7 @@ export type WordBankEntry = {
 	category: string;
 	en: string;
 	ko: string;
+	image?: string;
 };
 
 const wordBank = words as WordBankEntry[];
@@ -26,6 +27,10 @@ export function getRandomWordBank(count: number, seed = Math.random()) {
 		[pool[index], pool[swapIndex]] = [pool[swapIndex], pool[index]];
 	}
 	return pool.slice(0, Math.min(count, pool.length));
+}
+
+export function getWordBankItem(id: number) {
+	return wordBank.find((word) => word.id === id);
 }
 
 export function getWordBankForLesson(lessonId: string, count: number) {

@@ -28,6 +28,7 @@
 		"@types/node": "24.10.1",
 		"@types/react": "19.2.7",
 		"@types/react-dom": "19.2.3",
+		"prettier": "3.9.6",
 		"rsbuild-plugin-react-router": "0.7.0",
 		"tailwindcss": "4.1.17",
 		"typescript": "5.9.3",
@@ -43,6 +44,8 @@
 		"deploy": "wrangler deploy",
 		"dev": "NODE_OPTIONS=--experimental-vm-modules node server/rsbuild-dev.mjs",
 		"dev:rsbuild": "NODE_OPTIONS=--experimental-vm-modules node server/rsbuild-dev.mjs",
+		"format": "prettier --write \"app/**/*.{ts,tsx,css}\" \"workers/**/*.{ts,tsx}\" \"scripts/**/*.{js,mjs,ts}\"",
+		"format:check": "prettier --check \"app/**/*.{ts,tsx,css}\" \"workers/**/*.{ts,tsx}\" \"scripts/**/*.{js,mjs,ts}\"",
 		"preview": "npm run build && wrangler dev --port 4173 --config wrangler.json",
 		"test": "node --experimental-strip-types --test tests/*.test.ts",
 		"typecheck": "react-router typegen && tsc --noEmit"

@@ -25,7 +25,12 @@ export default function useHomeView(profile: LearningProfile | null, practiceUnl
 	useEffect(() => {
 		const practice = new URLSearchParams(window.location.search).get("practice");
 		if (["vocab", "sentence", "listen", "review"].includes(practice ?? "")) {
-			const practiceTypeById: Record<string, string> = { vocab: "vocabulary", listen: "listening", sentence: "sentence", review: "review" };
+			const practiceTypeById: Record<string, string> = {
+				vocab: "vocabulary",
+				listen: "listening",
+				sentence: "sentence",
+				review: "review",
+			};
 			if (practice && practiceUnlocks.includes(practiceTypeById[practice])) {
 				setActive("practice");
 				setModal(practice);
@@ -47,6 +52,16 @@ export default function useHomeView(profile: LearningProfile | null, practiceUnl
 
 	function openActivity(id: string) {
 		setRecording(false);
+		const routeById: Record<string, string> = {
+			vocab: "/practice/vocabulary",
+			sentence: "/practice/sentence",
+			listen: "/practice/listening",
+			review: "/practice/review",
+		};
+		if (routeById[id]) {
+			window.location.assign(routeById[id]);
+			return;
+		}
 		setModal(id);
 	}
 
@@ -57,8 +72,29 @@ export default function useHomeView(profile: LearningProfile | null, practiceUnl
 	}
 
 	const submitSession: SubmitSession = (result) => {
-		progressFetcher.submit({ intent: "complete-session", level: String(profile?.level ?? 0), gameType: result.gameType, correctCount: String(result.correctCount), totalCount: String(result.totalCount), results: JSON.stringify(result.results ?? []) }, { method: "post" });
+		progressFetcher.submit(
+			{
+				intent: "complete-session",
+				level: String(profile?.level ?? 0),
+				gameType: result.gameType,
+				correctCount: String(result.correctCount),
+				totalCount: String(result.totalCount),
+				results: JSON.stringify(result.results ?? []),
+			},
+			{ method: "post" },
+		);
 	};
 
-	return { active, setActive, modal, recording, setRecording, toast, speak, openActivity, closeModal, submitSession };
+	return {
+		active,
+		setActive,
+		modal,
+		recording,
+		setRecording,
+		toast,
+		speak,
+		openActivity,
+		closeModal,
+		submitSession,
+	};
 }

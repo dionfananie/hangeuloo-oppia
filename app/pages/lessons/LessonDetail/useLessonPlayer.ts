@@ -27,7 +27,10 @@ export default function useLessonPlayer(lesson: LessonDetail) {
 	const item = lesson.items[index];
 
 	function track(eventType: string, value?: string) {
-		eventFetcher.submit({ intent: "lesson-event", eventType, itemId: item.id, value: value ?? "" }, { method: "post" });
+		eventFetcher.submit(
+			{ intent: "lesson-event", eventType, itemId: item.id, value: value ?? "" },
+			{ method: "post" },
+		);
 	}
 
 	function stopAudio() {
@@ -41,7 +44,10 @@ export default function useLessonPlayer(lesson: LessonDetail) {
 	}
 
 	useEffect(() => {
-		viewFetcher.submit({ intent: "view-item", itemIndex: String(index), itemId: item.id }, { method: "post" });
+		viewFetcher.submit(
+			{ intent: "view-item", itemIndex: String(index), itemId: item.id },
+			{ method: "post" },
+		);
 		setShowTranslation(false);
 		setShowExplanation(false);
 		return () => {
@@ -71,8 +77,14 @@ export default function useLessonPlayer(lesson: LessonDetail) {
 			audio.playbackRate = speed;
 			audio.onplaying = () => setAudioState("playing");
 			audio.onended = () => setAudioState("idle");
-			audio.onerror = () => { setAudioState("error"); track("audio_error"); };
-			void audio.play().catch(() => { setAudioState("error"); track("audio_error"); });
+			audio.onerror = () => {
+				setAudioState("error");
+				track("audio_error");
+			};
+			void audio.play().catch(() => {
+				setAudioState("error");
+				track("audio_error");
+			});
 			return;
 		}
 		if (!("speechSynthesis" in window)) {
@@ -122,8 +134,19 @@ export default function useLessonPlayer(lesson: LessonDetail) {
 	}
 
 	return {
-		index, item, speed, audioState, showTranslation, showExplanation, setShowExplanation,
-		play, replay, changeSpeed, goTo, revealTranslation, complete,
+		index,
+		item,
+		speed,
+		audioState,
+		showTranslation,
+		showExplanation,
+		setShowExplanation,
+		play,
+		replay,
+		changeSpeed,
+		goTo,
+		revealTranslation,
+		complete,
 		completion: completionFetcher.data?.completed ? completionFetcher.data : null,
 		completing: completionFetcher.state !== "idle",
 		viewing: viewFetcher.state !== "idle",

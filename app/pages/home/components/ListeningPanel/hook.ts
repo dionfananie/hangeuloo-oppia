@@ -13,5 +13,15 @@ export default function useListeningPanel(exercise: ListeningExercise) {
 		setResult(correct ? "correct" : "wrong");
 	}
 
-	return { answer, setAnswer, speed, setSpeed, showHelp, setShowHelp, result, correct, checkAnswer };
+	return {
+		answer,
+		setAnswer,
+		speed,
+		setSpeed,
+		showHelp,
+		setShowHelp,
+		result,
+		correct,
+		checkAnswer,
+	};
 }

@@ -1,7 +1,19 @@
 import Icon from "../Icon";
+import { getEmptyPracticeContent } from "./helpers";
+import type { EmptyPracticeProps } from "./types";
 
-function EmptyPractice({ review = false }: { review?: boolean }) {
-	return <div className="empty-practice"><span className="activity-icon mint"><Icon name={review ? "check" : "book"} /></span><h2 id="modal-title">{review ? "Review queue cleared!" : "Practice is loading"}</h2><p>{review ? "You have reviewed everything due today. Try vocabulary matching next." : "No exercises are available for this level yet."}</p></div>;
+function EmptyPractice({ review = false }: EmptyPracticeProps) {
+	const content = getEmptyPracticeContent(review);
+
+	return (
+		<div className="empty-practice">
+			<span className="activity-icon mint">
+				<Icon name={content.icon} />
+			</span>
+			<h2 id="modal-title">{content.title}</h2>
+			<p>{content.description}</p>
+		</div>
+	);
 }
 
 export default EmptyPractice;

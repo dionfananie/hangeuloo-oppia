@@ -9,7 +9,12 @@ type InterviewPanelOptions = {
 	done: () => void;
 };
 
-export default function useInterviewPanel({ scenarios, recording, setRecording, done }: InterviewPanelOptions) {
+export default function useInterviewPanel({
+	scenarios,
+	recording,
+	setRecording,
+	done,
+}: InterviewPanelOptions) {
 	const [stage, setStage] = useState<"ready" | "answer" | "feedback">("ready");
 	const [scenarioId, setScenarioId] = useState(scenarios.at(-1)?.id ?? 0);
 	const [answer, setAnswer] = useState("");
@@ -23,14 +28,25 @@ export default function useInterviewPanel({ scenarios, recording, setRecording, 
 	const chunksRef = useRef<Blob[]>([]);
 	const startedAtRef = useRef(0);
 	const idempotencyKey = useRef(crypto.randomUUID());
-	const transcriptFetcher = useFetcher<{ ok: boolean; transcript?: { text: string; duration: number }; error?: string }>();
-	const feedbackFetcher = useFetcher<{ ok: boolean; feedback?: InterviewFeedback; error?: string }>();
+	const transcriptFetcher = useFetcher<{
+		ok: boolean;
+		transcript?: { text: string; duration: number };
+		error?: string;
+	}>();
+	const feedbackFetcher = useFetcher<{
+		ok: boolean;
+		feedback?: InterviewFeedback;
+		error?: string;
+	}>();
 	const scenario = scenarios.find((item) => item.id === scenarioId) ?? scenarios[0];
 
-	useEffect(() => () => {
-		streamRef.current?.getTracks().forEach((track) => track.stop());
-		if (audioUrl) URL.revokeObjectURL(audioUrl);
-	}, [audioUrl]);
+	useEffect(
+		() => () => {
+			streamRef.current?.getTracks().forEach((track) => track.stop());
+			if (audioUrl) URL.revokeObjectURL(audioUrl);
+		},
+		[audioUrl],
+	);
 	useEffect(() => {
 		if (transcriptFetcher.data?.transcript) {
 			setAnswer(transcriptFetcher.data.transcript.text);
@@ -44,14 +60,19 @@ export default function useInterviewPanel({ scenarios, recording, setRecording, 
 
 	async function startVoice() {
 		setStage("answer");
-		if (!navigator.mediaDevices?.getUserMedia) { setMicNote("Microphone unavailable. Type your answer below."); return; }
+		if (!navigator.mediaDevices?.getUserMedia) {
+			setMicNote("Microphone unavailable. Type your answer below.");
+			return;
+		}
 		try {
 			const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
 			streamRef.current = stream;
 			chunksRef.current = [];
 			const recorder = new MediaRecorder(stream);
 			recorderRef.current = recorder;
-			recorder.ondataavailable = (event) => { if (event.data.size) chunksRef.current.push(event.data); };
+			recorder.ondataavailable = (event) => {
+				if (event.data.size) chunksRef.current.push(event.data);
+			};
 			recorder.onstop = () => {
 				const blob = new Blob(chunksRef.current, { type: recorder.mimeType || "audio/webm" });
 				if (audioUrl) URL.revokeObjectURL(audioUrl);
@@ -64,7 +85,9 @@ export default function useInterviewPanel({ scenarios, recording, setRecording, 
 			recorder.start(250);
 			setRecording(true);
 			setMicNote("Recording in your browser");
-		} catch { setMicNote("Microphone permission was not granted. Typing still works."); }
+		} catch {
+			setMicNote("Microphone permission was not granted. Typing still works.");
+		}
 	}
 
 	function stopVoice() {
@@ -83,8 +106,39 @@ export default function useInterviewPanel({ scenarios, recording, setRecording, 
 
 	function requestFeedback() {
 		if (!scenario) return;
-		feedbackFetcher.submit({ intent: "interview-feedback", scenarioId: String(scenario.id), answer, answerMode: audioBlob ? "voice" : "typed", duration: String(duration), idempotencyKey: idempotencyKey.current }, { method: "post" });
+		feedbackFetcher.submit(
+			{
+				intent: "interview-feedback",
+				scenarioId: String(scenario.id),
+				answer,
+				answerMode: audioBlob ? "voice" : "typed",
+				duration: String(duration),
+				idempotencyKey: idempotencyKey.current,
+			},
+			{ method: "post" },
+		);
 	}
 
-	return { stage, setStage, scenario, scenarioId, setScenarioId, answer, setAnswer, micNote, audioUrl, duration, speed, setSpeed, recording, transcriptFetcher, feedbackFetcher, startVoice, stopVoice, transcribe, requestFeedback, done };
+	return {
+		stage,
+		setStage,
+		scenario,
+		scenarioId,
+		setScenarioId,
+		answer,
+		setAnswer,
+		micNote,
+		audioUrl,
+		duration,
+		speed,
+		setSpeed,
+		recording,
+		transcriptFetcher,
+		feedbackFetcher,
+		startVoice,
+		stopVoice,
+		transcribe,
+		requestFeedback,
+		done,
+	};
 }

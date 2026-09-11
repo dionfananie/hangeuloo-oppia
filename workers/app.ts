@@ -19,9 +19,7 @@ export default {
 		const url = new URL(request.url);
 		// Auth worker-layer (session cookie HttpOnly) dulu sebelum React Router.
 		if (url.pathname.startsWith("/api")) {
-			return handleAuth(request, env).then(
-				(res) => res ?? new Response("Not Found", { status: 404 }),
-			);
+			return handleAuth(request, env).then((res) => res ?? new Response("Not Found", { status: 404 }));
 		}
 		return requestHandler(request, {
 			cloudflare: { env, ctx },

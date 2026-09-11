@@ -28,18 +28,38 @@ export async function action({ request, params, context }: Route.ActionArgs) {
 	const intent = String(form.get("intent") ?? "");
 	if (intent === "view-item") {
 		const itemIndex = Number(form.get("itemIndex"));
-		if (!Number.isFinite(itemIndex) || !Number.isInteger(itemIndex)) return { ok: false, error: "Invalid lesson item." };
+		if (!Number.isFinite(itemIndex) || !Number.isInteger(itemIndex))
+			return { ok: false, error: "Invalid lesson item." };
 		const savedIndex = await viewLessonItem(context.cloudflare.env.DB, user.sub, lessonId, itemIndex);
-		if (savedIndex === 0) await recordLessonEvent(context.cloudflare.env.DB, user.sub, lessonId, "lesson_opened");
-		await recordLessonEvent(context.cloudflare.env.DB, user.sub, lessonId, "item_viewed", String(form.get("itemId") ?? "") || undefined);
+		if (savedIndex === 0)
+			await recordLessonEvent(context.cloudflare.env.DB, user.sub, lessonId, "lesson_opened");
+		await recordLessonEvent(
+			context.cloudflare.env.DB,
+			user.sub,
+			lessonId,
+			"item_viewed",
+			String(form.get("itemId") ?? "") || undefined,
+		);
 		return { ok: true, currentItemIndex: savedIndex };
 	}
 	if (intent === "complete-lesson") {
-		const result = await completeLesson(context.cloudflare.env.DB, user.sub, lessonId, Number(form.get("lastItemIndex")));
+		const result = await completeLesson(
+			context.cloudflare.env.DB,
+			user.sub,
+			lessonId,
+			Number(form.get("lastItemIndex")),
+		);
 		return { ok: true, completed: true, ...result };
 	}
 	if (intent === "lesson-event") {
-		await recordLessonEvent(context.cloudflare.env.DB, user.sub, lessonId, String(form.get("eventType")), String(form.get("itemId") ?? "") || undefined, String(form.get("value") ?? "") || undefined);
+		await recordLessonEvent(
+			context.cloudflare.env.DB,
+			user.sub,
+			lessonId,
+			String(form.get("eventType")),
+			String(form.get("itemId") ?? "") || undefined,
+			String(form.get("value") ?? "") || undefined,
+		);
 		return { ok: true };
 	}
 	return { ok: false, error: "Unknown lesson action." };

@@ -90,7 +90,8 @@ async function googleCallback(env: EnvLike, url: URL, request: Request): Promise
 	const profileRes = await fetch(GOOGLE_USERINFO_URL, {
 		headers: { authorization: `Bearer ${tokenJson.access_token}` },
 	});
-	if (!profileRes.ok) return json({ error: `Could not fetch the Google profile (HTTP ${profileRes.status})` }, 400);
+	if (!profileRes.ok)
+		return json({ error: `Could not fetch the Google profile (HTTP ${profileRes.status})` }, 400);
 	const g = (await profileRes.json()) as {
 		sub?: string;
 		email?: string;
@@ -106,13 +107,12 @@ async function googleCallback(env: EnvLike, url: URL, request: Request): Promise
 	const name = g.name || email.split("@")[0];
 	const picture = g.picture || "";
 
-	const existing = await db
-		.prepare(`SELECT id FROM users WHERE id = ?`)
-		.bind(id)
-		.first<{ id: string }>();
+	const existing = await db.prepare(`SELECT id FROM users WHERE id = ?`).bind(id).first<{ id: string }>();
 	if (existing) {
 		await db
-			.prepare(`UPDATE users SET email = ?, name = ?, picture = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?`)
+			.prepare(
+				`UPDATE users SET email = ?, name = ?, picture = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?`,
+			)
 			.bind(email, name, picture, id)
 			.run();
 	} else {
@@ -133,7 +133,10 @@ async function googleCallback(env: EnvLike, url: URL, request: Request): Promise
 			/* ignore */
 		}
 	}
-	const res2 = new Response(null, { status: 302, headers: { location: new URL(returnTo, url).toString() } });
+	const res2 = new Response(null, {
+		status: 302,
+		headers: { location: new URL(returnTo, url).toString() },
+	});
 	setSessionCookie(res2.headers, token, expiresMs);
 	return res2;
 }
