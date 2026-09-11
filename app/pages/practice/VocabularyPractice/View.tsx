@@ -151,13 +151,14 @@ export default function VocabularyPractice() {
 									<br />
 									{item.example}
 								</p>
-								<button className="lesson-next-button" onClick={practice.next}>
-									{index + 1 === words.length ? "Finish round" : "Next"} <Icon name="arrow" size={17} />
-								</button>
 							</div>
 						)}
 					</div>
-					<div className="lesson-card-details">
+					<div
+						className={practice.showHint ? "lesson-card-details fade-in" : "lesson-card-details"}
+						id="vocabulary-hint"
+						hidden={!practice.showHint}
+					>
 						<section>
 							<span className="detail-label">WORD</span>
 							<p lang="ko">
@@ -170,6 +171,22 @@ export default function VocabularyPractice() {
 						</section>
 					</div>
 				</article>
+				<footer className="lesson-player-actions">
+					<button
+						className="lesson-back-button"
+						onClick={practice.revealHint}
+						aria-expanded={practice.showHint}
+						aria-controls="vocabulary-hint"
+						disabled={practice.showHint}
+					>
+						Hint
+					</button>
+					{selected && (
+						<button className="lesson-next-button" onClick={practice.next}>
+							{index + 1 === words.length ? "Finish round" : "Next"} <Icon name="arrow" size={17} />
+						</button>
+					)}
+				</footer>
 			</section>
 		</main>
 	);

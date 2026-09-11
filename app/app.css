@@ -3729,6 +3729,9 @@ svg {
 	grid-template-columns: 1fr 1fr;
 	gap: 12px;
 }
+.lesson-card-details[hidden] {
+	display: none;
+}
 .lesson-card-details > section:not(.explanation-section) {
 	border: 1px solid var(--line);
 	border-radius: 14px;
@@ -4262,9 +4265,6 @@ svg {
 	color: var(--muted);
 	font-size: 11px;
 	line-height: 1.5;
-}
-.practice-feedback .lesson-next-button {
-	margin-left: auto;
 }
 .practice-word-image {
 	width: min(260px, 80%);

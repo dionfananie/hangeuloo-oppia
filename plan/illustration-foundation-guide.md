@@ -94,3 +94,54 @@ friendly and playful mood, square 1:1 canvas
 - Generate a handful of test images first (1 per category) to lock the exact style before batch-generating all 500
 - Save the finalized "base prompt" string once your test images look right, then only swap out the `[SUBJECT]` for each word
 - Consider naming/exporting files by category + word (e.g. `animal_cat.png`, `food_apple.png`) for easy asset management in the app
+
+## 8. Image Generation Workflow
+
+Use this workflow when generating images from the vocabulary batch files:
+
+1. Read the batch JSON and use each entry's English `en` value as the subject.
+2. Preserve the exact `image` value as the PNG filename. Do not invent alternate
+   spellings, translations, or numbering.
+3. Add a short visual qualifier when a word is ambiguous. For example, use
+   "a physical greeting card" for `Card` or "a paper letter in an envelope" for
+   `Letter`.
+4. For occupations and family roles, generate one chibi person representing the
+   role. Use a simple visual prop or outfit only when it improves recognition.
+5. For abstract or easily confused words, choose the most concrete beginner-level
+   interpretation and keep the subject isolated.
+6. Generate each image independently rather than generating image grids or
+   sprite sheets. Every output must be a standalone square PNG.
+7. Review every image at small display size. Regenerate images that are unclear,
+   contain multiple competing subjects, include text, or visibly drift from the
+   foundation style.
+8. Before completing a batch, verify that it contains exactly 20 PNGs and that
+   every filename matches its source JSON entry.
+
+### Prompt Template
+
+Use the consistency anchor as the first part of every prompt, then append the
+specific subject and any necessary visual qualifier:
+
+```text
+[Consistency anchor], clearly depicting [ENGLISH WORD] as [VISUAL QUALIFIER].
+The subject must be instantly recognizable at icon size.
+```
+
+Use this negative instruction for every generation:
+
+```text
+No words, letters, numbers, Korean writing, labels, logos, watermark, border,
+photorealism, 3D rendering, realistic background, scenery, collage, or extra
+unrelated objects.
+```
+
+### Batch Output Rules
+
+- Batch-specific generation directories use `public/batch-[number]/`, such as
+  `public/batch-07/`.
+- Keep generated files flat inside the assigned batch directory; do not create
+  one folder per word.
+- Agents generating different batches may run concurrently, but each agent must
+  write only to its assigned batch directory.
+- When publishing to R2, upload files to the flat `images/<filename>` prefix and
+  do not include the local batch directory in the object key.

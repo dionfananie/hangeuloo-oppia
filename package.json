@@ -46,6 +46,7 @@
 		"dev:rsbuild": "NODE_OPTIONS=--experimental-vm-modules node server/rsbuild-dev.mjs",
 		"format": "prettier --write \"app/**/*.{ts,tsx,css}\" \"workers/**/*.{ts,tsx}\" \"scripts/**/*.{js,mjs,ts}\"",
 		"format:check": "prettier --check \"app/**/*.{ts,tsx,css}\" \"workers/**/*.{ts,tsx}\" \"scripts/**/*.{js,mjs,ts}\"",
+		"images:generate": "node scripts/generate-vocabulary-images.mjs",
 		"preview": "npm run build && wrangler dev --port 4173 --config wrangler.json",
 		"test": "node --experimental-strip-types --test tests/*.test.ts",
 		"typecheck": "react-router typegen && tsc --noEmit"

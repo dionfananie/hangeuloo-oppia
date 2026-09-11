@@ -10,6 +10,7 @@ export default function useVocabularyPractice() {
 	const [index, setIndex] = useState(0);
 	const [answers, setAnswers] = useState<PracticeAnswer[]>([]);
 	const [selected, setSelected] = useState<string | null>(null);
+	const [showHint, setShowHint] = useState(false);
 	const [done, setDone] = useState(false);
 	const fetcher = useFetcher<{ ok: boolean; xp?: number; error?: string }>();
 	const item = words[index];
@@ -40,6 +41,7 @@ export default function useVocabularyPractice() {
 		}
 		setIndex((current) => current + 1);
 		setSelected(null);
+		setShowHint(false);
 	}
 
 	return {
@@ -48,12 +50,14 @@ export default function useVocabularyPractice() {
 		index,
 		answers,
 		selected,
+		showHint,
 		done,
 		fetcher,
 		item,
 		choices,
 		answer,
 		next,
+		revealHint: () => setShowHint(true),
 		getAnswerValue,
 	};
 }
