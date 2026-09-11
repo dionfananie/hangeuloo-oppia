@@ -1,0 +1,142 @@
+[
+  {
+    "id": 161,
+    "category": "Things",
+    "en": "Broom",
+    "ko": "빗자루",
+    "image": "0161-broom.png"
+  },
+  {
+    "id": 162,
+    "category": "Things",
+    "en": "Mop",
+    "ko": "대걸레",
+    "image": "0162-mop.png"
+  },
+  {
+    "id": 163,
+    "category": "Things",
+    "en": "Bucket",
+    "ko": "양동이",
+    "image": "0163-bucket.png"
+  },
+  {
+    "id": 164,
+    "category": "Things",
+    "en": "Ladder",
+    "ko": "사다리",
+    "image": "0164-ladder.png"
+  },
+  {
+    "id": 165,
+    "category": "Things",
+    "en": "Hammer",
+    "ko": "망치",
+    "image": "0165-hammer.png"
+  },
+  {
+    "id": 166,
+    "category": "Things",
+    "en": "Screwdriver",
+    "ko": "드라이버",
+    "image": "0166-screwdriver.png"
+  },
+  {
+    "id": 167,
+    "category": "Things",
+    "en": "Nail",
+    "ko": "못",
+    "image": "0167-nail.png"
+  },
+  {
+    "id": 168,
+    "category": "Things",
+    "en": "Rope",
+    "ko": "밧줄",
+    "image": "0168-rope.png"
+  },
+  {
+    "id": 169,
+    "category": "Things",
+    "en": "Candle",
+    "ko": "양초",
+    "image": "0169-candle.png"
+  },
+  {
+    "id": 170,
+    "category": "Things",
+    "en": "Match",
+    "ko": "성냥",
+    "image": "0170-match.png"
+  },
+  {
+    "id": 171,
+    "category": "Things",
+    "en": "Flashlight",
+    "ko": "손전등",
+    "image": "0171-flashlight.png"
+  },
+  {
+    "id": 172,
+    "category": "Things",
+    "en": "Map",
+    "ko": "지도",
+    "image": "0172-map.png"
+  },
+  {
+    "id": 173,
+    "category": "Things",
+    "en": "Ticket",
+    "ko": "표",
+    "image": "0173-ticket.png"
+  },
+  {
+    "id": 174,
+    "category": "Things",
+    "en": "Coin",
+    "ko": "동전",
+    "image": "0174-coin.png"
+  },
+  {
+    "id": 175,
+    "category": "Things",
+    "en": "Bill",
+    "ko": "지폐",
+    "image": "0175-bill.png"
+  },
+  {
+    "id": 176,
+    "category": "Things",
+    "en": "Calendar",
+    "ko": "달력",
+    "image": "0176-calendar.png"
+  },
+  {
+    "id": 177,
+    "category": "Things",
+    "en": "Newspaper",
+    "ko": "신문",
+    "image": "0177-newspaper.png"
+  },
+  {
+    "id": 178,
+    "category": "Things",
+    "en": "Magazine",
+    "ko": "잡지",
+    "image": "0178-magazine.png"
+  },
+  {
+    "id": 179,
+    "category": "Things",
+    "en": "Envelope",
+    "ko": "봉투",
+    "image": "0179-envelope.png"
+  },
+  {
+    "id": 180,
+    "category": "Things",
+    "en": "Stamp",
+    "ko": "우표",
+    "image": "0180-stamp.png"
+  }
+]

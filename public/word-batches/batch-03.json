@@ -1,0 +1,142 @@
+[
+  {
+    "id": 41,
+    "category": "Food",
+    "en": "Onion",
+    "ko": "양파",
+    "image": "0041-onion.png"
+  },
+  {
+    "id": 42,
+    "category": "Food",
+    "en": "Ginger",
+    "ko": "생강",
+    "image": "0042-ginger.png"
+  },
+  {
+    "id": 43,
+    "category": "Food",
+    "en": "Carrot",
+    "ko": "당근",
+    "image": "0043-carrot.png"
+  },
+  {
+    "id": 44,
+    "category": "Food",
+    "en": "Potato",
+    "ko": "감자",
+    "image": "0044-potato.png"
+  },
+  {
+    "id": 45,
+    "category": "Food",
+    "en": "Sweet potato",
+    "ko": "고구마",
+    "image": "0045-sweet-potato.png"
+  },
+  {
+    "id": 46,
+    "category": "Food",
+    "en": "Cucumber",
+    "ko": "오이",
+    "image": "0046-cucumber.png"
+  },
+  {
+    "id": 47,
+    "category": "Food",
+    "en": "Tomato",
+    "ko": "토마토",
+    "image": "0047-tomato.png"
+  },
+  {
+    "id": 48,
+    "category": "Food",
+    "en": "Cabbage",
+    "ko": "양배추",
+    "image": "0048-cabbage.png"
+  },
+  {
+    "id": 49,
+    "category": "Food",
+    "en": "Lettuce",
+    "ko": "상추",
+    "image": "0049-lettuce.png"
+  },
+  {
+    "id": 50,
+    "category": "Food",
+    "en": "Spinach",
+    "ko": "시금치",
+    "image": "0050-spinach.png"
+  },
+  {
+    "id": 51,
+    "category": "Food",
+    "en": "Mushroom",
+    "ko": "버섯",
+    "image": "0051-mushroom.png"
+  },
+  {
+    "id": 52,
+    "category": "Food",
+    "en": "Corn",
+    "ko": "옥수수",
+    "image": "0052-corn.png"
+  },
+  {
+    "id": 53,
+    "category": "Food",
+    "en": "Peanut",
+    "ko": "땅콩",
+    "image": "0053-peanut.png"
+  },
+  {
+    "id": 54,
+    "category": "Food",
+    "en": "Walnut",
+    "ko": "호두",
+    "image": "0054-walnut.png"
+  },
+  {
+    "id": 55,
+    "category": "Food",
+    "en": "Almond",
+    "ko": "아몬드",
+    "image": "0055-almond.png"
+  },
+  {
+    "id": 56,
+    "category": "Food",
+    "en": "Watermelon",
+    "ko": "수박",
+    "image": "0056-watermelon.png"
+  },
+  {
+    "id": 57,
+    "category": "Food",
+    "en": "Strawberry",
+    "ko": "딸기",
+    "image": "0057-strawberry.png"
+  },
+  {
+    "id": 58,
+    "category": "Food",
+    "en": "Grape",
+    "ko": "포도",
+    "image": "0058-grape.png"
+  },
+  {
+    "id": 59,
+    "category": "Food",
+    "en": "Peach",
+    "ko": "복숭아",
+    "image": "0059-peach.png"
+  },
+  {
+    "id": 60,
+    "category": "Food",
+    "en": "Pear",
+    "ko": "배",
+    "image": "0060-pear.png"
+  }
+]

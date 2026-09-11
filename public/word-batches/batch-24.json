@@ -1,0 +1,142 @@
+[
+  {
+    "id": 461,
+    "category": "Plant",
+    "en": "Cucumber plant",
+    "ko": "오이",
+    "image": "0461-cucumber-plant.png"
+  },
+  {
+    "id": 462,
+    "category": "Plant",
+    "en": "Pumpkin",
+    "ko": "호박",
+    "image": "0462-pumpkin.png"
+  },
+  {
+    "id": 463,
+    "category": "Plant",
+    "en": "Strawberry plant",
+    "ko": "딸기",
+    "image": "0463-strawberry-plant.png"
+  },
+  {
+    "id": 464,
+    "category": "Plant",
+    "en": "Grapevine",
+    "ko": "포도나무",
+    "image": "0464-grapevine.png"
+  },
+  {
+    "id": 465,
+    "category": "Plant",
+    "en": "Apple tree",
+    "ko": "사과나무",
+    "image": "0465-apple-tree.png"
+  },
+  {
+    "id": 466,
+    "category": "Plant",
+    "en": "Orange tree",
+    "ko": "오렌지나무",
+    "image": "0466-orange-tree.png"
+  },
+  {
+    "id": 467,
+    "category": "Plant",
+    "en": "Banana tree",
+    "ko": "바나나나무",
+    "image": "0467-banana-tree.png"
+  },
+  {
+    "id": 468,
+    "category": "Plant",
+    "en": "Coconut tree",
+    "ko": "코코넛나무",
+    "image": "0468-coconut-tree.png"
+  },
+  {
+    "id": 469,
+    "category": "Plant",
+    "en": "Mango tree",
+    "ko": "망고나무",
+    "image": "0469-mango-tree.png"
+  },
+  {
+    "id": 470,
+    "category": "Plant",
+    "en": "Peach tree",
+    "ko": "복숭아나무",
+    "image": "0470-peach-tree.png"
+  },
+  {
+    "id": 471,
+    "category": "Plant",
+    "en": "Pear tree",
+    "ko": "배나무",
+    "image": "0471-pear-tree.png"
+  },
+  {
+    "id": 472,
+    "category": "Plant",
+    "en": "Lemon tree",
+    "ko": "레몬나무",
+    "image": "0472-lemon-tree.png"
+  },
+  {
+    "id": 473,
+    "category": "Plant",
+    "en": "Fig tree",
+    "ko": "무화과나무",
+    "image": "0473-fig-tree.png"
+  },
+  {
+    "id": 474,
+    "category": "Plant",
+    "en": "Olive tree",
+    "ko": "올리브나무",
+    "image": "0474-olive-tree.png"
+  },
+  {
+    "id": 475,
+    "category": "Plant",
+    "en": "Ginkgo tree",
+    "ko": "은행나무",
+    "image": "0475-ginkgo-tree.png"
+  },
+  {
+    "id": 476,
+    "category": "Plant",
+    "en": "Birch tree",
+    "ko": "자작나무",
+    "image": "0476-birch-tree.png"
+  },
+  {
+    "id": 477,
+    "category": "Plant",
+    "en": "Cedar tree",
+    "ko": "삼나무",
+    "image": "0477-cedar-tree.png"
+  },
+  {
+    "id": 478,
+    "category": "Plant",
+    "en": "Chestnut tree",
+    "ko": "밤나무",
+    "image": "0478-chestnut-tree.png"
+  },
+  {
+    "id": 479,
+    "category": "Plant",
+    "en": "Walnut tree",
+    "ko": "호두나무",
+    "image": "0479-walnut-tree.png"
+  },
+  {
+    "id": 480,
+    "category": "Plant",
+    "en": "Rubber tree",
+    "ko": "고무나무",
+    "image": "0480-rubber-tree.png"
+  }
+]

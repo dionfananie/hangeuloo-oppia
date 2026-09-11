@@ -1,0 +1,142 @@
+[
+  {
+    "id": 381,
+    "category": "Animals",
+    "en": "Jaguar",
+    "ko": "재규어",
+    "image": "0381-jaguar.png"
+  },
+  {
+    "id": 382,
+    "category": "Animals",
+    "en": "Hyena",
+    "ko": "하이에나",
+    "image": "0382-hyena.png"
+  },
+  {
+    "id": 383,
+    "category": "Animals",
+    "en": "Gorilla",
+    "ko": "고릴라",
+    "image": "0383-gorilla.png"
+  },
+  {
+    "id": 384,
+    "category": "Animals",
+    "en": "Chimpanzee",
+    "ko": "침팬지",
+    "image": "0384-chimpanzee.png"
+  },
+  {
+    "id": 385,
+    "category": "Animals",
+    "en": "Orangutan",
+    "ko": "오랑우탄",
+    "image": "0385-orangutan.png"
+  },
+  {
+    "id": 386,
+    "category": "Animals",
+    "en": "Sloth",
+    "ko": "나무늘보",
+    "image": "0386-sloth.png"
+  },
+  {
+    "id": 387,
+    "category": "Animals",
+    "en": "Otter",
+    "ko": "수달",
+    "image": "0387-otter.png"
+  },
+  {
+    "id": 388,
+    "category": "Animals",
+    "en": "Beaver",
+    "ko": "비버",
+    "image": "0388-beaver.png"
+  },
+  {
+    "id": 389,
+    "category": "Animals",
+    "en": "Raccoon",
+    "ko": "너구리",
+    "image": "0389-raccoon.png"
+  },
+  {
+    "id": 390,
+    "category": "Animals",
+    "en": "Skunk",
+    "ko": "스컹크",
+    "image": "0390-skunk.png"
+  },
+  {
+    "id": 391,
+    "category": "Animals",
+    "en": "Mole",
+    "ko": "두더지",
+    "image": "0391-mole.png"
+  },
+  {
+    "id": 392,
+    "category": "Animals",
+    "en": "Porcupine",
+    "ko": "호저",
+    "image": "0392-porcupine.png"
+  },
+  {
+    "id": 393,
+    "category": "Animals",
+    "en": "Walrus",
+    "ko": "바다코끼리",
+    "image": "0393-walrus.png"
+  },
+  {
+    "id": 394,
+    "category": "Animals",
+    "en": "Seal",
+    "ko": "물개",
+    "image": "0394-seal.png"
+  },
+  {
+    "id": 395,
+    "category": "Animals",
+    "en": "Sea lion",
+    "ko": "바다사자",
+    "image": "0395-sea-lion.png"
+  },
+  {
+    "id": 396,
+    "category": "Animals",
+    "en": "Flamingo",
+    "ko": "플라밍고",
+    "image": "0396-flamingo.png"
+  },
+  {
+    "id": 397,
+    "category": "Animals",
+    "en": "Woodpecker",
+    "ko": "딱따구리",
+    "image": "0397-woodpecker.png"
+  },
+  {
+    "id": 398,
+    "category": "Animals",
+    "en": "Goose",
+    "ko": "거위",
+    "image": "0398-goose.png"
+  },
+  {
+    "id": 399,
+    "category": "Animals",
+    "en": "Turkey",
+    "ko": "칠면조",
+    "image": "0399-turkey.png"
+  },
+  {
+    "id": 400,
+    "category": "Animals",
+    "en": "Peahen",
+    "ko": "암공작",
+    "image": "0400-peahen.png"
+  }
+]

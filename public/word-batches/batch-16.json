@@ -1,0 +1,142 @@
+[
+  {
+    "id": 301,
+    "category": "Animals",
+    "en": "Dog",
+    "ko": "개",
+    "image": "0301-dog.png"
+  },
+  {
+    "id": 302,
+    "category": "Animals",
+    "en": "Cat",
+    "ko": "고양이",
+    "image": "0302-cat.png"
+  },
+  {
+    "id": 303,
+    "category": "Animals",
+    "en": "Cow",
+    "ko": "소",
+    "image": "0303-cow.png"
+  },
+  {
+    "id": 304,
+    "category": "Animals",
+    "en": "Pig",
+    "ko": "돼지",
+    "image": "0304-pig.png"
+  },
+  {
+    "id": 305,
+    "category": "Animals",
+    "en": "Horse",
+    "ko": "말",
+    "image": "0305-horse.png"
+  },
+  {
+    "id": 306,
+    "category": "Animals",
+    "en": "Sheep",
+    "ko": "양",
+    "image": "0306-sheep.png"
+  },
+  {
+    "id": 307,
+    "category": "Animals",
+    "en": "Goat",
+    "ko": "염소",
+    "image": "0307-goat.png"
+  },
+  {
+    "id": 308,
+    "category": "Animals",
+    "en": "Chicken",
+    "ko": "닭",
+    "image": "0308-chicken.png"
+  },
+  {
+    "id": 309,
+    "category": "Animals",
+    "en": "Duck",
+    "ko": "오리",
+    "image": "0309-duck.png"
+  },
+  {
+    "id": 310,
+    "category": "Animals",
+    "en": "Rabbit",
+    "ko": "토끼",
+    "image": "0310-rabbit.png"
+  },
+  {
+    "id": 311,
+    "category": "Animals",
+    "en": "Mouse",
+    "ko": "생쥐",
+    "image": "0311-mouse.png"
+  },
+  {
+    "id": 312,
+    "category": "Animals",
+    "en": "Rat",
+    "ko": "쥐",
+    "image": "0312-rat.png"
+  },
+  {
+    "id": 313,
+    "category": "Animals",
+    "en": "Tiger",
+    "ko": "호랑이",
+    "image": "0313-tiger.png"
+  },
+  {
+    "id": 314,
+    "category": "Animals",
+    "en": "Lion",
+    "ko": "사자",
+    "image": "0314-lion.png"
+  },
+  {
+    "id": 315,
+    "category": "Animals",
+    "en": "Elephant",
+    "ko": "코끼리",
+    "image": "0315-elephant.png"
+  },
+  {
+    "id": 316,
+    "category": "Animals",
+    "en": "Giraffe",
+    "ko": "기린",
+    "image": "0316-giraffe.png"
+  },
+  {
+    "id": 317,
+    "category": "Animals",
+    "en": "Zebra",
+    "ko": "얼룩말",
+    "image": "0317-zebra.png"
+  },
+  {
+    "id": 318,
+    "category": "Animals",
+    "en": "Monkey",
+    "ko": "원숭이",
+    "image": "0318-monkey.png"
+  },
+  {
+    "id": 319,
+    "category": "Animals",
+    "en": "Bear",
+    "ko": "곰",
+    "image": "0319-bear.png"
+  },
+  {
+    "id": 320,
+    "category": "Animals",
+    "en": "Wolf",
+    "ko": "늑대",
+    "image": "0320-wolf.png"
+  }
+]

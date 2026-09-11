@@ -1,0 +1,142 @@
+[
+  {
+    "id": 121,
+    "category": "Things",
+    "en": "Bag",
+    "ko": "가방",
+    "image": "0121-bag.png"
+  },
+  {
+    "id": 122,
+    "category": "Things",
+    "en": "Wallet",
+    "ko": "지갑",
+    "image": "0122-wallet.png"
+  },
+  {
+    "id": 123,
+    "category": "Things",
+    "en": "Glasses",
+    "ko": "안경",
+    "image": "0123-glasses.png"
+  },
+  {
+    "id": 124,
+    "category": "Things",
+    "en": "Watch",
+    "ko": "손목시계",
+    "image": "0124-watch.png"
+  },
+  {
+    "id": 125,
+    "category": "Things",
+    "en": "Ring",
+    "ko": "반지",
+    "image": "0125-ring.png"
+  },
+  {
+    "id": 126,
+    "category": "Things",
+    "en": "Necklace",
+    "ko": "목걸이",
+    "image": "0126-necklace.png"
+  },
+  {
+    "id": 127,
+    "category": "Things",
+    "en": "Comb",
+    "ko": "빗",
+    "image": "0127-comb.png"
+  },
+  {
+    "id": 128,
+    "category": "Things",
+    "en": "Toothbrush",
+    "ko": "칫솔",
+    "image": "0128-toothbrush.png"
+  },
+  {
+    "id": 129,
+    "category": "Things",
+    "en": "Towel",
+    "ko": "수건",
+    "image": "0129-towel.png"
+  },
+  {
+    "id": 130,
+    "category": "Things",
+    "en": "Soap",
+    "ko": "비누",
+    "image": "0130-soap.png"
+  },
+  {
+    "id": 131,
+    "category": "Things",
+    "en": "Blanket",
+    "ko": "담요",
+    "image": "0131-blanket.png"
+  },
+  {
+    "id": 132,
+    "category": "Things",
+    "en": "Pillow",
+    "ko": "베개",
+    "image": "0132-pillow.png"
+  },
+  {
+    "id": 133,
+    "category": "Things",
+    "en": "Cup",
+    "ko": "컵",
+    "image": "0133-cup.png"
+  },
+  {
+    "id": 134,
+    "category": "Things",
+    "en": "Plate",
+    "ko": "접시",
+    "image": "0134-plate.png"
+  },
+  {
+    "id": 135,
+    "category": "Things",
+    "en": "Bowl",
+    "ko": "그릇",
+    "image": "0135-bowl.png"
+  },
+  {
+    "id": 136,
+    "category": "Things",
+    "en": "Spoon",
+    "ko": "숟가락",
+    "image": "0136-spoon.png"
+  },
+  {
+    "id": 137,
+    "category": "Things",
+    "en": "Fork",
+    "ko": "포크",
+    "image": "0137-fork.png"
+  },
+  {
+    "id": 138,
+    "category": "Things",
+    "en": "Knife",
+    "ko": "칼",
+    "image": "0138-knife.png"
+  },
+  {
+    "id": 139,
+    "category": "Things",
+    "en": "Pot",
+    "ko": "냄비",
+    "image": "0139-pot.png"
+  },
+  {
+    "id": 140,
+    "category": "Things",
+    "en": "Pan",
+    "ko": "프라이팬",
+    "image": "0140-pan.png"
+  }
+]

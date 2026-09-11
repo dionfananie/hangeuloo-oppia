@@ -1,0 +1,142 @@
+[
+  {
+    "id": 401,
+    "category": "Plant",
+    "en": "Tree",
+    "ko": "나무",
+    "image": "0401-tree.png"
+  },
+  {
+    "id": 402,
+    "category": "Plant",
+    "en": "Flower",
+    "ko": "꽃",
+    "image": "0402-flower.png"
+  },
+  {
+    "id": 403,
+    "category": "Plant",
+    "en": "Grass",
+    "ko": "풀",
+    "image": "0403-grass.png"
+  },
+  {
+    "id": 404,
+    "category": "Plant",
+    "en": "Leaf",
+    "ko": "잎",
+    "image": "0404-leaf.png"
+  },
+  {
+    "id": 405,
+    "category": "Plant",
+    "en": "Root",
+    "ko": "뿌리",
+    "image": "0405-root.png"
+  },
+  {
+    "id": 406,
+    "category": "Plant",
+    "en": "Branch",
+    "ko": "가지",
+    "image": "0406-branch.png"
+  },
+  {
+    "id": 407,
+    "category": "Plant",
+    "en": "Seed",
+    "ko": "씨앗",
+    "image": "0407-seed.png"
+  },
+  {
+    "id": 408,
+    "category": "Plant",
+    "en": "Fruit",
+    "ko": "과일",
+    "image": "0408-fruit.png"
+  },
+  {
+    "id": 409,
+    "category": "Plant",
+    "en": "Vegetable",
+    "ko": "채소",
+    "image": "0409-vegetable.png"
+  },
+  {
+    "id": 410,
+    "category": "Plant",
+    "en": "Rose",
+    "ko": "장미",
+    "image": "0410-rose.png"
+  },
+  {
+    "id": 411,
+    "category": "Plant",
+    "en": "Tulip",
+    "ko": "튤립",
+    "image": "0411-tulip.png"
+  },
+  {
+    "id": 412,
+    "category": "Plant",
+    "en": "Sunflower",
+    "ko": "해바라기",
+    "image": "0412-sunflower.png"
+  },
+  {
+    "id": 413,
+    "category": "Plant",
+    "en": "Lily",
+    "ko": "백합",
+    "image": "0413-lily.png"
+  },
+  {
+    "id": 414,
+    "category": "Plant",
+    "en": "Daisy",
+    "ko": "데이지",
+    "image": "0414-daisy.png"
+  },
+  {
+    "id": 415,
+    "category": "Plant",
+    "en": "Orchid",
+    "ko": "난초",
+    "image": "0415-orchid.png"
+  },
+  {
+    "id": 416,
+    "category": "Plant",
+    "en": "Lotus",
+    "ko": "연꽃",
+    "image": "0416-lotus.png"
+  },
+  {
+    "id": 417,
+    "category": "Plant",
+    "en": "Cherry blossom",
+    "ko": "벚꽃",
+    "image": "0417-cherry-blossom.png"
+  },
+  {
+    "id": 418,
+    "category": "Plant",
+    "en": "Chrysanthemum",
+    "ko": "국화",
+    "image": "0418-chrysanthemum.png"
+  },
+  {
+    "id": 419,
+    "category": "Plant",
+    "en": "Carnation",
+    "ko": "카네이션",
+    "image": "0419-carnation.png"
+  },
+  {
+    "id": 420,
+    "category": "Plant",
+    "en": "Lavender",
+    "ko": "라벤더",
+    "image": "0420-lavender.png"
+  }
+]

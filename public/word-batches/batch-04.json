@@ -1,0 +1,142 @@
+[
+  {
+    "id": 61,
+    "category": "Food",
+    "en": "Mango",
+    "ko": "망고",
+    "image": "0061-mango.png"
+  },
+  {
+    "id": 62,
+    "category": "Food",
+    "en": "Pineapple",
+    "ko": "파인애플",
+    "image": "0062-pineapple.png"
+  },
+  {
+    "id": 63,
+    "category": "Food",
+    "en": "Lemon",
+    "ko": "레몬",
+    "image": "0063-lemon.png"
+  },
+  {
+    "id": 64,
+    "category": "Food",
+    "en": "Cherry",
+    "ko": "체리",
+    "image": "0064-cherry.png"
+  },
+  {
+    "id": 65,
+    "category": "Food",
+    "en": "Kiwi",
+    "ko": "키위",
+    "image": "0065-kiwi.png"
+  },
+  {
+    "id": 66,
+    "category": "Food",
+    "en": "Coconut",
+    "ko": "코코넛",
+    "image": "0066-coconut.png"
+  },
+  {
+    "id": 67,
+    "category": "Food",
+    "en": "Avocado",
+    "ko": "아보카도",
+    "image": "0067-avocado.png"
+  },
+  {
+    "id": 68,
+    "category": "Food",
+    "en": "Olive",
+    "ko": "올리브",
+    "image": "0068-olive.png"
+  },
+  {
+    "id": 69,
+    "category": "Food",
+    "en": "Butter",
+    "ko": "버터",
+    "image": "0069-butter.png"
+  },
+  {
+    "id": 70,
+    "category": "Food",
+    "en": "Yogurt",
+    "ko": "요거트",
+    "image": "0070-yogurt.png"
+  },
+  {
+    "id": 71,
+    "category": "Food",
+    "en": "Coffee",
+    "ko": "커피",
+    "image": "0071-coffee.png"
+  },
+  {
+    "id": 72,
+    "category": "Food",
+    "en": "Tea",
+    "ko": "차",
+    "image": "0072-tea.png"
+  },
+  {
+    "id": 73,
+    "category": "Food",
+    "en": "Juice",
+    "ko": "주스",
+    "image": "0073-juice.png"
+  },
+  {
+    "id": 74,
+    "category": "Food",
+    "en": "Water",
+    "ko": "물",
+    "image": "0074-water.png"
+  },
+  {
+    "id": 75,
+    "category": "Food",
+    "en": "Wine",
+    "ko": "와인",
+    "image": "0075-wine.png"
+  },
+  {
+    "id": 76,
+    "category": "Food",
+    "en": "Beer",
+    "ko": "맥주",
+    "image": "0076-beer.png"
+  },
+  {
+    "id": 77,
+    "category": "Food",
+    "en": "Soda",
+    "ko": "탄산음료",
+    "image": "0077-soda.png"
+  },
+  {
+    "id": 78,
+    "category": "Food",
+    "en": "Fried rice",
+    "ko": "볶음밥",
+    "image": "0078-fried-rice.png"
+  },
+  {
+    "id": 79,
+    "category": "Food",
+    "en": "Grilled meat",
+    "ko": "고기구이",
+    "image": "0079-grilled-meat.png"
+  },
+  {
+    "id": 80,
+    "category": "Food",
+    "en": "Steak",
+    "ko": "스테이크",
+    "image": "0080-steak.png"
+  }
+]

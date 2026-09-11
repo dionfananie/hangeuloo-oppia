@@ -1,0 +1,142 @@
+[
+  {
+    "id": 441,
+    "category": "Plant",
+    "en": "Daffodil",
+    "ko": "수선화",
+    "image": "0441-daffodil.png"
+  },
+  {
+    "id": 442,
+    "category": "Plant",
+    "en": "Peony",
+    "ko": "작약",
+    "image": "0442-peony.png"
+  },
+  {
+    "id": 443,
+    "category": "Plant",
+    "en": "Azalea",
+    "ko": "진달래",
+    "image": "0443-azalea.png"
+  },
+  {
+    "id": 444,
+    "category": "Plant",
+    "en": "Camellia",
+    "ko": "동백꽃",
+    "image": "0444-camellia.png"
+  },
+  {
+    "id": 445,
+    "category": "Plant",
+    "en": "Wisteria",
+    "ko": "등나무",
+    "image": "0445-wisteria.png"
+  },
+  {
+    "id": 446,
+    "category": "Plant",
+    "en": "Morning glory",
+    "ko": "나팔꽃",
+    "image": "0446-morning-glory.png"
+  },
+  {
+    "id": 447,
+    "category": "Plant",
+    "en": "Wheat",
+    "ko": "밀",
+    "image": "0447-wheat.png"
+  },
+  {
+    "id": 448,
+    "category": "Plant",
+    "en": "Rice plant",
+    "ko": "벼",
+    "image": "0448-rice-plant.png"
+  },
+  {
+    "id": 449,
+    "category": "Plant",
+    "en": "Corn plant",
+    "ko": "옥수수",
+    "image": "0449-corn-plant.png"
+  },
+  {
+    "id": 450,
+    "category": "Plant",
+    "en": "Barley",
+    "ko": "보리",
+    "image": "0450-barley.png"
+  },
+  {
+    "id": 451,
+    "category": "Plant",
+    "en": "Soybean",
+    "ko": "콩",
+    "image": "0451-soybean.png"
+  },
+  {
+    "id": 452,
+    "category": "Plant",
+    "en": "Cabbage plant",
+    "ko": "양배추",
+    "image": "0452-cabbage-plant.png"
+  },
+  {
+    "id": 453,
+    "category": "Plant",
+    "en": "Lettuce plant",
+    "ko": "상추",
+    "image": "0453-lettuce-plant.png"
+  },
+  {
+    "id": 454,
+    "category": "Plant",
+    "en": "Spinach plant",
+    "ko": "시금치",
+    "image": "0454-spinach-plant.png"
+  },
+  {
+    "id": 455,
+    "category": "Plant",
+    "en": "Carrot plant",
+    "ko": "당근",
+    "image": "0455-carrot-plant.png"
+  },
+  {
+    "id": 456,
+    "category": "Plant",
+    "en": "Potato plant",
+    "ko": "감자",
+    "image": "0456-potato-plant.png"
+  },
+  {
+    "id": 457,
+    "category": "Plant",
+    "en": "Onion plant",
+    "ko": "양파",
+    "image": "0457-onion-plant.png"
+  },
+  {
+    "id": 458,
+    "category": "Plant",
+    "en": "Garlic plant",
+    "ko": "마늘",
+    "image": "0458-garlic-plant.png"
+  },
+  {
+    "id": 459,
+    "category": "Plant",
+    "en": "Tomato plant",
+    "ko": "토마토",
+    "image": "0459-tomato-plant.png"
+  },
+  {
+    "id": 460,
+    "category": "Plant",
+    "en": "Pepper plant",
+    "ko": "고추",
+    "image": "0460-pepper-plant.png"
+  }
+]

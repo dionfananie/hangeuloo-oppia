@@ -1,0 +1,142 @@
+[
+  {
+    "id": 321,
+    "category": "Animals",
+    "en": "Fox",
+    "ko": "여우",
+    "image": "0321-fox.png"
+  },
+  {
+    "id": 322,
+    "category": "Animals",
+    "en": "Deer",
+    "ko": "사슴",
+    "image": "0322-deer.png"
+  },
+  {
+    "id": 323,
+    "category": "Animals",
+    "en": "Squirrel",
+    "ko": "다람쥐",
+    "image": "0323-squirrel.png"
+  },
+  {
+    "id": 324,
+    "category": "Animals",
+    "en": "Hedgehog",
+    "ko": "고슴도치",
+    "image": "0324-hedgehog.png"
+  },
+  {
+    "id": 325,
+    "category": "Animals",
+    "en": "Bat",
+    "ko": "박쥐",
+    "image": "0325-bat.png"
+  },
+  {
+    "id": 326,
+    "category": "Animals",
+    "en": "Kangaroo",
+    "ko": "캥거루",
+    "image": "0326-kangaroo.png"
+  },
+  {
+    "id": 327,
+    "category": "Animals",
+    "en": "Koala",
+    "ko": "코알라",
+    "image": "0327-koala.png"
+  },
+  {
+    "id": 328,
+    "category": "Animals",
+    "en": "Panda",
+    "ko": "판다",
+    "image": "0328-panda.png"
+  },
+  {
+    "id": 329,
+    "category": "Animals",
+    "en": "Camel",
+    "ko": "낙타",
+    "image": "0329-camel.png"
+  },
+  {
+    "id": 330,
+    "category": "Animals",
+    "en": "Hippopotamus",
+    "ko": "하마",
+    "image": "0330-hippopotamus.png"
+  },
+  {
+    "id": 331,
+    "category": "Animals",
+    "en": "Rhinoceros",
+    "ko": "코뿔소",
+    "image": "0331-rhinoceros.png"
+  },
+  {
+    "id": 332,
+    "category": "Animals",
+    "en": "Crocodile",
+    "ko": "악어",
+    "image": "0332-crocodile.png"
+  },
+  {
+    "id": 333,
+    "category": "Animals",
+    "en": "Alligator",
+    "ko": "앨리게이터",
+    "image": "0333-alligator.png"
+  },
+  {
+    "id": 334,
+    "category": "Animals",
+    "en": "Snake",
+    "ko": "뱀",
+    "image": "0334-snake.png"
+  },
+  {
+    "id": 335,
+    "category": "Animals",
+    "en": "Lizard",
+    "ko": "도마뱀",
+    "image": "0335-lizard.png"
+  },
+  {
+    "id": 336,
+    "category": "Animals",
+    "en": "Turtle",
+    "ko": "거북이",
+    "image": "0336-turtle.png"
+  },
+  {
+    "id": 337,
+    "category": "Animals",
+    "en": "Frog",
+    "ko": "개구리",
+    "image": "0337-frog.png"
+  },
+  {
+    "id": 338,
+    "category": "Animals",
+    "en": "Toad",
+    "ko": "두꺼비",
+    "image": "0338-toad.png"
+  },
+  {
+    "id": 339,
+    "category": "Animals",
+    "en": "Shark",
+    "ko": "상어",
+    "image": "0339-shark.png"
+  },
+  {
+    "id": 340,
+    "category": "Animals",
+    "en": "Whale",
+    "ko": "고래",
+    "image": "0340-whale.png"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 281,
+    "category": "Siblings/People",
+    "en": "Sister-in-law",
+    "ko": "올케",
+    "image": "0281-sister-in-law.png"
+  },
+  {
+    "id": 282,
+    "category": "Siblings/People",
+    "en": "Father-in-law",
+    "ko": "시아버지",
+    "image": "0282-father-in-law.png"
+  },
+  {
+    "id": 283,
+    "category": "Siblings/People",
+    "en": "Mother-in-law",
+    "ko": "시어머니",
+    "image": "0283-mother-in-law.png"
+  },
+  {
+    "id": 284,
+    "category": "Siblings/People",
+    "en": "Stepfather",
+    "ko": "새아버지",
+    "image": "0284-stepfather.png"
+  },
+  {
+    "id": 285,
+    "category": "Siblings/People",
+    "en": "Stepmother",
+    "ko": "새어머니",
+    "image": "0285-stepmother.png"
+  },
+  {
+    "id": 286,
+    "category": "Siblings/People",
+    "en": "Stepbrother",
+    "ko": "이복형제",
+    "image": "0286-stepbrother.png"
+  },
+  {
+    "id": 287,
+    "category": "Siblings/People",
+    "en": "Stepsister",
+    "ko": "이복자매",
+    "image": "0287-stepsister.png"
+  },
+  {
+    "id": 288,
+    "category": "Siblings/People",
+    "en": "Godfather",
+    "ko": "대부",
+    "image": "0288-godfather.png"
+  },
+  {
+    "id": 289,
+    "category": "Siblings/People",
+    "en": "Godmother",
+    "ko": "대모",
+    "image": "0289-godmother.png"
+  },
+  {
+    "id": 290,
+    "category": "Siblings/People",
+    "en": "Boyfriend",
+    "ko": "남자친구",
+    "image": "0290-boyfriend.png"
+  },
+  {
+    "id": 291,
+    "category": "Siblings/People",
+    "en": "Girlfriend",
+    "ko": "여자친구",
+    "image": "0291-girlfriend.png"
+  },
+  {
+    "id": 292,
+    "category": "Siblings/People",
+    "en": "Fiancé",
+    "ko": "약혼자",
+    "image": "0292-fiance.png"
+  },
+  {
+    "id": 293,
+    "category": "Siblings/People",
+    "en": "Fiancée",
+    "ko": "약혼녀",
+    "image": "0293-fiancee.png"
+  },
+  {
+    "id": 294,
+    "category": "Siblings/People",
+    "en": "Roommate",
+    "ko": "룸메이트",
+    "image": "0294-roommate.png"
+  },
+  {
+    "id": 295,
+    "category": "Siblings/People",
+    "en": "Colleague",
+    "ko": "동료",
+    "image": "0295-colleague.png"
+  },
+  {
+    "id": 296,
+    "category": "Siblings/People",
+    "en": "Mentor",
+    "ko": "멘토",
+    "image": "0296-mentor.png"
+  },
+  {
+    "id": 297,
+    "category": "Siblings/People",
+    "en": "Elder",
+    "ko": "어르신",
+    "image": "0297-elder.png"
+  },
+  {
+    "id": 298,
+    "category": "Siblings/People",
+    "en": "Teenager",
+    "ko": "십대",
+    "image": "0298-teenager.png"
+  },
+  {
+    "id": 299,
+    "category": "Siblings/People",
+    "en": "Toddler",
+    "ko": "유아",
+    "image": "0299-toddler.png"
+  },
+  {
+    "id": 300,
+    "category": "Siblings/People",
+    "en": "Newborn",
+    "ko": "신생아",
+    "image": "0300-newborn.png"
+  }
+]

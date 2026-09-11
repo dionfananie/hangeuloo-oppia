@@ -1,0 +1,121 @@
+[
+  {
+    "id": 24,
+    "category": "Food",
+    "en": "Sandwich",
+    "ko": "샌드위치",
+    "image": "0024-sandwich.png"
+  },
+  {
+    "id": 25,
+    "category": "Food",
+    "en": "Salad",
+    "ko": "샐러드",
+    "image": "0025-salad.png"
+  },
+  {
+    "id": 26,
+    "category": "Food",
+    "en": "Sushi",
+    "ko": "초밥",
+    "image": "0026-sushi.png"
+  },
+  {
+    "id": 27,
+    "category": "Food",
+    "en": "Ramen",
+    "ko": "라면",
+    "image": "0027-ramen.png"
+  },
+  {
+    "id": 28,
+    "category": "Food",
+    "en": "Curry",
+    "ko": "카레",
+    "image": "0028-curry.png"
+  },
+  {
+    "id": 29,
+    "category": "Food",
+    "en": "Pasta",
+    "ko": "파스타",
+    "image": "0029-pasta.png"
+  },
+  {
+    "id": 30,
+    "category": "Food",
+    "en": "Spaghetti",
+    "ko": "스파게티",
+    "image": "0030-spaghetti.png"
+  },
+  {
+    "id": 31,
+    "category": "Food",
+    "en": "Cake",
+    "ko": "케이크",
+    "image": "0031-cake.png"
+  },
+  {
+    "id": 32,
+    "category": "Food",
+    "en": "Cookie",
+    "ko": "쿠키",
+    "image": "0032-cookie.png"
+  },
+  {
+    "id": 33,
+    "category": "Food",
+    "en": "Chocolate",
+    "ko": "초콜릿",
+    "image": "0033-chocolate.png"
+  },
+  {
+    "id": 34,
+    "category": "Food",
+    "en": "Candy",
+    "ko": "사탕",
+    "image": "0034-candy.png"
+  },
+  {
+    "id": 35,
+    "category": "Food",
+    "en": "Ice cream",
+    "ko": "아이스크림",
+    "image": "0035-ice-cream.png"
+  },
+  {
+    "id": 36,
+    "category": "Food",
+    "en": "Honey",
+    "ko": "꿀",
+    "image": "0036-honey.png"
+  },
+  {
+    "id": 37,
+    "category": "Food",
+    "en": "Sugar",
+    "ko": "설탕",
+    "image": "0037-sugar.png"
+  },
+  {
+    "id": 38,
+    "category": "Food",
+    "en": "Salt",
+    "ko": "소금",
+    "image": "0038-salt.png"
+  },
+  {
+    "id": 39,
+    "category": "Food",
+    "en": "Pepper",
+    "ko": "후추",
+    "image": "0039-pepper.png"
+  },
+  {
+    "id": 40,
+    "category": "Food",
+    "en": "Garlic",
+    "ko": "마늘",
+    "image": "0040-garlic.png"
+  }
+]

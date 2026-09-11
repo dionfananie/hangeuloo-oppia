@@ -1,0 +1,142 @@
+[
+  {
+    "id": 481,
+    "category": "Plant",
+    "en": "Cotton plant",
+    "ko": "목화",
+    "image": "0481-cotton-plant.png"
+  },
+  {
+    "id": 482,
+    "category": "Plant",
+    "en": "Sugarcane",
+    "ko": "사탕수수",
+    "image": "0482-sugarcane.png"
+  },
+  {
+    "id": 483,
+    "category": "Plant",
+    "en": "Tobacco plant",
+    "ko": "담배",
+    "image": "0483-tobacco-plant.png"
+  },
+  {
+    "id": 484,
+    "category": "Plant",
+    "en": "Tea plant",
+    "ko": "차나무",
+    "image": "0484-tea-plant.png"
+  },
+  {
+    "id": 485,
+    "category": "Plant",
+    "en": "Coffee plant",
+    "ko": "커피나무",
+    "image": "0485-coffee-plant.png"
+  },
+  {
+    "id": 486,
+    "category": "Plant",
+    "en": "Mint",
+    "ko": "민트",
+    "image": "0486-mint.png"
+  },
+  {
+    "id": 487,
+    "category": "Plant",
+    "en": "Basil",
+    "ko": "바질",
+    "image": "0487-basil.png"
+  },
+  {
+    "id": 488,
+    "category": "Plant",
+    "en": "Thyme",
+    "ko": "타임",
+    "image": "0488-thyme.png"
+  },
+  {
+    "id": 489,
+    "category": "Plant",
+    "en": "Rosemary",
+    "ko": "로즈마리",
+    "image": "0489-rosemary.png"
+  },
+  {
+    "id": 490,
+    "category": "Plant",
+    "en": "Sage",
+    "ko": "세이지",
+    "image": "0490-sage.png"
+  },
+  {
+    "id": 491,
+    "category": "Plant",
+    "en": "Parsley",
+    "ko": "파슬리",
+    "image": "0491-parsley.png"
+  },
+  {
+    "id": 492,
+    "category": "Plant",
+    "en": "Cilantro",
+    "ko": "고수",
+    "image": "0492-cilantro.png"
+  },
+  {
+    "id": 493,
+    "category": "Plant",
+    "en": "Dill",
+    "ko": "딜",
+    "image": "0493-dill.png"
+  },
+  {
+    "id": 494,
+    "category": "Plant",
+    "en": "Chives",
+    "ko": "부추",
+    "image": "0494-chives.png"
+  },
+  {
+    "id": 495,
+    "category": "Plant",
+    "en": "Aloe vera",
+    "ko": "알로에",
+    "image": "0495-aloe-vera.png"
+  },
+  {
+    "id": 496,
+    "category": "Plant",
+    "en": "Succulent",
+    "ko": "다육식물",
+    "image": "0496-succulent.png"
+  },
+  {
+    "id": 497,
+    "category": "Plant",
+    "en": "Reed",
+    "ko": "갈대",
+    "image": "0497-reed.png"
+  },
+  {
+    "id": 498,
+    "category": "Plant",
+    "en": "Thistle",
+    "ko": "엉겅퀴",
+    "image": "0498-thistle.png"
+  },
+  {
+    "id": 499,
+    "category": "Plant",
+    "en": "Water lily",
+    "ko": "수련",
+    "image": "0499-water-lily.png"
+  },
+  {
+    "id": 500,
+    "category": "Plant",
+    "en": "Sequoia",
+    "ko": "세쿼이아",
+    "image": "0500-sequoia.png"
+  }
+]

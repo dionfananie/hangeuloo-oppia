@@ -1,0 +1,142 @@
+[
+  {
+    "id": 221,
+    "category": "Siblings/People",
+    "en": "Doctor",
+    "ko": "의사",
+    "image": "0221-doctor.png"
+  },
+  {
+    "id": 222,
+    "category": "Siblings/People",
+    "en": "Nurse",
+    "ko": "간호사",
+    "image": "0222-nurse.png"
+  },
+  {
+    "id": 223,
+    "category": "Siblings/People",
+    "en": "Police officer",
+    "ko": "경찰관",
+    "image": "0223-police-officer.png"
+  },
+  {
+    "id": 224,
+    "category": "Siblings/People",
+    "en": "Firefighter",
+    "ko": "소방관",
+    "image": "0224-firefighter.png"
+  },
+  {
+    "id": 225,
+    "category": "Siblings/People",
+    "en": "Farmer",
+    "ko": "농부",
+    "image": "0225-farmer.png"
+  },
+  {
+    "id": 226,
+    "category": "Siblings/People",
+    "en": "Chef",
+    "ko": "요리사",
+    "image": "0226-chef.png"
+  },
+  {
+    "id": 227,
+    "category": "Siblings/People",
+    "en": "Singer",
+    "ko": "가수",
+    "image": "0227-singer.png"
+  },
+  {
+    "id": 228,
+    "category": "Siblings/People",
+    "en": "Actor",
+    "ko": "배우",
+    "image": "0228-actor.png"
+  },
+  {
+    "id": 229,
+    "category": "Siblings/People",
+    "en": "Dancer",
+    "ko": "무용수",
+    "image": "0229-dancer.png"
+  },
+  {
+    "id": 230,
+    "category": "Siblings/People",
+    "en": "Artist",
+    "ko": "예술가",
+    "image": "0230-artist.png"
+  },
+  {
+    "id": 231,
+    "category": "Siblings/People",
+    "en": "Writer",
+    "ko": "작가",
+    "image": "0231-writer.png"
+  },
+  {
+    "id": 232,
+    "category": "Siblings/People",
+    "en": "Scientist",
+    "ko": "과학자",
+    "image": "0232-scientist.png"
+  },
+  {
+    "id": 233,
+    "category": "Siblings/People",
+    "en": "Engineer",
+    "ko": "엔지니어",
+    "image": "0233-engineer.png"
+  },
+  {
+    "id": 234,
+    "category": "Siblings/People",
+    "en": "Driver",
+    "ko": "운전사",
+    "image": "0234-driver.png"
+  },
+  {
+    "id": 235,
+    "category": "Siblings/People",
+    "en": "Pilot",
+    "ko": "조종사",
+    "image": "0235-pilot.png"
+  },
+  {
+    "id": 236,
+    "category": "Siblings/People",
+    "en": "Soldier",
+    "ko": "군인",
+    "image": "0236-soldier.png"
+  },
+  {
+    "id": 237,
+    "category": "Siblings/People",
+    "en": "President",
+    "ko": "대통령",
+    "image": "0237-president.png"
+  },
+  {
+    "id": 238,
+    "category": "Siblings/People",
+    "en": "King",
+    "ko": "왕",
+    "image": "0238-king.png"
+  },
+  {
+    "id": 239,
+    "category": "Siblings/People",
+    "en": "Queen",
+    "ko": "여왕",
+    "image": "0239-queen.png"
+  },
+  {
+    "id": 240,
+    "category": "Siblings/People",
+    "en": "Prince",
+    "ko": "왕자",
+    "image": "0240-prince.png"
+  }
+]

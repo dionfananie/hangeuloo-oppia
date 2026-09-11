@@ -1,0 +1,142 @@
+[
+  {
+    "id": 241,
+    "category": "Siblings/People",
+    "en": "Princess",
+    "ko": "공주",
+    "image": "0241-princess.png"
+  },
+  {
+    "id": 242,
+    "category": "Siblings/People",
+    "en": "Baker",
+    "ko": "제빵사",
+    "image": "0242-baker.png"
+  },
+  {
+    "id": 243,
+    "category": "Siblings/People",
+    "en": "Barber",
+    "ko": "이발사",
+    "image": "0243-barber.png"
+  },
+  {
+    "id": 244,
+    "category": "Siblings/People",
+    "en": "Tailor",
+    "ko": "재단사",
+    "image": "0244-tailor.png"
+  },
+  {
+    "id": 245,
+    "category": "Siblings/People",
+    "en": "Fisherman",
+    "ko": "어부",
+    "image": "0245-fisherman.png"
+  },
+  {
+    "id": 246,
+    "category": "Siblings/People",
+    "en": "Photographer",
+    "ko": "사진작가",
+    "image": "0246-photographer.png"
+  },
+  {
+    "id": 247,
+    "category": "Siblings/People",
+    "en": "Athlete",
+    "ko": "운동선수",
+    "image": "0247-athlete.png"
+  },
+  {
+    "id": 248,
+    "category": "Siblings/People",
+    "en": "Coach",
+    "ko": "코치",
+    "image": "0248-coach.png"
+  },
+  {
+    "id": 249,
+    "category": "Siblings/People",
+    "en": "Lawyer",
+    "ko": "변호사",
+    "image": "0249-lawyer.png"
+  },
+  {
+    "id": 250,
+    "category": "Siblings/People",
+    "en": "Judge",
+    "ko": "판사",
+    "image": "0250-judge.png"
+  },
+  {
+    "id": 251,
+    "category": "Siblings/People",
+    "en": "Priest",
+    "ko": "신부",
+    "image": "0251-priest.png"
+  },
+  {
+    "id": 252,
+    "category": "Siblings/People",
+    "en": "Monk",
+    "ko": "스님",
+    "image": "0252-monk.png"
+  },
+  {
+    "id": 253,
+    "category": "Siblings/People",
+    "en": "Nun",
+    "ko": "수녀",
+    "image": "0253-nun.png"
+  },
+  {
+    "id": 254,
+    "category": "Siblings/People",
+    "en": "Waiter",
+    "ko": "웨이터",
+    "image": "0254-waiter.png"
+  },
+  {
+    "id": 255,
+    "category": "Siblings/People",
+    "en": "Waitress",
+    "ko": "웨이트리스",
+    "image": "0255-waitress.png"
+  },
+  {
+    "id": 256,
+    "category": "Siblings/People",
+    "en": "Cashier",
+    "ko": "계산원",
+    "image": "0256-cashier.png"
+  },
+  {
+    "id": 257,
+    "category": "Siblings/People",
+    "en": "Cleaner",
+    "ko": "청소부",
+    "image": "0257-cleaner.png"
+  },
+  {
+    "id": 258,
+    "category": "Siblings/People",
+    "en": "Guard",
+    "ko": "경비원",
+    "image": "0258-guard.png"
+  },
+  {
+    "id": 259,
+    "category": "Siblings/People",
+    "en": "Postman",
+    "ko": "우체부",
+    "image": "0259-postman.png"
+  },
+  {
+    "id": 260,
+    "category": "Siblings/People",
+    "en": "Vet",
+    "ko": "수의사",
+    "image": "0260-vet.png"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 201,
+    "category": "Siblings/People",
+    "en": "Mother",
+    "ko": "어머니",
+    "image": "0201-mother.png"
+  },
+  {
+    "id": 202,
+    "category": "Siblings/People",
+    "en": "Father",
+    "ko": "아버지",
+    "image": "0202-father.png"
+  },
+  {
+    "id": 203,
+    "category": "Siblings/People",
+    "en": "Older brother",
+    "ko": "형",
+    "image": "0203-older-brother.png"
+  },
+  {
+    "id": 204,
+    "category": "Siblings/People",
+    "en": "Younger brother",
+    "ko": "남동생",
+    "image": "0204-younger-brother.png"
+  },
+  {
+    "id": 205,
+    "category": "Siblings/People",
+    "en": "Older sister",
+    "ko": "누나",
+    "image": "0205-older-sister.png"
+  },
+  {
+    "id": 206,
+    "category": "Siblings/People",
+    "en": "Younger sister",
+    "ko": "여동생",
+    "image": "0206-younger-sister.png"
+  },
+  {
+    "id": 207,
+    "category": "Siblings/People",
+    "en": "Grandmother",
+    "ko": "할머니",
+    "image": "0207-grandmother.png"
+  },
+  {
+    "id": 208,
+    "category": "Siblings/People",
+    "en": "Grandfather",
+    "ko": "할아버지",
+    "image": "0208-grandfather.png"
+  },
+  {
+    "id": 209,
+    "category": "Siblings/People",
+    "en": "Aunt",
+    "ko": "이모",
+    "image": "0209-aunt.png"
+  },
+  {
+    "id": 210,
+    "category": "Siblings/People",
+    "en": "Uncle",
+    "ko": "삼촌",
+    "image": "0210-uncle.png"
+  },
+  {
+    "id": 211,
+    "category": "Siblings/People",
+    "en": "Cousin",
+    "ko": "사촌",
+    "image": "0211-cousin.png"
+  },
+  {
+    "id": 212,
+    "category": "Siblings/People",
+    "en": "Son",
+    "ko": "아들",
+    "image": "0212-son.png"
+  },
+  {
+    "id": 213,
+    "category": "Siblings/People",
+    "en": "Daughter",
+    "ko": "딸",
+    "image": "0213-daughter.png"
+  },
+  {
+    "id": 214,
+    "category": "Siblings/People",
+    "en": "Husband",
+    "ko": "남편",
+    "image": "0214-husband.png"
+  },
+  {
+    "id": 215,
+    "category": "Siblings/People",
+    "en": "Wife",
+    "ko": "아내",
+    "image": "0215-wife.png"
+  },
+  {
+    "id": 216,
+    "category": "Siblings/People",
+    "en": "Baby",
+    "ko": "아기",
+    "image": "0216-baby.png"
+  },
+  {
+    "id": 217,
+    "category": "Siblings/People",
+    "en": "Child",
+    "ko": "아이",
+    "image": "0217-child.png"
+  },
+  {
+    "id": 218,
+    "category": "Siblings/People",
+    "en": "Friend",
+    "ko": "친구",
+    "image": "0218-friend.png"
+  },
+  {
+    "id": 219,
+    "category": "Siblings/People",
+    "en": "Teacher",
+    "ko": "선생님",
+    "image": "0219-teacher.png"
+  },
+  {
+    "id": 220,
+    "category": "Siblings/People",
+    "en": "Student",
+    "ko": "학생",
+    "image": "0220-student.png"
+  }
+]

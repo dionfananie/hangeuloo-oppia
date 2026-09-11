@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "category": "Food",
+    "en": "Rice",
+    "ko": "밥",
+    "image": "0001-rice.png"
+  },
+  {
+    "id": 2,
+    "category": "Food",
+    "en": "Noodles",
+    "ko": "국수",
+    "image": "0002-noodles.png"
+  },
+  {
+    "id": 3,
+    "category": "Food",
+    "en": "Soup",
+    "ko": "국",
+    "image": "0003-soup.png"
+  },
+  {
+    "id": 4,
+    "category": "Food",
+    "en": "Apple",
+    "ko": "사과",
+    "image": "0004-apple.png"
+  },
+  {
+    "id": 5,
+    "category": "Food",
+    "en": "Banana",
+    "ko": "바나나",
+    "image": "0005-banana.png"
+  },
+  {
+    "id": 6,
+    "category": "Food",
+    "en": "Orange",
+    "ko": "오렌지",
+    "image": "0006-orange.png"
+  },
+  {
+    "id": 7,
+    "category": "Food",
+    "en": "Bread",
+    "ko": "빵",
+    "image": "0007-bread.png"
+  },
+  {
+    "id": 8,
+    "category": "Food",
+    "en": "Egg",
+    "ko": "계란",
+    "image": "0008-egg.png"
+  },
+  {
+    "id": 9,
+    "category": "Food",
+    "en": "Milk",
+    "ko": "우유",
+    "image": "0009-milk.png"
+  },
+  {
+    "id": 10,
+    "category": "Food",
+    "en": "Cheese",
+    "ko": "치즈",
+    "image": "0010-cheese.png"
+  },
+  {
+    "id": 11,
+    "category": "Food",
+    "en": "Fish",
+    "ko": "생선",
+    "image": "0011-fish.png"
+  },
+  {
+    "id": 12,
+    "category": "Food",
+    "en": "Chicken",
+    "ko": "닭고기",
+    "image": "0012-chicken.png"
+  },
+  {
+    "id": 13,
+    "category": "Food",
+    "en": "Beef",
+    "ko": "소고기",
+    "image": "0013-beef.png"
+  },
+  {
+    "id": 14,
+    "category": "Food",
+    "en": "Beef",
+    "ko": "소고기",
+    "image": "0014-beef.png"
+  },
+  {
+    "id": 15,
+    "category": "Food",
+    "en": "Shrimp",
+    "ko": "새우",
+    "image": "0015-shrimp.png"
+  },
+  {
+    "id": 16,
+    "category": "Food",
+    "en": "Crab",
+    "ko": "게",
+    "image": "0016-crab.png"
+  },
+  {
+    "id": 17,
+    "category": "Food",
+    "en": "Kimchi",
+    "ko": "김치",
+    "image": "0017-kimchi.png"
+  },
+  {
+    "id": 18,
+    "category": "Food",
+    "en": "Tofu",
+    "ko": "두부",
+    "image": "0018-tofu.png"
+  },
+  {
+    "id": 19,
+    "category": "Food",
+    "en": "Rice cake",
+    "ko": "떡",
+    "image": "0019-rice-cake.png"
+  },
+  {
+    "id": 20,
+    "category": "Food",
+    "en": "Dumpling",
+    "ko": "만두",
+    "image": "0020-dumpling.png"
+  },
+  {
+    "id": 21,
+    "category": "Food",
+    "en": "Pancake",
+    "ko": "팬케이크",
+    "image": "0021-pancake.png"
+  },
+  {
+    "id": 22,
+    "category": "Food",
+    "en": "Pizza",
+    "ko": "피자",
+    "image": "0022-pizza.png"
+  },
+  {
+    "id": 23,
+    "category": "Food",
+    "en": "Hamburger",
+    "ko": "햄버거",
+    "image": "0023-hamburger.png"
+  }
+]

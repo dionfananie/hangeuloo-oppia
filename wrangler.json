@@ -3,7 +3,9 @@
 	"name": "hangeuloo-oppia",
 	"main": "./build/server/static/js/app.js",
 	"compatibility_date": "2025-10-08",
-	"compatibility_flags": ["nodejs_compat"],
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
 	"observability": {
 		"enabled": true
 	},
@@ -30,5 +32,12 @@
 	],
 	"vars": {
 		"VALUE_FROM_CLOUDFLARE": "Hello from Cloudflare"
-	}
+	},
+	"r2_buckets": [
+		{
+			"bucket_name": "oppia-world-assets",
+			"binding": "oppia_world_assets",
+			"remote": true
+		}
+	]
 }

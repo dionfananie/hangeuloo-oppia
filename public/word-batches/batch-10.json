@@ -1,0 +1,142 @@
+[
+  {
+    "id": 181,
+    "category": "Things",
+    "en": "Letter",
+    "ko": "편지",
+    "image": "0181-letter.png"
+  },
+  {
+    "id": 182,
+    "category": "Things",
+    "en": "Card",
+    "ko": "카드",
+    "image": "0182-card.png"
+  },
+  {
+    "id": 183,
+    "category": "Things",
+    "en": "Gift",
+    "ko": "선물",
+    "image": "0183-gift.png"
+  },
+  {
+    "id": 184,
+    "category": "Things",
+    "en": "Balloon",
+    "ko": "풍선",
+    "image": "0184-balloon.png"
+  },
+  {
+    "id": 185,
+    "category": "Things",
+    "en": "Flag",
+    "ko": "깃발",
+    "image": "0185-flag.png"
+  },
+  {
+    "id": 186,
+    "category": "Things",
+    "en": "Vase",
+    "ko": "꽃병",
+    "image": "0186-vase.png"
+  },
+  {
+    "id": 187,
+    "category": "Things",
+    "en": "Curtain",
+    "ko": "커튼",
+    "image": "0187-curtain.png"
+  },
+  {
+    "id": 188,
+    "category": "Things",
+    "en": "Carpet",
+    "ko": "카펫",
+    "image": "0188-carpet.png"
+  },
+  {
+    "id": 189,
+    "category": "Things",
+    "en": "Sofa",
+    "ko": "소파",
+    "image": "0189-sofa.png"
+  },
+  {
+    "id": 190,
+    "category": "Things",
+    "en": "Shelf",
+    "ko": "선반",
+    "image": "0190-shelf.png"
+  },
+  {
+    "id": 191,
+    "category": "Things",
+    "en": "Cabinet",
+    "ko": "캐비닛",
+    "image": "0191-cabinet.png"
+  },
+  {
+    "id": 192,
+    "category": "Things",
+    "en": "Drawer",
+    "ko": "서랍",
+    "image": "0192-drawer.png"
+  },
+  {
+    "id": 193,
+    "category": "Things",
+    "en": "Trash can",
+    "ko": "쓰레기통",
+    "image": "0193-trash-can.png"
+  },
+  {
+    "id": 194,
+    "category": "Things",
+    "en": "Bicycle",
+    "ko": "자전거",
+    "image": "0194-bicycle.png"
+  },
+  {
+    "id": 195,
+    "category": "Things",
+    "en": "Car",
+    "ko": "자동차",
+    "image": "0195-car.png"
+  },
+  {
+    "id": 196,
+    "category": "Things",
+    "en": "Bus",
+    "ko": "버스",
+    "image": "0196-bus.png"
+  },
+  {
+    "id": 197,
+    "category": "Things",
+    "en": "Train",
+    "ko": "기차",
+    "image": "0197-train.png"
+  },
+  {
+    "id": 198,
+    "category": "Things",
+    "en": "Airplane",
+    "ko": "비행기",
+    "image": "0198-airplane.png"
+  },
+  {
+    "id": 199,
+    "category": "Things",
+    "en": "Boat",
+    "ko": "배",
+    "image": "0199-boat.png"
+  },
+  {
+    "id": 200,
+    "category": "Things",
+    "en": "Ship",
+    "ko": "선박",
+    "image": "0200-ship.png"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 261,
+    "category": "Siblings/People",
+    "en": "Dentist",
+    "ko": "치과의사",
+    "image": "0261-dentist.png"
+  },
+  {
+    "id": 262,
+    "category": "Siblings/People",
+    "en": "Professor",
+    "ko": "교수",
+    "image": "0262-professor.png"
+  },
+  {
+    "id": 263,
+    "category": "Siblings/People",
+    "en": "Principal",
+    "ko": "교장",
+    "image": "0263-principal.png"
+  },
+  {
+    "id": 264,
+    "category": "Siblings/People",
+    "en": "Classmate",
+    "ko": "반 친구",
+    "image": "0264-classmate.png"
+  },
+  {
+    "id": 265,
+    "category": "Siblings/People",
+    "en": "Neighbor",
+    "ko": "이웃",
+    "image": "0265-neighbor.png"
+  },
+  {
+    "id": 266,
+    "category": "Siblings/People",
+    "en": "Boss",
+    "ko": "상사",
+    "image": "0266-boss.png"
+  },
+  {
+    "id": 267,
+    "category": "Siblings/People",
+    "en": "Employee",
+    "ko": "직원",
+    "image": "0267-employee.png"
+  },
+  {
+    "id": 268,
+    "category": "Siblings/People",
+    "en": "Customer",
+    "ko": "고객",
+    "image": "0268-customer.png"
+  },
+  {
+    "id": 269,
+    "category": "Siblings/People",
+    "en": "Stranger",
+    "ko": "낯선 사람",
+    "image": "0269-stranger.png"
+  },
+  {
+    "id": 270,
+    "category": "Siblings/People",
+    "en": "Guest",
+    "ko": "손님",
+    "image": "0270-guest.png"
+  },
+  {
+    "id": 271,
+    "category": "Siblings/People",
+    "en": "Host",
+    "ko": "주인",
+    "image": "0271-host.png"
+  },
+  {
+    "id": 272,
+    "category": "Siblings/People",
+    "en": "Bride",
+    "ko": "신부",
+    "image": "0272-bride.png"
+  },
+  {
+    "id": 273,
+    "category": "Siblings/People",
+    "en": "Groom",
+    "ko": "신랑",
+    "image": "0273-groom.png"
+  },
+  {
+    "id": 274,
+    "category": "Siblings/People",
+    "en": "Twin",
+    "ko": "쌍둥이",
+    "image": "0274-twin.png"
+  },
+  {
+    "id": 275,
+    "category": "Siblings/People",
+    "en": "Orphan",
+    "ko": "고아",
+    "image": "0275-orphan.png"
+  },
+  {
+    "id": 276,
+    "category": "Siblings/People",
+    "en": "Widow",
+    "ko": "미망인",
+    "image": "0276-widow.png"
+  },
+  {
+    "id": 277,
+    "category": "Siblings/People",
+    "en": "Grandparent",
+    "ko": "조부모",
+    "image": "0277-grandparent.png"
+  },
+  {
+    "id": 278,
+    "category": "Siblings/People",
+    "en": "Nephew",
+    "ko": "조카",
+    "image": "0278-nephew.png"
+  },
+  {
+    "id": 279,
+    "category": "Siblings/People",
+    "en": "Niece",
+    "ko": "조카딸",
+    "image": "0279-niece.png"
+  },
+  {
+    "id": 280,
+    "category": "Siblings/People",
+    "en": "Brother-in-law",
+    "ko": "매형",
+    "image": "0280-brother-in-law.png"
+  }
+]

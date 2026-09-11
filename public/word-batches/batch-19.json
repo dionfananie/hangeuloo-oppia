@@ -1,0 +1,142 @@
+[
+  {
+    "id": 361,
+    "category": "Animals",
+    "en": "Butterfly",
+    "ko": "나비",
+    "image": "0361-butterfly.png"
+  },
+  {
+    "id": 362,
+    "category": "Animals",
+    "en": "Bee",
+    "ko": "벌",
+    "image": "0362-bee.png"
+  },
+  {
+    "id": 363,
+    "category": "Animals",
+    "en": "Ant",
+    "ko": "개미",
+    "image": "0363-ant.png"
+  },
+  {
+    "id": 364,
+    "category": "Animals",
+    "en": "Spider",
+    "ko": "거미",
+    "image": "0364-spider.png"
+  },
+  {
+    "id": 365,
+    "category": "Animals",
+    "en": "Fly",
+    "ko": "파리",
+    "image": "0365-fly.png"
+  },
+  {
+    "id": 366,
+    "category": "Animals",
+    "en": "Mosquito",
+    "ko": "모기",
+    "image": "0366-mosquito.png"
+  },
+  {
+    "id": 367,
+    "category": "Animals",
+    "en": "Dragonfly",
+    "ko": "잠자리",
+    "image": "0367-dragonfly.png"
+  },
+  {
+    "id": 368,
+    "category": "Animals",
+    "en": "Ladybug",
+    "ko": "무당벌레",
+    "image": "0368-ladybug.png"
+  },
+  {
+    "id": 369,
+    "category": "Animals",
+    "en": "Grasshopper",
+    "ko": "메뚜기",
+    "image": "0369-grasshopper.png"
+  },
+  {
+    "id": 370,
+    "category": "Animals",
+    "en": "Cricket",
+    "ko": "귀뚜라미",
+    "image": "0370-cricket.png"
+  },
+  {
+    "id": 371,
+    "category": "Animals",
+    "en": "Cockroach",
+    "ko": "바퀴벌레",
+    "image": "0371-cockroach.png"
+  },
+  {
+    "id": 372,
+    "category": "Animals",
+    "en": "Snail",
+    "ko": "달팽이",
+    "image": "0372-snail.png"
+  },
+  {
+    "id": 373,
+    "category": "Animals",
+    "en": "Worm",
+    "ko": "지렁이",
+    "image": "0373-worm.png"
+  },
+  {
+    "id": 374,
+    "category": "Animals",
+    "en": "Scorpion",
+    "ko": "전갈",
+    "image": "0374-scorpion.png"
+  },
+  {
+    "id": 375,
+    "category": "Animals",
+    "en": "Centipede",
+    "ko": "지네",
+    "image": "0375-centipede.png"
+  },
+  {
+    "id": 376,
+    "category": "Animals",
+    "en": "Beetle",
+    "ko": "딱정벌레",
+    "image": "0376-beetle.png"
+  },
+  {
+    "id": 377,
+    "category": "Animals",
+    "en": "Moth",
+    "ko": "나방",
+    "image": "0377-moth.png"
+  },
+  {
+    "id": 378,
+    "category": "Animals",
+    "en": "Caterpillar",
+    "ko": "애벌레",
+    "image": "0378-caterpillar.png"
+  },
+  {
+    "id": 379,
+    "category": "Animals",
+    "en": "Cheetah",
+    "ko": "치타",
+    "image": "0379-cheetah.png"
+  },
+  {
+    "id": 380,
+    "category": "Animals",
+    "en": "Leopard",
+    "ko": "표범",
+    "image": "0380-leopard.png"
+  }
+]

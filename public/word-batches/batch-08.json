@@ -1,0 +1,142 @@
+[
+  {
+    "id": 141,
+    "category": "Things",
+    "en": "Refrigerator",
+    "ko": "냉장고",
+    "image": "0141-refrigerator.png"
+  },
+  {
+    "id": 142,
+    "category": "Things",
+    "en": "Washing machine",
+    "ko": "세탁기",
+    "image": "0142-washing-machine.png"
+  },
+  {
+    "id": 143,
+    "category": "Things",
+    "en": "Air conditioner",
+    "ko": "에어컨",
+    "image": "0143-air-conditioner.png"
+  },
+  {
+    "id": 144,
+    "category": "Things",
+    "en": "Fan",
+    "ko": "선풍기",
+    "image": "0144-fan.png"
+  },
+  {
+    "id": 145,
+    "category": "Things",
+    "en": "Heater",
+    "ko": "히터",
+    "image": "0145-heater.png"
+  },
+  {
+    "id": 146,
+    "category": "Things",
+    "en": "Camera",
+    "ko": "카메라",
+    "image": "0146-camera.png"
+  },
+  {
+    "id": 147,
+    "category": "Things",
+    "en": "Radio",
+    "ko": "라디오",
+    "image": "0147-radio.png"
+  },
+  {
+    "id": 148,
+    "category": "Things",
+    "en": "Speaker",
+    "ko": "스피커",
+    "image": "0148-speaker.png"
+  },
+  {
+    "id": 149,
+    "category": "Things",
+    "en": "Battery",
+    "ko": "배터리",
+    "image": "0149-battery.png"
+  },
+  {
+    "id": 150,
+    "category": "Things",
+    "en": "Charger",
+    "ko": "충전기",
+    "image": "0150-charger.png"
+  },
+  {
+    "id": 151,
+    "category": "Things",
+    "en": "Scissors",
+    "ko": "가위",
+    "image": "0151-scissors.png"
+  },
+  {
+    "id": 152,
+    "category": "Things",
+    "en": "Tape",
+    "ko": "테이프",
+    "image": "0152-tape.png"
+  },
+  {
+    "id": 153,
+    "category": "Things",
+    "en": "Glue",
+    "ko": "풀",
+    "image": "0153-glue.png"
+  },
+  {
+    "id": 154,
+    "category": "Things",
+    "en": "Stapler",
+    "ko": "스테이플러",
+    "image": "0154-stapler.png"
+  },
+  {
+    "id": 155,
+    "category": "Things",
+    "en": "Ruler",
+    "ko": "자",
+    "image": "0155-ruler.png"
+  },
+  {
+    "id": 156,
+    "category": "Things",
+    "en": "Eraser",
+    "ko": "지우개",
+    "image": "0156-eraser.png"
+  },
+  {
+    "id": 157,
+    "category": "Things",
+    "en": "Notebook",
+    "ko": "공책",
+    "image": "0157-notebook.png"
+  },
+  {
+    "id": 158,
+    "category": "Things",
+    "en": "Backpack",
+    "ko": "배낭",
+    "image": "0158-backpack.png"
+  },
+  {
+    "id": 159,
+    "category": "Things",
+    "en": "Box",
+    "ko": "상자",
+    "image": "0159-box.png"
+  },
+  {
+    "id": 160,
+    "category": "Things",
+    "en": "Basket",
+    "ko": "바구니",
+    "image": "0160-basket.png"
+  }
+]

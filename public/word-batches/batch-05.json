@@ -1,0 +1,142 @@
+[
+  {
+    "id": 81,
+    "category": "Food",
+    "en": "Bacon",
+    "ko": "베이컨",
+    "image": "0081-bacon.png"
+  },
+  {
+    "id": 82,
+    "category": "Food",
+    "en": "Sausage",
+    "ko": "소시지",
+    "image": "0082-sausage.png"
+  },
+  {
+    "id": 83,
+    "category": "Food",
+    "en": "Meatball",
+    "ko": "미트볼",
+    "image": "0083-meatball.png"
+  },
+  {
+    "id": 84,
+    "category": "Food",
+    "en": "Seaweed",
+    "ko": "김",
+    "image": "0084-seaweed.png"
+  },
+  {
+    "id": 85,
+    "category": "Food",
+    "en": "Sesame oil",
+    "ko": "참기름",
+    "image": "0085-sesame-oil.png"
+  },
+  {
+    "id": 86,
+    "category": "Food",
+    "en": "Soy sauce",
+    "ko": "간장",
+    "image": "0086-soy-sauce.png"
+  },
+  {
+    "id": 87,
+    "category": "Food",
+    "en": "Vinegar",
+    "ko": "식초",
+    "image": "0087-vinegar.png"
+  },
+  {
+    "id": 88,
+    "category": "Food",
+    "en": "Mayonnaise",
+    "ko": "마요네즈",
+    "image": "0088-mayonnaise.png"
+  },
+  {
+    "id": 89,
+    "category": "Food",
+    "en": "Ketchup",
+    "ko": "케첩",
+    "image": "0089-ketchup.png"
+  },
+  {
+    "id": 90,
+    "category": "Food",
+    "en": "Mustard",
+    "ko": "겨자",
+    "image": "0090-mustard.png"
+  },
+  {
+    "id": 91,
+    "category": "Food",
+    "en": "Jam",
+    "ko": "잼",
+    "image": "0091-jam.png"
+  },
+  {
+    "id": 92,
+    "category": "Food",
+    "en": "Pudding",
+    "ko": "푸딩",
+    "image": "0092-pudding.png"
+  },
+  {
+    "id": 93,
+    "category": "Food",
+    "en": "Donut",
+    "ko": "도넛",
+    "image": "0093-donut.png"
+  },
+  {
+    "id": 94,
+    "category": "Food",
+    "en": "Waffle",
+    "ko": "와플",
+    "image": "0094-waffle.png"
+  },
+  {
+    "id": 95,
+    "category": "Food",
+    "en": "Muffin",
+    "ko": "머핀",
+    "image": "0095-muffin.png"
+  },
+  {
+    "id": 96,
+    "category": "Food",
+    "en": "Pie",
+    "ko": "파이",
+    "image": "0096-pie.png"
+  },
+  {
+    "id": 97,
+    "category": "Food",
+    "en": "Bun",
+    "ko": "번",
+    "image": "0097-bun.png"
+  },
+  {
+    "id": 98,
+    "category": "Food",
+    "en": "Popcorn",
+    "ko": "팝콘",
+    "image": "0098-popcorn.png"
+  },
+  {
+    "id": 99,
+    "category": "Food",
+    "en": "Pretzel",
+    "ko": "프레첼",
+    "image": "0099-pretzel.png"
+  },
+  {
+    "id": 100,
+    "category": "Food",
+    "en": "Toast",
+    "ko": "토스트",
+    "image": "0100-toast.png"
+  }
+]

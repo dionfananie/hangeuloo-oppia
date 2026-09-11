@@ -1,0 +1,142 @@
+[
+  {
+    "id": 341,
+    "category": "Animals",
+    "en": "Dolphin",
+    "ko": "돌고래",
+    "image": "0341-dolphin.png"
+  },
+  {
+    "id": 342,
+    "category": "Animals",
+    "en": "Octopus",
+    "ko": "문어",
+    "image": "0342-octopus.png"
+  },
+  {
+    "id": 343,
+    "category": "Animals",
+    "en": "Squid",
+    "ko": "오징어",
+    "image": "0343-squid.png"
+  },
+  {
+    "id": 344,
+    "category": "Animals",
+    "en": "Crab",
+    "ko": "게",
+    "image": "0344-crab.png"
+  },
+  {
+    "id": 345,
+    "category": "Animals",
+    "en": "Lobster",
+    "ko": "바닷가재",
+    "image": "0345-lobster.png"
+  },
+  {
+    "id": 346,
+    "category": "Animals",
+    "en": "Shrimp",
+    "ko": "새우",
+    "image": "0346-shrimp.png"
+  },
+  {
+    "id": 347,
+    "category": "Animals",
+    "en": "Jellyfish",
+    "ko": "해파리",
+    "image": "0347-jellyfish.png"
+  },
+  {
+    "id": 348,
+    "category": "Animals",
+    "en": "Starfish",
+    "ko": "불가사리",
+    "image": "0348-starfish.png"
+  },
+  {
+    "id": 349,
+    "category": "Animals",
+    "en": "Seahorse",
+    "ko": "해마",
+    "image": "0349-seahorse.png"
+  },
+  {
+    "id": 350,
+    "category": "Animals",
+    "en": "Eel",
+    "ko": "장어",
+    "image": "0350-eel.png"
+  },
+  {
+    "id": 351,
+    "category": "Animals",
+    "en": "Eagle",
+    "ko": "독수리",
+    "image": "0351-eagle.png"
+  },
+  {
+    "id": 352,
+    "category": "Animals",
+    "en": "Owl",
+    "ko": "부엉이",
+    "image": "0352-owl.png"
+  },
+  {
+    "id": 353,
+    "category": "Animals",
+    "en": "Sparrow",
+    "ko": "참새",
+    "image": "0353-sparrow.png"
+  },
+  {
+    "id": 354,
+    "category": "Animals",
+    "en": "Crow",
+    "ko": "까마귀",
+    "image": "0354-crow.png"
+  },
+  {
+    "id": 355,
+    "category": "Animals",
+    "en": "Pigeon",
+    "ko": "비둘기",
+    "image": "0355-pigeon.png"
+  },
+  {
+    "id": 356,
+    "category": "Animals",
+    "en": "Parrot",
+    "ko": "앵무새",
+    "image": "0356-parrot.png"
+  },
+  {
+    "id": 357,
+    "category": "Animals",
+    "en": "Peacock",
+    "ko": "공작",
+    "image": "0357-peacock.png"
+  },
+  {
+    "id": 358,
+    "category": "Animals",
+    "en": "Penguin",
+    "ko": "펭귄",
+    "image": "0358-penguin.png"
+  },
+  {
+    "id": 359,
+    "category": "Animals",
+    "en": "Ostrich",
+    "ko": "타조",
+    "image": "0359-ostrich.png"
+  },
+  {
+    "id": 360,
+    "category": "Animals",
+    "en": "Swan",
+    "ko": "백조",
+    "image": "0360-swan.png"
+  }
+]

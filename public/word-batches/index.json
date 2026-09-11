@@ -1,0 +1,184 @@
+{
+  "total": 500,
+  "sections": 25,
+  "perSection": 20,
+  "imageDir": "public/images/words/",
+  "imagePattern": "{id:04d}-{slug}.png",
+  "batches": [
+    {
+      "section": 1,
+      "file": "batch-01.json",
+      "fromId": 1,
+      "toId": 20,
+      "count": 20
+    },
+    {
+      "section": 2,
+      "file": "batch-02.json",
+      "fromId": 21,
+      "toId": 40,
+      "count": 20
+    },
+    {
+      "section": 3,
+      "file": "batch-03.json",
+      "fromId": 41,
+      "toId": 60,
+      "count": 20
+    },
+    {
+      "section": 4,
+      "file": "batch-04.json",
+      "fromId": 61,
+      "toId": 80,
+      "count": 20
+    },
+    {
+      "section": 5,
+      "file": "batch-05.json",
+      "fromId": 81,
+      "toId": 100,
+      "count": 20
+    },
+    {
+      "section": 6,
+      "file": "batch-06.json",
+      "fromId": 101,
+      "toId": 120,
+      "count": 20
+    },
+    {
+      "section": 7,
+      "file": "batch-07.json",
+      "fromId": 121,
+      "toId": 140,
+      "count": 20
+    },
+    {
+      "section": 8,
+      "file": "batch-08.json",
+      "fromId": 141,
+      "toId": 160,
+      "count": 20
+    },
+    {
+      "section": 9,
+      "file": "batch-09.json",
+      "fromId": 161,
+      "toId": 180,
+      "count": 20
+    },
+    {
+      "section": 10,
+      "file": "batch-10.json",
+      "fromId": 181,
+      "toId": 200,
+      "count": 20
+    },
+    {
+      "section": 11,
+      "file": "batch-11.json",
+      "fromId": 201,
+      "toId": 220,
+      "count": 20
+    },
+    {
+      "section": 12,
+      "file": "batch-12.json",
+      "fromId": 221,
+      "toId": 240,
+      "count": 20
+    },
+    {
+      "section": 13,
+      "file": "batch-13.json",
+      "fromId": 241,
+      "toId": 260,
+      "count": 20
+    },
+    {
+      "section": 14,
+      "file": "batch-14.json",
+      "fromId": 261,
+      "toId": 280,
+      "count": 20
+    },
+    {
+      "section": 15,
+      "file": "batch-15.json",
+      "fromId": 281,
+      "toId": 300,
+      "count": 20
+    },
+    {
+      "section": 16,
+      "file": "batch-16.json",
+      "fromId": 301,
+      "toId": 320,
+      "count": 20
+    },
+    {
+      "section": 17,
+      "file": "batch-17.json",
+      "fromId": 321,
+      "toId": 340,
+      "count": 20
+    },
+    {
+      "section": 18,
+      "file": "batch-18.json",
+      "fromId": 341,
+      "toId": 360,
+      "count": 20
+    },
+    {
+      "section": 19,
+      "file": "batch-19.json",
+      "fromId": 361,
+      "toId": 380,
+      "count": 20
+    },
+    {
+      "section": 20,
+      "file": "batch-20.json",
+      "fromId": 381,
+      "toId": 400,
+      "count": 20
+    },
+    {
+      "section": 21,
+      "file": "batch-21.json",
+      "fromId": 401,
+      "toId": 420,
+      "count": 20
+    },
+    {
+      "section": 22,
+      "file": "batch-22.json",
+      "fromId": 421,
+      "toId": 440,
+      "count": 20
+    },
+    {
+      "section": 23,
+      "file": "batch-23.json",
+      "fromId": 441,
+      "toId": 460,
+      "count": 20
+    },
+    {
+      "section": 24,
+      "file": "batch-24.json",
+      "fromId": 461,
+      "toId": 480,
+      "count": 20
+    },
+    {
+      "section": 25,
+      "file": "batch-25.json",
+      "fromId": 481,
+      "toId": 500,
+      "count": 20
+    }
+  ]
+}

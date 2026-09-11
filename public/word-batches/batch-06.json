@@ -1,0 +1,142 @@
+[
+  {
+    "id": 101,
+    "category": "Things",
+    "en": "Chair",
+    "ko": "의자",
+    "image": "0101-chair.png"
+  },
+  {
+    "id": 102,
+    "category": "Things",
+    "en": "Table",
+    "ko": "테이블",
+    "image": "0102-table.png"
+  },
+  {
+    "id": 103,
+    "category": "Things",
+    "en": "Bed",
+    "ko": "침대",
+    "image": "0103-bed.png"
+  },
+  {
+    "id": 104,
+    "category": "Things",
+    "en": "Door",
+    "ko": "문",
+    "image": "0104-door.png"
+  },
+  {
+    "id": 105,
+    "category": "Things",
+    "en": "Window",
+    "ko": "창문",
+    "image": "0105-window.png"
+  },
+  {
+    "id": 106,
+    "category": "Things",
+    "en": "Book",
+    "ko": "책",
+    "image": "0106-book.png"
+  },
+  {
+    "id": 107,
+    "category": "Things",
+    "en": "Pen",
+    "ko": "펜",
+    "image": "0107-pen.png"
+  },
+  {
+    "id": 108,
+    "category": "Things",
+    "en": "Pencil",
+    "ko": "연필",
+    "image": "0108-pencil.png"
+  },
+  {
+    "id": 109,
+    "category": "Things",
+    "en": "Paper",
+    "ko": "종이",
+    "image": "0109-paper.png"
+  },
+  {
+    "id": 110,
+    "category": "Things",
+    "en": "Phone",
+    "ko": "전화기",
+    "image": "0110-phone.png"
+  },
+  {
+    "id": 111,
+    "category": "Things",
+    "en": "Computer",
+    "ko": "컴퓨터",
+    "image": "0111-computer.png"
+  },
+  {
+    "id": 112,
+    "category": "Things",
+    "en": "Television",
+    "ko": "텔레비전",
+    "image": "0112-television.png"
+  },
+  {
+    "id": 113,
+    "category": "Things",
+    "en": "Clock",
+    "ko": "시계",
+    "image": "0113-clock.png"
+  },
+  {
+    "id": 114,
+    "category": "Things",
+    "en": "Mirror",
+    "ko": "거울",
+    "image": "0114-mirror.png"
+  },
+  {
+    "id": 115,
+    "category": "Things",
+    "en": "Lamp",
+    "ko": "전등",
+    "image": "0115-lamp.png"
+  },
+  {
+    "id": 116,
+    "category": "Things",
+    "en": "Key",
+    "ko": "열쇠",
+    "image": "0116-key.png"
+  },
+  {
+    "id": 117,
+    "category": "Things",
+    "en": "Umbrella",
+    "ko": "우산",
+    "image": "0117-umbrella.png"
+  },
+  {
+    "id": 118,
+    "category": "Things",
+    "en": "Shoes",
+    "ko": "신발",
+    "image": "0118-shoes.png"
+  },
+  {
+    "id": 119,
+    "category": "Things",
+    "en": "Socks",
+    "ko": "양말",
+    "image": "0119-socks.png"
+  },
+  {
+    "id": 120,
+    "category": "Things",
+    "en": "Hat",
+    "ko": "모자",
+    "image": "0120-hat.png"
+  }
+]

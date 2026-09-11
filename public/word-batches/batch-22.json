@@ -1,0 +1,142 @@
+[
+  {
+    "id": 421,
+    "category": "Plant",
+    "en": "Cactus",
+    "ko": "선인장",
+    "image": "0421-cactus.png"
+  },
+  {
+    "id": 422,
+    "category": "Plant",
+    "en": "Bamboo",
+    "ko": "대나무",
+    "image": "0422-bamboo.png"
+  },
+  {
+    "id": 423,
+    "category": "Plant",
+    "en": "Pine tree",
+    "ko": "소나무",
+    "image": "0423-pine-tree.png"
+  },
+  {
+    "id": 424,
+    "category": "Plant",
+    "en": "Oak tree",
+    "ko": "참나무",
+    "image": "0424-oak-tree.png"
+  },
+  {
+    "id": 425,
+    "category": "Plant",
+    "en": "Maple tree",
+    "ko": "단풍나무",
+    "image": "0425-maple-tree.png"
+  },
+  {
+    "id": 426,
+    "category": "Plant",
+    "en": "Palm tree",
+    "ko": "야자수",
+    "image": "0426-palm-tree.png"
+  },
+  {
+    "id": 427,
+    "category": "Plant",
+    "en": "Willow tree",
+    "ko": "버드나무",
+    "image": "0427-willow-tree.png"
+  },
+  {
+    "id": 428,
+    "category": "Plant",
+    "en": "Bonsai",
+    "ko": "분재",
+    "image": "0428-bonsai.png"
+  },
+  {
+    "id": 429,
+    "category": "Plant",
+    "en": "Fern",
+    "ko": "고사리",
+    "image": "0429-fern.png"
+  },
+  {
+    "id": 430,
+    "category": "Plant",
+    "en": "Moss",
+    "ko": "이끼",
+    "image": "0430-moss.png"
+  },
+  {
+    "id": 431,
+    "category": "Plant",
+    "en": "Ivy",
+    "ko": "담쟁이덩굴",
+    "image": "0431-ivy.png"
+  },
+  {
+    "id": 432,
+    "category": "Plant",
+    "en": "Vine",
+    "ko": "덩굴",
+    "image": "0432-vine.png"
+  },
+  {
+    "id": 433,
+    "category": "Plant",
+    "en": "Clover",
+    "ko": "클로버",
+    "image": "0433-clover.png"
+  },
+  {
+    "id": 434,
+    "category": "Plant",
+    "en": "Dandelion",
+    "ko": "민들레",
+    "image": "0434-dandelion.png"
+  },
+  {
+    "id": 435,
+    "category": "Plant",
+    "en": "Hibiscus",
+    "ko": "히비스커스",
+    "image": "0435-hibiscus.png"
+  },
+  {
+    "id": 436,
+    "category": "Plant",
+    "en": "Magnolia",
+    "ko": "목련",
+    "image": "0436-magnolia.png"
+  },
+  {
+    "id": 437,
+    "category": "Plant",
+    "en": "Jasmine",
+    "ko": "자스민",
+    "image": "0437-jasmine.png"
+  },
+  {
+    "id": 438,
+    "category": "Plant",
+    "en": "Marigold",
+    "ko": "금잔화",
+    "image": "0438-marigold.png"
+  },
+  {
+    "id": 439,
+    "category": "Plant",
+    "en": "Poppy",
+    "ko": "양귀비",
+    "image": "0439-poppy.png"
+  },
+  {
+    "id": 440,
+    "category": "Plant",
+    "en": "Iris",
+    "ko": "붓꽃",
+    "image": "0440-iris.png"
+  }
+]
