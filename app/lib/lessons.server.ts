@@ -1,5 +1,4 @@
 import type { GuideLanguage } from "./learning.server";
-import { getWordBankForLesson } from "./word-bank.ts";
 
 export type LessonStatus = "locked" | "available" | "in_progress" | "completed";
 export type LessonPracticeType = "vocabulary" | "sentence" | "listening";
@@ -236,21 +235,19 @@ export async function getLessonDetail(
 			.first<{ id: string }>(),
 	]);
 	const language = lesson.guide_language;
-	const lessonWords = getWordBankForLesson(lessonId, itemsResult.results.length);
 	return {
 		...mapSummary(lesson, language, true),
-		items: itemsResult.results.map((item, index) => {
-			const word = lessonWords[index];
+		items: itemsResult.results.map((item) => {
 			return {
 				id: String(item.id),
 				type: item.type as LessonItem["type"],
-				koreanText: word?.ko ?? String(item.korean_text),
-				romanization: word ? "" : String(item.romanization),
-				translation: word?.en ?? localized(item, "translation", language),
-				pronunciation: word?.en ?? localized(item, "pronunciation", language),
-				explanation: word?.category ?? localized(item, "explanation", language),
-				exampleKo: word ? `${word.ko}예요.` : String(item.example_ko),
-				example: word?.en ?? localized(item, "example", language),
+				koreanText: String(item.korean_text),
+				romanization: String(item.romanization),
+				translation: localized(item, "translation", language),
+				pronunciation: localized(item, "pronunciation", language),
+				explanation: localized(item, "explanation", language),
+				exampleKo: String(item.example_ko),
+				example: localized(item, "example", language),
 				audioUrl: item.audio_url ? String(item.audio_url) : null,
 			};
 		}),
