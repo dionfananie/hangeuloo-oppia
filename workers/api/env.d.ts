@@ -9,6 +9,7 @@ declare global {
 		GOOGLE_CLIENT_SECRET?: string;
 		GOOGLE_REDIRECT_URI?: string;
 		SESSION_SECRET?: string; // legacy — disimpan utk kompatibilitas bila perlu
+		LEARNING_PATH_ROLLOUT_PERCENT?: string; // 0–100, kontrol penugasan cohort learning path
 	}
 }
 

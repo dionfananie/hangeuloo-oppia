@@ -2,9 +2,16 @@ import { redirect } from "react-router";
 import type { Route } from "./+types/lesson";
 import { getAuthUser } from "~/lib/auth.server";
 import { completeLesson, getLessonDetail, recordLessonEvent, viewLessonItem } from "~/lib/lessons.server";
+import {
+	completeLearningPathLesson,
+	getLearningPathLesson,
+	viewLearningPathItem,
+} from "~/lib/learning-path.server";
+import { getLessonExperience } from "~/lib/lesson-experience.server";
 import { buildSeoMeta } from "~/lib/seo";
-
-export { default } from "~/pages/lessons/LessonDetail";
+import { useLoaderData } from "react-router";
+import LessonDetail from "~/pages/lessons/LessonDetail";
+import PathLesson from "~/pages/lessons/PathLesson";
 
 export function meta({ data }: Route.MetaArgs) {
 	return buildSeoMeta({
@@ -16,16 +23,50 @@ export function meta({ data }: Route.MetaArgs) {
 export async function loader({ request, params, context }: Route.LoaderArgs) {
 	const user = await getAuthUser(request, context.cloudflare.env.DB);
 	if (!user) return redirect("/");
-	const lesson = await getLessonDetail(context.cloudflare.env.DB, user.sub, String(params.lessonId));
-	return { user, lesson };
+	const lessonId = String(params.lessonId);
+	const experience = await getLessonExperience(context.cloudflare.env.DB, user.sub);
+	if (experience.variant === "learning_path") {
+		const lesson = await getLearningPathLesson(context.cloudflare.env.DB, user.sub, experience, lessonId);
+		return { user, experience: "learning_path" as const, lesson };
+	}
+	const lesson = await getLessonDetail(context.cloudflare.env.DB, user.sub, lessonId);
+	return { user, experience: "legacy" as const, lesson };
 }
 
 export async function action({ request, params, context }: Route.ActionArgs) {
 	const user = await getAuthUser(request, context.cloudflare.env.DB);
 	if (!user) throw new Response("Unauthorized", { status: 401 });
 	const lessonId = String(params.lessonId);
+	const experience = await getLessonExperience(context.cloudflare.env.DB, user.sub);
 	const form = await request.formData();
 	const intent = String(form.get("intent") ?? "");
+
+	if (experience.variant === "learning_path") {
+		if (intent === "view-item") {
+			const itemIndex = Number(form.get("itemIndex"));
+			if (!Number.isInteger(itemIndex)) return { ok: false, error: "Invalid lesson item." };
+			const savedIndex = await viewLearningPathItem(
+				context.cloudflare.env.DB,
+				user.sub,
+				experience,
+				lessonId,
+				itemIndex,
+			);
+			return { ok: true, currentItemIndex: savedIndex };
+		}
+		if (intent === "complete-lesson") {
+			const result = await completeLearningPathLesson(
+				context.cloudflare.env.DB,
+				user.sub,
+				experience,
+				lessonId,
+				Number(form.get("lastItemIndex")),
+			);
+			return { ok: true, completed: true, ...result };
+		}
+		return { ok: false, error: "Unknown lesson action." };
+	}
+
 	if (intent === "view-item") {
 		const itemIndex = Number(form.get("itemIndex"));
 		if (!Number.isFinite(itemIndex) || !Number.isInteger(itemIndex))
@@ -63,4 +104,9 @@ export async function action({ request, params, context }: Route.ActionArgs) {
 		return { ok: true };
 	}
 	return { ok: false, error: "Unknown lesson action." };
+}
+
+export default function LessonRoute() {
+	const data = useLoaderData<Route.ComponentProps["loaderData"]>();
+	return data.experience === "learning_path" ? <PathLesson /> : <LessonDetail />;
 }

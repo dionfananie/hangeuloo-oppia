@@ -1,18 +1,19 @@
 import { Link } from "react-router";
-import type { LessonDetail } from "~/lib/lessons.server";
+import type { Route } from "../../../routes/+types/lesson";
 import Icon from "~/pages/home/components/Icon";
-import useLessonPlayer from "./useLessonPlayer";
-import useLessonDetail from "./hook";
+import usePathLessonPlayer from "./usePathLessonPlayer";
+import usePathLesson from "./hook";
 
-const practiceRoutes = { vocabulary: "vocab", sentence: "sentence", listening: "listen" };
+type Lesson = Route.ComponentProps["loaderData"] & { experience: "learning_path" };
+type PathLesson = Lesson["lesson"];
 
-export default function LessonDetail() {
-	const { lesson } = useLessonDetail();
-	return <LessonPlayer key={lesson.id} lesson={lesson} />;
+export default function PathLessonView() {
+	const { lesson } = usePathLesson();
+	return <LessonPlayer key={lesson.id} lesson={lesson as PathLesson} />;
 }
 
-function LessonPlayer({ lesson }: { lesson: LessonDetail }) {
-	const player = useLessonPlayer(lesson);
+function LessonPlayer({ lesson }: { lesson: PathLesson }) {
+	const player = usePathLessonPlayer(lesson);
 	const completed = player.completion;
 	if (completed)
 		return (
@@ -38,7 +39,7 @@ function LessonPlayer({ lesson }: { lesson: LessonDetail }) {
 							<Icon name="check" size={20} />
 						</span>
 					</div>
-					<span className="lessons-kicker">LESSON COMPLETE</span>
+					<span className="lessons-kicker">ACTIVITY COMPLETE</span>
 					<h1>잘했어요!</h1>
 					<p>
 						You finished <strong>{lesson.title}</strong>. Your new Korean is ready to practice.
@@ -67,29 +68,19 @@ function LessonPlayer({ lesson }: { lesson: LessonDetail }) {
 						</article>
 					</div>
 					<div className="completion-actions">
-						<Link
-							className="lesson-primary-link"
-							to={
-								completed.practiceType === "vocabulary"
-									? "/practice/vocabulary"
-									: `/practice/${practiceRoutes[completed.practiceType ?? lesson.practiceType]}`
-							}
-							onClick={() =>
-								navigator.sendBeacon?.(
-									`/lessons/${lesson.id}`,
-									new URLSearchParams({ intent: "lesson-event", eventType: "practice_clicked" }),
-								)
-							}
-						>
-							<span>
-								<Icon name="game" size={18} />
-							</span>
-							Practice now
-							<Icon name="arrow" size={17} />
-						</Link>
-						{completed.nextLessonId ? (
-							<Link className="lesson-secondary-link" to={`/lessons/${completed.nextLessonId}`}>
-								Continue next lesson <Icon name="arrow" size={17} />
+						{completed.practiceHref && (
+							<Link className="lesson-primary-link" to={completed.practiceHref}>
+								<span>
+									<Icon name="game" size={18} />
+								</span>
+								Practice now
+								<Icon name="arrow" size={17} />
+							</Link>
+						)}
+						{completed.nextHref ? (
+							<Link className="lesson-secondary-link" to={completed.nextHref}>
+								{completed.nextTitle ? `Continue: ${completed.nextTitle}` : "Continue"}{" "}
+								<Icon name="arrow" size={17} />
 							</Link>
 						) : (
 							<Link className="lesson-secondary-link" to="/lessons">
@@ -105,13 +96,13 @@ function LessonPlayer({ lesson }: { lesson: LessonDetail }) {
 	return (
 		<main className="lesson-player-shell">
 			<header className="lesson-player-header">
-				<Link className="lesson-exit" to={`/lessons/levels/${lesson.level}`} aria-label="Exit lesson">
+				<Link className="lesson-exit" to="/lessons" aria-label="Exit activity">
 					<Icon name="close" size={20} />
 				</Link>
 				<div
 					className="lesson-player-progress"
 					role="progressbar"
-					aria-label="Lesson progress"
+					aria-label="Activity progress"
 					aria-valuenow={Math.round(progress)}
 					aria-valuemin={0}
 					aria-valuemax={100}
@@ -200,7 +191,7 @@ function LessonPlayer({ lesson }: { lesson: LessonDetail }) {
 									<Icon name="check" size={17} />
 								</div>
 							) : (
-								<button onClick={player.revealTranslation}>
+								<button onClick={() => player.setShowTranslation(true)}>
 									<Icon name="sparkles" size={16} /> Reveal meaning
 								</button>
 							)}
@@ -238,7 +229,7 @@ function LessonPlayer({ lesson }: { lesson: LessonDetail }) {
 							onClick={player.complete}
 							disabled={player.completing || player.viewing}
 						>
-							{player.completing || player.viewing ? "Saving…" : "Complete lesson"}
+							{player.completing || player.viewing ? "Saving…" : "Complete activity"}
 							<Icon name="check" size={18} />
 						</button>
 					) : (

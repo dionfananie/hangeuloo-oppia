@@ -22,7 +22,8 @@ import {
 
 export default function Home() {
 	const loaderData = useLoaderData<Route.ComponentProps["loaderData"]>();
-	const { user, dashboard, lessonCatalog, practiceUnlocks, googleConfigured, authError } = loaderData;
+	const { user, dashboard, lessonCatalog, practiceUnlocks, pathSummary, googleConfigured, authError } =
+		loaderData;
 	const {
 		active,
 		setActive,
@@ -288,16 +289,34 @@ export default function Home() {
 										<div>
 											<span className="section-kicker">CONTINUE LEARNING</span>
 											<h2>
-												Level {profile.level} · {levelNames[profile.level]}
+												{pathSummary
+													? `Hangul Foundation ${pathSummary.milestoneCompleted}/${pathSummary.milestoneTotal}`
+													: `Level ${profile.level} · ${levelNames[profile.level]}`}
 											</h2>
-											<p>{levelDescriptions[profile.level]}</p>
+											<p>
+												{pathSummary
+													? (pathSummary.activeBranchTitle ?? "Build your reading foundation first.")
+													: levelDescriptions[profile.level]}
+											</p>
 										</div>
 										<span className="level-orb">
-											<span>{profile.level}</span>
-											<small>LEVEL</small>
+											<span>{pathSummary ? "ㅎ" : profile.level}</span>
+											<small>{pathSummary ? "PATH" : "LEVEL"}</small>
 										</span>
 									</div>
-									{continueLesson ? (
+									{pathSummary ? (
+										<div className="lesson-progress">
+											<div>
+												<strong>{pathSummary.nextTitle ?? "Continue your learning path"}</strong>
+												<small>
+													{pathSummary.nextHref ? "Your next step is ready." : "Learning path complete!"}
+												</small>
+											</div>
+											<Link to={pathSummary.nextHref ?? "/lessons"}>
+												<Icon name="play" size={15} /> Continue
+											</Link>
+										</div>
+									) : continueLesson ? (
 										<div className="lesson-progress">
 											<div className="circle-progress">
 												<svg viewBox="0 0 42 42">

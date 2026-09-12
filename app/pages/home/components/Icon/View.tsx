@@ -82,6 +82,12 @@ const paths: Record<IconName, React.ReactNode> = {
 			<path d="m6 6 12 12M18 6 6 18" />
 		</>
 	),
+	refresh: (
+		<>
+			<path d="M21 12a9 9 0 1 1-2.6-6.4" />
+			<path d="M21 4v5h-5" />
+		</>
+	),
 };
 
 function Icon({ name, size = 20 }: { name: IconName; size?: number }) {

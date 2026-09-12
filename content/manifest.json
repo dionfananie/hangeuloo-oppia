@@ -1,0 +1,18 @@
+{
+	"versionKey": "hangeuloo-foundation-v1",
+	"versionNumber": 1,
+	"status": "active",
+	"localizations": ["id", "en"],
+	"review": {
+		"korean": {
+			"status": "pending",
+			"reviewer": null
+		}
+	},
+	"audio": {
+		"scored": {
+			"status": "pending",
+			"note": "v1 scored items are visual and sound-matching multiple choice; no audio-playback items yet."
+		}
+	}
+}

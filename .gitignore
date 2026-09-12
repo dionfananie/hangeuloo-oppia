@@ -16,6 +16,8 @@
 *_LOCAL_*.txt
 *_REMOTE_*.txt
 
+.agents
+
 ### macOS ###
 # General
 .DS_Store

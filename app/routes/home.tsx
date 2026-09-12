@@ -4,6 +4,9 @@ import { authEnv, getAuthUser, isGoogleConfigured } from "~/lib/auth.server";
 import { completeSession, ensureUser, getDashboard, saveProfile } from "~/lib/learning.server";
 import { generateFeedback, saveInterview, transcribeKorean } from "~/lib/interview.server";
 import { getLessonCatalog, getPracticeUnlocks } from "~/lib/lessons.server";
+import { assignExperience, getLessonExperience } from "~/lib/lesson-experience.server";
+import { getPathSummary } from "~/lib/learning-path.server";
+import { parseRolloutPercent } from "~/lib/learning-path-rollout";
 import { buildSeoMeta } from "~/lib/seo";
 
 export { default } from "~/pages/home";
@@ -22,18 +25,28 @@ export async function loader({ request, context }: Route.LoaderArgs) {
 	const url = new URL(request.url);
 	const user = await getAuthUser(request, context.cloudflare.env.DB);
 	if (user) await ensureUser(context.cloudflare.env.DB, user);
-	const [dashboard, lessonCatalog, practiceUnlocks] = user
-		? await Promise.all([
-				getDashboard(context.cloudflare.env.DB, user.sub),
-				getLessonCatalog(context.cloudflare.env.DB, user.sub),
-				getPracticeUnlocks(context.cloudflare.env.DB, user.sub),
-			])
-		: [null, null, []];
+	const experience = user ? await getLessonExperience(context.cloudflare.env.DB, user.sub) : null;
+	const [dashboard, lessonCatalog, practiceUnlocks, pathSummary] = user
+		? experience?.variant === "learning_path"
+			? await Promise.all([
+					getDashboard(context.cloudflare.env.DB, user.sub),
+					null,
+					[],
+					getPathSummary(context.cloudflare.env.DB, user.sub, experience),
+				])
+			: await Promise.all([
+					getDashboard(context.cloudflare.env.DB, user.sub),
+					getLessonCatalog(context.cloudflare.env.DB, user.sub),
+					getPracticeUnlocks(context.cloudflare.env.DB, user.sub),
+					null,
+				])
+		: [null, null, [], null];
 	return {
 		user,
 		dashboard,
 		lessonCatalog,
 		practiceUnlocks,
+		pathSummary,
 		googleConfigured: isGoogleConfigured(env),
 		authError: url.searchParams.get("authError"),
 	};
@@ -64,6 +77,8 @@ export async function action({ request, context }: Route.ActionArgs) {
 			dailyTarget,
 			interests,
 		});
+		const rolloutPercent = parseRolloutPercent(context.cloudflare.env.LEARNING_PATH_ROLLOUT_PERCENT);
+		await assignExperience(context.cloudflare.env.DB, user.sub, level, rolloutPercent);
 		return redirect("/");
 	}
 	if (intent === "transcribe") {

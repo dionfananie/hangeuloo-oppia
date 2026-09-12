@@ -31,7 +31,8 @@
 		}
 	],
 	"vars": {
-		"VALUE_FROM_CLOUDFLARE": "Hello from Cloudflare"
+		"VALUE_FROM_CLOUDFLARE": "Hello from Cloudflare",
+		"LEARNING_PATH_ROLLOUT_PERCENT": "0"
 	},
 	"r2_buckets": [
 		{

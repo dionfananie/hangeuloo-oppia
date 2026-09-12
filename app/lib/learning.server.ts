@@ -1,6 +1,6 @@
 import type { AuthUser } from "./auth.server";
 import type { InterviewScenario } from "./interview.server";
-import { getRandomWordBank, hasWordBankId } from "./word-bank.ts";
+import { getRandomWordBank, hasWordBankId, toWordBankId } from "./word-bank.ts";
 
 export type GuideLanguage = "id" | "en";
 
@@ -138,7 +138,7 @@ function mapWordBankVocabulary(word: {
 	image?: string;
 }): VocabularyItem {
 	return {
-		id: word.id,
+		id: toWordBankId(word.id),
 		korean: word.ko,
 		romanization: "",
 		meaning: word.en,

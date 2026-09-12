@@ -10,8 +10,19 @@ export type WordBankEntry = {
 
 const wordBank = words as WordBankEntry[];
 
+// The bundled word bank and the D1 `vocabulary_items` table are two different
+// identity spaces that historically reused the same numeric IDs. Offsetting
+// word-bank IDs keeps submissions unambiguous so a word-bank result can never
+// update spaced-repetition progress for an unrelated D1 vocabulary record.
+export const WORD_BANK_ID_OFFSET = 10000;
+
+export function toWordBankId(rawId: number) {
+	return rawId + WORD_BANK_ID_OFFSET;
+}
+
 export function hasWordBankId(id: number) {
-	return wordBank.some((word) => word.id === id);
+	if (id < WORD_BANK_ID_OFFSET) return false;
+	return wordBank.some((word) => word.id === id - WORD_BANK_ID_OFFSET);
 }
 
 export function getRandomWordBank(count: number, seed = Math.random()) {

@@ -22,6 +22,7 @@
 		"react-router": "7.18.3"
 	},
 	"devDependencies": {
+		"@cloudflare/workers-types": "^5.20260911.1",
 		"@react-router/dev": "7.18.3",
 		"@rsbuild/core": "2.2.5",
 		"@rsbuild/plugin-react": "2.1.0",
@@ -39,6 +40,8 @@
 		"build": "rsbuild build",
 		"cf-typegen": "wrangler types && react-router typegen",
 		"check": "tsc && react-router build && wrangler deploy --dry-run",
+		"content:validate": "node scripts/content/validate.mjs",
+		"content:assets:check": "node scripts/content/validate-assets.mjs",
 		"db:migrate:local": "wrangler d1 migrations apply hangeuloo-oppia --local",
 		"db:migrate:remote": "wrangler d1 migrations apply hangeuloo-oppia --remote",
 		"deploy": "wrangler deploy",
@@ -48,7 +51,8 @@
 		"format:check": "prettier --check \"app/**/*.{ts,tsx,css}\" \"workers/**/*.{ts,tsx}\" \"scripts/**/*.{js,mjs,ts}\"",
 		"images:generate": "node scripts/generate-vocabulary-images.mjs",
 		"preview": "npm run build && wrangler dev --port 4173 --config wrangler.json",
-		"test": "node --experimental-strip-types --test tests/*.test.ts",
+		"test": "node --experimental-strip-types --test \"tests/**/*.test.ts\"",
+		"test:unit": "node --experimental-strip-types --test \"tests/unit/*.test.ts\"",
 		"typecheck": "react-router typegen && tsc --noEmit"
 	},
 	"type": "module"

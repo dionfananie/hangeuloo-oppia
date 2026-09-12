@@ -18,4 +18,5 @@ export type IconName =
 	| "heart"
 	| "clock"
 	| "sparkles"
-	| "close";
+	| "close"
+	| "refresh";
